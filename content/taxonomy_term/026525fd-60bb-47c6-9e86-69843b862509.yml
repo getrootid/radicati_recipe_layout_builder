@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 026525fd-60bb-47c6-9e86-69843b862509
+  bundle: settings
+  default_langcode: en
+  depends:
+    0a7e3e76-4251-4a4b-8c72-ca86794161d0: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Center
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: 0a7e3e76-4251-4a4b-8c72-ca86794161d0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_icon:
+    -
+      value: 'fal fa-align-center'

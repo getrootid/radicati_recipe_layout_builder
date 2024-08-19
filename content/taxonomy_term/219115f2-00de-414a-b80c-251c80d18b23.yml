@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 219115f2-00de-414a-b80c-251c80d18b23
+  bundle: settings
+  default_langcode: en
+  depends:
+    646cf295-d9f5-4a69-bf42-6f362249d7e5: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Dark
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      entity: 646cf295-d9f5-4a69-bf42-6f362249d7e5
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_class:
+    -
+      value: setting-background--dark
+  field_setting_icon:
+    -
+      value: 'fas fa-heart-square'

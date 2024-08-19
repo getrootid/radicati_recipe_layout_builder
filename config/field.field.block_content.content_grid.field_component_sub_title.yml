@@ -1,0 +1,19 @@
+uuid: c7943fd3-6f61-4d8b-bca4-e10b0884d25c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_grid
+    - field.storage.block_content.field_component_sub_title
+id: block_content.content_grid.field_component_sub_title
+field_name: field_component_sub_title
+entity_type: block_content
+bundle: content_grid
+label: Sub-Title
+description: 'Displays under the title and adds additional information or context.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

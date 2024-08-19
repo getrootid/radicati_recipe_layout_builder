@@ -1,0 +1,23 @@
+{
+  "name": "getrootid/radicati-recipe-layout-builder",
+  "description": "Radicati Layout Builder setup. Includes base modules and component library",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Jason Mickela"
+    }
+  ],
+  "require": {
+    "getrootid/radicati_components": "*",
+    "getrootid/radicati_layouts": "*",
+    "drupal/block_content_template": "*",
+    "drupal/entity_browser": "*",
+    "drupal/inline_block_title_automatic": "*",
+    "drupal/inline_entity_form": "*",
+    "drupal/layout_builder_browser": "*",
+    "drupal/layout_builder_operation_link": "*",
+    "drupal/layout_builder_restrictions": "*",
+    "drupal/text_field_formatter": "*"
+  }
+}

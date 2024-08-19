@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 28f41548-a64b-4401-8f32-d1739cf6c93f
+  bundle: settings
+  default_langcode: en
+  depends:
+    aa2eeb59-3450-47d4-b050-a93d240a2d9b: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Wide
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      entity: aa2eeb59-3450-47d4-b050-a93d240a2d9b
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_icon:
+    -
+      value: 'fa-solid fa-rectangle'

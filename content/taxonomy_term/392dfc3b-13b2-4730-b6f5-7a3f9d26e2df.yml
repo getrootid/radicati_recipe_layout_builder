@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 392dfc3b-13b2-4730-b6f5-7a3f9d26e2df
+  bundle: settings
+  default_langcode: en
+  depends:
+    0a7e3e76-4251-4a4b-8c72-ca86794161d0: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Right
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      entity: 0a7e3e76-4251-4a4b-8c72-ca86794161d0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_icon:
+    -
+      value: 'fal fa-align-right'

@@ -1,0 +1,29 @@
+uuid: 16bf1267-c3ec-41cb-a90f-c012a756c2a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_call_to_action
+    - field.storage.block_content.field_component_background_media
+    - media.type.image
+id: block_content.webform_call_to_action.field_component_background_media
+field_name: field_component_background_media
+entity_type: block_content
+bundle: webform_call_to_action
+label: 'Background Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

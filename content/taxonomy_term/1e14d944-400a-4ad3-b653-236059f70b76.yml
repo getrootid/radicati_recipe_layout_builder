@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1e14d944-400a-4ad3-b653-236059f70b76
+  bundle: settings
+  default_langcode: en
+  depends:
+    b45745ac-6bdf-464a-a19d-eece07105f0a: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Media on Top'
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: b45745ac-6bdf-464a-a19d-eece07105f0a
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_icon:
+    -
+      value: 'fa-kit fa-icon-imagetop-textbottom'

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 646cf295-d9f5-4a69-bf42-6f362249d7e5
+  bundle: settings
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Background
+  weight:
+    -
+      value: 21
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

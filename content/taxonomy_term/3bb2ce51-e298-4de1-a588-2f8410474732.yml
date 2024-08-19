@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3bb2ce51-e298-4de1-a588-2f8410474732
+  bundle: settings
+  default_langcode: en
+  depends:
+    646cf295-d9f5-4a69-bf42-6f362249d7e5: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Light
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: 646cf295-d9f5-4a69-bf42-6f362249d7e5
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_class:
+    -
+      value: setting-background--light
+  field_setting_icon:
+    -
+      value: 'fad fa-heart-square'

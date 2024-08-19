@@ -1,0 +1,109 @@
+uuid: 6becccfb-e779-445b-a968-e68727ce73c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_call_to_action
+    - field.field.block_content.webform_call_to_action.field_component_background_media
+    - field.field.block_content.webform_call_to_action.field_component_sub_title
+    - field.field.block_content.webform_call_to_action.field_component_title
+    - field.field.block_content.webform_call_to_action.field_setting_background
+    - field.field.block_content.webform_call_to_action.field_setting_layout
+    - field.field.block_content.webform_call_to_action.field_webform_cta_blurb
+    - field.field.block_content.webform_call_to_action.field_webform_cta_form
+  module:
+    - field_group
+    - media_library
+    - radicati_base
+    - text
+    - webform
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - field_setting_layout
+        - field_setting_background
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        required_fields: true
+_core:
+  default_config_hash: MQkahOMZXy9aKK1sPOEN7_T18JP55wlC0pQMJpn3cOI
+id: block_content.webform_call_to_action.default
+targetEntityType: block_content
+bundle: webform_call_to_action
+mode: default
+content:
+  field_component_background_media:
+    type: media_library_widget
+    weight: 4
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_component_sub_title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_component_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_setting_background:
+    type: taxonomy_icon_widget
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_layout:
+    type: taxonomy_icon_widget
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_webform_cta_blurb:
+    type: text_textarea
+    weight: 5
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_webform_cta_form:
+    type: webform_entity_reference_select
+    weight: 6
+    region: content
+    settings:
+      default_data: false
+      webforms: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

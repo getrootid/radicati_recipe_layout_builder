@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b7f465c0-da73-4de4-8dd8-ef768220c739
+  bundle: settings
+  default_langcode: en
+  depends:
+    b45745ac-6bdf-464a-a19d-eece07105f0a: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Media on Right'
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      entity: b45745ac-6bdf-464a-a19d-eece07105f0a
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_icon:
+    -
+      value: 'fa-kit fa-icon-imageright-textleft'

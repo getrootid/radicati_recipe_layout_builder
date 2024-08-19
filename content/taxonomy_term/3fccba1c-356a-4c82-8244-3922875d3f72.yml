@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3fccba1c-356a-4c82-8244-3922875d3f72
+  bundle: settings
+  default_langcode: en
+  depends:
+    aa2eeb59-3450-47d4-b050-a93d240a2d9b: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Full Width'
+  weight:
+    -
+      value: 3
+  parent:
+    -
+      entity: aa2eeb59-3450-47d4-b050-a93d240a2d9b
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_icon:
+    -
+      value: 'fa-solid fa-rectangle-wide'

@@ -1,0 +1,45 @@
+uuid: 803dce46-3ef3-4355-8709-8ab4ac62aca4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.formatted_content
+    - field.field.block_content.formatted_content.field_component_title
+    - field.field.block_content.formatted_content.field_formatted_content
+    - field.field.block_content.formatted_content.field_setting_background
+  module:
+    - manage_display
+    - radicati_base
+    - text
+_core:
+  default_config_hash: 6KCYGO2W-YrN3xmW0U6vpoDZO63q5IzYkNQUUPeLw3E
+id: block_content.formatted_content.default
+targetEntityType: block_content
+bundle: formatted_content
+mode: default
+content:
+  field_component_title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_formatted_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_setting_background:
+    type: rad_tax_setting
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

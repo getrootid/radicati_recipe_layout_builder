@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6635cdbc-a6bf-45dd-845a-781bdcf73764
+  bundle: settings
+  default_langcode: en
+  depends:
+    179e89fc-fa15-48e3-915f-3b5ee78ebbad: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Four
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: 179e89fc-fa15-48e3-915f-3b5ee78ebbad
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
