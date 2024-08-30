@@ -30,7 +30,6 @@ install:
   - webform
   - fontawesome
   - fontawesome_menu_icons
-  - radicati_components
   - radicati_layouts
 config:
   import:
