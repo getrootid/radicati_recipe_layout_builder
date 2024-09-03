@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: taxonomy_term
-  uuid: 6610be57-d4eb-47a6-8ede-a7a31ebd086e
+  uuid: 6635cdbc-a6bf-45dd-845a-781bdcf73a64
   bundle: settings
   default_langcode: en
   depends:
@@ -12,10 +12,10 @@ default:
       value: true
   name:
     -
-      value: Three
+      value: Two
   weight:
     -
-      value: 1
+      value: 0
   parent:
     -
       entity: 179e89fc-fa15-48e3-915f-3b5ee78ebbad

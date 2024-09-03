@@ -1,0 +1,19 @@
+uuid: 319883d3-0db7-4fb1-b9b6-188f79838e0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_jmi_label
+    - paragraphs.paragraphs_type.jump_menu_item
+id: paragraph.jump_menu_item.field_jmi_label
+field_name: field_jmi_label
+entity_type: paragraph
+bundle: jump_menu_item
+label: Label
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

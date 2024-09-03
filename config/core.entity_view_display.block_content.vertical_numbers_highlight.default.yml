@@ -1,0 +1,42 @@
+uuid: 17501f0c-233b-448c-98eb-6fa8d79c9cc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vertical_numbers_highlight
+    - field.field.block_content.vertical_numbers_highlight.field_setting_alignment
+    - field.field.block_content.vertical_numbers_highlight.field_setting_background
+    - field.field.block_content.vertical_numbers_highlight.field_vertical_highlight__item
+  module:
+    - entity_reference_revisions
+    - radicati_base
+id: block_content.vertical_numbers_highlight.default
+targetEntityType: block_content
+bundle: vertical_numbers_highlight
+mode: default
+content:
+  field_setting_alignment:
+    type: rad_tax_setting
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_setting_background:
+    type: rad_tax_setting
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_vertical_highlight__item:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,32 @@
+uuid: 2710d785-39f1-49b8-b424-495b2e10ceb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.jump_menu_item.field_jmi_content_id
+    - field.field.paragraph.jump_menu_item.field_jmi_label
+    - paragraphs.paragraphs_type.jump_menu_item
+id: paragraph.jump_menu_item.default
+targetEntityType: paragraph
+bundle: jump_menu_item
+mode: default
+content:
+  field_jmi_content_id:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_jmi_label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

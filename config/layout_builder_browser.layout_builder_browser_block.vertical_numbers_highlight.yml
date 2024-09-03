@@ -1,0 +1,11 @@
+uuid: 8e53e045-67e5-4152-8f2b-009e6c861d70
+langcode: en
+status: true
+dependencies: {  }
+id: vertical_numbers_highlight
+block_id: 'inline_block:vertical_numbers_highlight'
+category: page_content
+label: 'Vertical Numbers Highlight'
+image_path: ''
+image_alt: ''
+weight: -100

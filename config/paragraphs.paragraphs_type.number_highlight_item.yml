@@ -1,0 +1,10 @@
+uuid: 67d58bb1-b76e-4527-a4ac-3bfbfba8eecb
+langcode: en
+status: true
+dependencies: {  }
+id: number_highlight_item
+label: 'Number Highlight Item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

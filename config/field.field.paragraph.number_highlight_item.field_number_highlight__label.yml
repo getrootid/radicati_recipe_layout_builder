@@ -1,0 +1,22 @@
+uuid: 45b338d5-b7f7-49c6-8bdb-ea95b000c7ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_number_highlight__label
+    - paragraphs.paragraphs_type.number_highlight_item
+  module:
+    - text
+id: paragraph.number_highlight_item.field_number_highlight__label
+field_name: field_number_highlight__label
+entity_type: paragraph
+bundle: number_highlight_item
+label: 'Highlight Label'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

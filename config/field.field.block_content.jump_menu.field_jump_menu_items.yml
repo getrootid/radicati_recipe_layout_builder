@@ -1,0 +1,49 @@
+uuid: 89deb71a-a58d-4072-b64f-222928cb8893
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.jump_menu
+    - field.storage.block_content.field_jump_menu_items
+    - paragraphs.paragraphs_type.jump_menu_item
+  module:
+    - entity_reference_revisions
+id: block_content.jump_menu.field_jump_menu_items
+field_name: field_jump_menu_items
+entity_type: block_content
+bundle: jump_menu
+label: 'Jump Menu Items'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      jump_menu_item: jump_menu_item
+    negate: 0
+    target_bundles_drag_drop:
+      card_collection_item:
+        weight: 8
+        enabled: false
+      icon_tab:
+        weight: 9
+        enabled: false
+      jump_menu_item:
+        weight: 10
+        enabled: true
+      logo_grid_item:
+        weight: 11
+        enabled: false
+      media_item:
+        weight: 12
+        enabled: false
+      number_highlight_item:
+        weight: 13
+        enabled: false
+      statistic_item:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

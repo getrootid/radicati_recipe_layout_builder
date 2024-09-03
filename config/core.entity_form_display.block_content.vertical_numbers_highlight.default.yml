@@ -1,0 +1,56 @@
+uuid: f2cf2092-06fb-4ebb-be6b-6b0f800cd393
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vertical_numbers_highlight
+    - field.field.block_content.vertical_numbers_highlight.field_setting_alignment
+    - field.field.block_content.vertical_numbers_highlight.field_setting_background
+    - field.field.block_content.vertical_numbers_highlight.field_vertical_highlight__item
+  module:
+    - inline_entity_form
+    - radicati_base
+id: block_content.vertical_numbers_highlight.default
+targetEntityType: block_content
+bundle: vertical_numbers_highlight
+mode: default
+content:
+  field_setting_alignment:
+    type: taxonomy_icon_widget
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_background:
+    type: taxonomy_icon_widget
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_vertical_highlight__item:
+    type: inline_entity_form_complex
+    weight: 26
+    region: content
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: 'Highlight Item'
+      label_plural: 'Highlight Items'
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: delete
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

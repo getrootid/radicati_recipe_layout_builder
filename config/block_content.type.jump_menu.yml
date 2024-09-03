@@ -1,0 +1,8 @@
+uuid: 566fc950-dd2b-4e79-9557-cb05cdb4a5b3
+langcode: en
+status: true
+dependencies: {  }
+id: jump_menu
+label: 'Jump Menu'
+revision: false
+description: 'A jump menu that remains sticky above the page content and highlights which section it is in.'

@@ -1,0 +1,19 @@
+uuid: d9da9ef4-b8c3-4082-9ea5-c712cbf73349
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_number_highlight__value
+    - paragraphs.paragraphs_type.number_highlight_item
+id: paragraph.number_highlight_item.field_number_highlight__value
+field_name: field_number_highlight__value
+entity_type: paragraph
+bundle: number_highlight_item
+label: 'Highlight Value'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

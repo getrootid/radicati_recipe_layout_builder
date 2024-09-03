@@ -1,0 +1,25 @@
+uuid: 0e0d571c-f19f-494c-bd5c-9a52628edebd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vertical_numbers_highlight
+    - field.storage.block_content.field_setting_alignment
+id: block_content.vertical_numbers_highlight.field_setting_alignment
+field_name: field_setting_alignment
+entity_type: block_content
+bundle: vertical_numbers_highlight
+label: Alignment
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

@@ -15,7 +15,7 @@ default:
       value: Four
   weight:
     -
-      value: 1
+      value: 2
   parent:
     -
       entity: 179e89fc-fa15-48e3-915f-3b5ee78ebbad

@@ -2,6 +2,11 @@ uuid: 3d076d58-1285-4979-8de9-5fe80cc1f402
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: XuIdA4Ra-J9Bo3Jy-khdWNOcdjvve7FemMbmIQZtipI
 id: page_content
 label: 'Page Content'
-weight: -8
+weight: -9
+opened: true
+image_path: null
+image_alt: null

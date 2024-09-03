@@ -1,0 +1,46 @@
+uuid: fb0f8a44-9fa4-42a9-9403-bc618d4aa4d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vertical_numbers_highlight
+    - field.storage.block_content.field_vertical_highlight__item
+    - paragraphs.paragraphs_type.number_highlight_item
+  module:
+    - entity_reference_revisions
+id: block_content.vertical_numbers_highlight.field_vertical_highlight__item
+field_name: field_vertical_highlight__item
+entity_type: block_content
+bundle: vertical_numbers_highlight
+label: 'Highlight Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      number_highlight_item: number_highlight_item
+    negate: 0
+    target_bundles_drag_drop:
+      card_collection_item:
+        weight: 7
+        enabled: false
+      icon_tab:
+        weight: 8
+        enabled: false
+      logo_grid_item:
+        weight: 9
+        enabled: false
+      media_item:
+        weight: 10
+        enabled: false
+      number_highlight_item:
+        weight: 11
+        enabled: true
+      statistic_item:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

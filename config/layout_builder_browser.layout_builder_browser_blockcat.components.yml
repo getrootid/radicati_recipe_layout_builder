@@ -2,6 +2,11 @@ uuid: 49aabad1-6530-4c2a-b188-18d8475c0724
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: KRl03V6XEhPIG9IwTrEoad3HW4MNUh2BGbqxGPMzeQc
 id: components
 label: Components
-weight: -7
+weight: -8
+opened: true
+image_path: null
+image_alt: null

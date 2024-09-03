@@ -1,0 +1,31 @@
+uuid: d8aee459-0e28-4773-905d-f2a51ca55d0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.jump_menu_item.field_jmi_content_id
+    - field.field.paragraph.jump_menu_item.field_jmi_label
+    - paragraphs.paragraphs_type.jump_menu_item
+id: paragraph.jump_menu_item.default
+targetEntityType: paragraph
+bundle: jump_menu_item
+mode: default
+content:
+  field_jmi_content_id:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_jmi_label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true
