@@ -6,6 +6,8 @@ dependencies:
     - block_content
     - views
     - viewsreference
+_core:
+  default_config_hash: CwIAHa05xcY7JyJXFgSv27ENY-KbeE9NSt8MGIbgKMQ
 id: block_content.field_listing_section_view
 field_name: field_listing_section_view
 entity_type: block_content

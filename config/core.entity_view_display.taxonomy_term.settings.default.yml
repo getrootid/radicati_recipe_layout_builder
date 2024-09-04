@@ -9,6 +9,8 @@ dependencies:
   module:
     - manage_display
     - text
+_core:
+  default_config_hash: AXRbxKaHRBJxcb5zxzDq9HdTOAzduThMMPS38ESvA5k
 id: taxonomy_term.settings.default
 targetEntityType: taxonomy_term
 bundle: settings

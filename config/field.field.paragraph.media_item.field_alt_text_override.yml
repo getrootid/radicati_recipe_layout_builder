@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_alt_text_override
     - paragraphs.paragraphs_type.media_item
+_core:
+  default_config_hash: A5zQaeA8KTzOnuGatQAJFS8TPeyOOoVt2KrF0ntoRMY
 id: paragraph.media_item.field_alt_text_override
 field_name: field_alt_text_override
 entity_type: paragraph

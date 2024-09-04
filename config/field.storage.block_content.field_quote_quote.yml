@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - text
+_core:
+  default_config_hash: e9OCvUKkgh1LyHdDdu5D9GlJQ3AYowraKTlmbsKu6l4
 id: block_content.field_quote_quote
 field_name: field_quote_quote
 entity_type: block_content

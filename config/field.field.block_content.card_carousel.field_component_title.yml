@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.card_carousel
     - field.storage.block_content.field_component_title
+_core:
+  default_config_hash: K7GtrfwMzotLNOxpSnE5Zw2eBFezy6OSTOmCEDChxEE
 id: block_content.card_carousel.field_component_title
 field_name: field_component_title
 entity_type: block_content

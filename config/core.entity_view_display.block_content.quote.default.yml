@@ -14,7 +14,7 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: jH0Hy4vWk_cmAuSkVwEU-717AxCj21JeGEpOd4bI0bA
+  default_config_hash: CdmBx6rEgkfoUAgGI0_HI7sSykugCj0FeVD0gj9GdO0
 id: block_content.quote.default
 targetEntityType: block_content
 bundle: quote

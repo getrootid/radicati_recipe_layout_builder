@@ -2,6 +2,8 @@ uuid: 1673287e-b901-4859-a156-6ecb6e7e5a5d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Yokma3H3aY38PqPrrzCILF0zU8Yf2mj2GvZc1XnoDU0
 id: card_collection
 block_id: 'inline_block:card_collection'
 category: components

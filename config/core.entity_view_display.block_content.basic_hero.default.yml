@@ -12,7 +12,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: g0BgGlbWLj-s6V8i8PhN0kwV9gO7F6PGMvLXsGmlWT4
+  default_config_hash: cEnuNP9AwtbSgjLvuR2bb-9_uFgm8NFyH5zwn2gISTI
 id: block_content.basic_hero.default
 targetEntityType: block_content
 bundle: basic_hero

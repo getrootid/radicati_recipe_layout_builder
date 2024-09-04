@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.card_collection_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: 3HdsmoFtK8Nx4gEOL9yHQpSaT56viqbzv-htY34A9aw
 id: block_content.card_collection.field_cards_cards
 field_name: field_cards_cards
 entity_type: block_content

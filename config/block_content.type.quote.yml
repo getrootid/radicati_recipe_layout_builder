@@ -2,6 +2,8 @@ uuid: 4aef8298-f218-4d30-a7c5-7f848ab69367
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 0C3kuCpnOIVWYyc3hGuqMrPdZXRHmnrlKsMUpBVHzB0
 id: quote
 label: Quote
 revision: 0

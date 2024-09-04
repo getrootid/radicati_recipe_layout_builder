@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.jump_menu
     - field.storage.block_content.field_jump_menu_label
+_core:
+  default_config_hash: 4OHDAKX4rlc_6vCtH2vKYE-yPZTnC5lzyoe1UykJHko
 id: block_content.jump_menu.field_jump_menu_label
 field_name: field_jump_menu_label
 entity_type: block_content

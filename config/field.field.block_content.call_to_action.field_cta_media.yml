@@ -6,7 +6,8 @@ dependencies:
     - block_content.type.call_to_action
     - field.storage.block_content.field_cta_media
     - media.type.image
-    - media.type.video
+_core:
+  default_config_hash: _27F0IWih2nOKggl5Gd8gW78XshMuZpfFp8Zv_cT9oE
 id: block_content.call_to_action.field_cta_media
 field_name: field_cta_media
 entity_type: block_content

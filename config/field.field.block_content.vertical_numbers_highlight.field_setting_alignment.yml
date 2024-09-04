@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.vertical_numbers_highlight
     - field.storage.block_content.field_setting_alignment
+_core:
+  default_config_hash: try5Z9EiD859O2oJNF5kY8C_tcoSqL0Q37KYJG7PMTk
 id: block_content.vertical_numbers_highlight.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

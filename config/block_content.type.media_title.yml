@@ -2,6 +2,8 @@ uuid: a26fcd51-7722-4299-b004-1d2625474fad
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: H4z4TH1_g5pQLAkBtYUbe6BB0HBQotbjkFQvI_7QkDM
 id: media_title
 label: 'Media Title'
 revision: 0

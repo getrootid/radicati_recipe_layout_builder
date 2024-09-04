@@ -2,6 +2,8 @@ uuid: d7396ada-dbab-4b2c-ae14-59386838b518
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: wJq-2-ANDnJTrCrGdyRlQCzwVLgpTpfe8nU2zpveLsc
 id: vertical_numbers_highlight
 label: 'Vertical Numbers Highlight'
 revision: false

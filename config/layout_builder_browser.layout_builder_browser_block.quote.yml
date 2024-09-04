@@ -2,6 +2,8 @@ uuid: 71ddc49d-c794-4865-8fe9-33cb37256723
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: TUdGhdU7m5c0pePvc3j5lJRQYzTKk0Bent5VSMPx9FA
 id: quote
 block_id: 'inline_block:quote'
 category: page_content

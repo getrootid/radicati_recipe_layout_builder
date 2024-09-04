@@ -16,7 +16,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: ziPGbZSvIgF1ylDEa-39HWHlfc-uM9ywK9j2RytW_14
+  default_config_hash: nj7lMdcpm4StiZHOZSXuucGFnFmQVeUtr7aUxKwshwI
 id: block_content.card_collection.default
 targetEntityType: block_content
 bundle: card_collection

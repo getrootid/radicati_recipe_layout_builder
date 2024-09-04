@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_content_grid_display_mode
   module:
     - entity_reference_display
+_core:
+  default_config_hash: CbVG-HU5LXS9MwxjwtV1mzrTBhs4wpNsdYIx9TbZXXk
 id: block_content.content_grid.field_content_grid_display_mode
 field_name: field_content_grid_display_mode
 entity_type: block_content

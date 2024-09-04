@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_form_section_form
   module:
     - webform
+_core:
+  default_config_hash: KyeCQPvQvDkc8i1NFnHoLd4JFW3GkrHbqplWQXYUSXk
 id: block_content.form_section.field_form_section_form
 field_name: field_form_section_form
 entity_type: block_content

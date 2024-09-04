@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.call_to_action
     - field.storage.block_content.field_setting_background
+_core:
+  default_config_hash: lauSiL93fKhNYMmuFeC82QothSc_Xk3bxwSh_MvqJSY
 id: block_content.call_to_action.field_setting_background
 field_name: field_setting_background
 entity_type: block_content

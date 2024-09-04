@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - media
+_core:
+  default_config_hash: fQEsVT_jHLFYxfi_9lQj2542P3CWwBMfZEb4h01n82s
 id: block_content.field_highlight_media
 field_name: field_highlight_media
 entity_type: block_content

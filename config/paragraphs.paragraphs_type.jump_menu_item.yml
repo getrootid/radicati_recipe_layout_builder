@@ -2,6 +2,8 @@ uuid: 17a89c9e-c98e-41d8-a1ba-b5ff56becc3a
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: PB41bxr0gosQydthBsZCb-TaDimYBEeu9_6PSrAo55A
 id: jump_menu_item
 label: 'Jump Menu Item'
 icon_uuid: null

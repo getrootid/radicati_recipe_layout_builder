@@ -4,7 +4,10 @@ status: true
 dependencies:
   module:
     - block_content
+_core:
+  default_config_hash: GRsgeE8azl-7J5nZvPjnzdxVv-WU4bPH78ljk52nHoM
 id: block_content.token
 label: Token
+description: ''
 targetEntityType: block_content
 cache: true

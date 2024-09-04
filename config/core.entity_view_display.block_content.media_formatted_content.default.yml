@@ -4,14 +4,8 @@ status: true
 dependencies:
   config:
     - block_content.type.media_formatted_content
-    - field.field.block_content.media_formatted_content.field_component_background_media
-    - field.field.block_content.media_formatted_content.field_formatted_content
-    - field.field.block_content.media_formatted_content.field_setting_alignment
-    - field.field.block_content.media_formatted_content.field_setting_background
-    - field.field.block_content.media_formatted_content.field_setting_fixed_background
-  module:
-    - radicati_base
-    - text
+_core:
+  default_config_hash: QJapcx6ibZqH_0f0U9av96ewofRuT3ysU9fZb-sudOw
 id: block_content.media_formatted_content.default
 targetEntityType: block_content
 bundle: media_formatted_content

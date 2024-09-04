@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_stat_value
     - paragraphs.paragraphs_type.statistic_item
+_core:
+  default_config_hash: neP05mi95YmUoTGEnYZU-67IfIuCD3Ispkes53tmA1M
 id: paragraph.statistic_item.field_stat_value
 field_name: field_stat_value
 entity_type: paragraph

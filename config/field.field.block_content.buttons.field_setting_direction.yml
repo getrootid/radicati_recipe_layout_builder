@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.buttons
     - field.storage.block_content.field_setting_direction
+_core:
+  default_config_hash: fzlisLckeCkzkZKdHhCTXdoEgSYsS6IEtC2-LUdzhrI
 id: block_content.buttons.field_setting_direction
 field_name: field_setting_direction
 entity_type: block_content

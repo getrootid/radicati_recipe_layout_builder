@@ -2,6 +2,8 @@ uuid: 820730c7-22ee-497e-9dc7-e5602bba2690
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: EK7whN1Q8vOpgvciUPXHwn9v3QEGCxeEbZF25nNOvmQ
 id: content_grid
 block_id: 'inline_block:content_grid'
 category: components

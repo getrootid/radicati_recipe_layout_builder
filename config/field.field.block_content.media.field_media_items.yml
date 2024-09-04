@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.media_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: _DpcJGDYgryTVqrXkLIAC3DMNOsakNVL6pXB_Q7fG30
 id: block_content.media.field_media_items
 field_name: field_media_items
 entity_type: block_content

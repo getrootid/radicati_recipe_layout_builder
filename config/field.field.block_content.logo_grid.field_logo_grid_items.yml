@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.logo_grid_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: GrASNJgv8rrKrbbI0IyDHdphRvMEVBaw92z-uBsBtaU
 id: block_content.logo_grid.field_logo_grid_items
 field_name: field_logo_grid_items
 entity_type: block_content

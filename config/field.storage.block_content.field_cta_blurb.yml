@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - text
+_core:
+  default_config_hash: 4Py6-z5V9yzlj_7Fcv_OrDX1v7kBXw2LM4s-dUVkqnw
 id: block_content.field_cta_blurb
 field_name: field_cta_blurb
 entity_type: block_content

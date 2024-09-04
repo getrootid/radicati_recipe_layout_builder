@@ -8,15 +8,12 @@ dependencies:
     - field.field.block_content.logo_grid.field_component_sub_title
     - field.field.block_content.logo_grid.field_component_title
     - field.field.block_content.logo_grid.field_logo_grid_items
-    - field.field.block_content.logo_grid.field_setting_alignment
-    - field.field.block_content.logo_grid.field_setting_background
   module:
     - entity_reference_revisions
     - link
     - manage_display
-    - radicati_base
 _core:
-  default_config_hash: uYj4PhIIzaUkmd8xQns8txQKOV2NKlRyJlEOUghBhWw
+  default_config_hash: CgUIgDEnKqqlRlev0w-PBeNx82RYU_8SFZhsgxovjW4
 id: block_content.logo_grid.default
 targetEntityType: block_content
 bundle: logo_grid

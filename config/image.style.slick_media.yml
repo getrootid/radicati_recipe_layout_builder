@@ -6,7 +6,7 @@ dependencies:
     module:
       - slick
 _core:
-  default_config_hash: oQDRoEzxaj4cm4zDtSwzPCliteaNmv5gC-ugL9H_MV0
+  default_config_hash: 2ryjRzriKhbjq7H9r9i8XbZl39oOxWRZ-cz9UbU6Dys
 name: slick_media
 label: 'Slick media'
 effects:
@@ -18,3 +18,4 @@ effects:
       width: 853
       height: 480
       anchor: center-center
+pipeline: __default__

@@ -2,6 +2,8 @@ uuid: c4811fac-5059-4d34-bdd8-d993af4b76f7
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: G9QVGZHWgw77FtLaouPuLZBKgajn2Gf_DY2C78E2jy0
 id: statistic_item
 label: 'Statistic Item'
 icon_uuid: null

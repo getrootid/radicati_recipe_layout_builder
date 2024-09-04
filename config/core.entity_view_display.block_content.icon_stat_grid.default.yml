@@ -16,7 +16,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: dWQA-Y7hm4h6YjX5wyBsO3Ay4PnMD_4d2-sAOqQ319M
+  default_config_hash: eLS__KsmjdNNrcGUlKwrlHlJyUTX_wncnm5Sg76WkA0
 id: block_content.icon_stat_grid.default
 targetEntityType: block_content
 bundle: icon_stat_grid

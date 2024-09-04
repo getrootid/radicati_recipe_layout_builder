@@ -5,7 +5,6 @@ dependencies:
   config:
     - block_content.type.buttons
     - field.field.block_content.buttons.field_buttons_buttons
-    - field.field.block_content.buttons.field_component_sub_title
     - field.field.block_content.buttons.field_component_title
     - field.field.block_content.buttons.field_setting_alignment
     - field.field.block_content.buttons.field_setting_background
@@ -15,7 +14,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: OXYRv5G1xHTrO_d6OukmCBQ4QUvChsukUCkw2l-3WzU
+  default_config_hash: r_BsUCvW4F3uW2_UkZFibfiX9MHWLBrZxnmErQlTXh8
 id: block_content.buttons.default
 targetEntityType: block_content
 bundle: buttons

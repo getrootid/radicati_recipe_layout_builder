@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.buttons
     - field.storage.block_content.field_component_title
 _core:
-  default_config_hash: 5Ma9i9BGEfcQHGe02igEQNZ4fNU3BiCa8SI3vFXncMY
+  default_config_hash: 8Yln5Uah07Ml6Cp6en-Ps7VHmVFebcGl5rOkzVu4WeQ
 id: block_content.buttons.field_component_title
 field_name: field_component_title
 entity_type: block_content

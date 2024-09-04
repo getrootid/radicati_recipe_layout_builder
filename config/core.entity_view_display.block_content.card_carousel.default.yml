@@ -15,7 +15,7 @@ dependencies:
     - radicati_base
     - slick_entityreference
 _core:
-  default_config_hash: UU3BU36VUd9rj0CFW2fJlkEJhVCY59pN_Ge0EDcb0Qg
+  default_config_hash: BUqY54UOHWzAeKp8TwnZnFQJxgFrTsGrk234O5XdL54
 id: block_content.card_carousel.default
 targetEntityType: block_content
 bundle: card_carousel

@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_setting_icon
     - taxonomy.vocabulary.settings
+_core:
+  default_config_hash: mlVHBrVerXjW8N9MO4Fa1qPLpr15LJiCJcowfsOGOck
 id: taxonomy_term.settings.field_setting_icon
 field_name: field_setting_icon
 entity_type: taxonomy_term

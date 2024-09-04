@@ -6,7 +6,7 @@ dependencies:
     module:
       - slick
 _core:
-  default_config_hash: MaKWn2rVIoFRV53Q_F5wA4egEt29p4y1scpipj7IB8E
+  default_config_hash: sShNRxeFv8u5raQbQSXlsGsV0rv0HyWdW3cJi1Z_qbY
 id: media_carousel
 name: media_carousel
 weight: -10

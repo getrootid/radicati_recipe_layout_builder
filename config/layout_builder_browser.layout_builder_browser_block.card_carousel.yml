@@ -2,6 +2,8 @@ uuid: 0bc6f055-e88a-4e83-a361-f03fbe46fc95
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 7vs3W2yJbhboPJC7fwHtcUDWuw0calk4ttS_rQeS5BY
 id: card_carousel
 block_id: 'inline_block:card_carousel'
 category: components

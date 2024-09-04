@@ -8,6 +8,8 @@ dependencies:
     - field.field.block_content.jump_menu.field_jump_menu_label
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: G6wjCL83Xbig1cFa0xmDdktrYwAzkLKgxmojfttEtb0
 id: block_content.jump_menu.default
 targetEntityType: block_content
 bundle: jump_menu

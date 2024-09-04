@@ -40,7 +40,7 @@ third_party_settings:
         required_fields: true
         description: ''
 _core:
-  default_config_hash: AgwRKyTQUPD6YzcNeGApWrNaAgk4hYp8h8wT7dTpEUc
+  default_config_hash: LIdPv-6ipSYVvflAOkROK5ZauziBRwGwRw2gm676Fq8
 id: block_content.card_collection.default
 targetEntityType: block_content
 bundle: card_collection

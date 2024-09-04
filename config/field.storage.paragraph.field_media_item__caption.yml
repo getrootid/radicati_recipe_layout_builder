@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: r13QgLc6WDeeXJME-jr5Kigo6qKD22lYgZh6cVNqMHc
 id: paragraph.field_media_item__caption
 field_name: field_media_item__caption
 entity_type: paragraph

@@ -2,6 +2,8 @@ uuid: 9280d5a1-becf-415a-ac5c-1338dbcd9c9d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: aJJcQrwoU2_p2_d_Px7lwHSBjpcaCHxRVZlpD8wOCz4
 id: media
 block_id: 'inline_block:media'
 category: page_content

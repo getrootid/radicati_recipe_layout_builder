@@ -35,6 +35,8 @@ third_party_settings:
         effect: none
         speed: fast
         required_fields: true
+_core:
+  default_config_hash: MU1KdngSIKtFmFI2urBx-p8JSfTYstU-Q53b61aJg0I
 id: block_content.basic_hero.default
 targetEntityType: block_content
 bundle: basic_hero

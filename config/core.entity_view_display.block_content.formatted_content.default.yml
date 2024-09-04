@@ -12,7 +12,7 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: 6KCYGO2W-YrN3xmW0U6vpoDZO63q5IzYkNQUUPeLw3E
+  default_config_hash: _8sbkxru3LDGlAnO2_h6Jcbkhf2SdsXpa7GGkQfKlQ0
 id: block_content.formatted_content.default
 targetEntityType: block_content
 bundle: formatted_content

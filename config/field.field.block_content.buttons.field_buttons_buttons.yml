@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_buttons_buttons
   module:
     - link
+_core:
+  default_config_hash: Y7IosCExAFpAanx5-M_De7pura072GsJa8Hop2d-zrM
 id: block_content.buttons.field_buttons_buttons
 field_name: field_buttons_buttons
 entity_type: block_content

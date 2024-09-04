@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: lKBpbKad7Lr8etX6xPiD_aPE-CojfbNLsa2SIXKoRdQ
 id: paragraph.field_alt_text_override
 field_name: field_alt_text_override
 entity_type: paragraph

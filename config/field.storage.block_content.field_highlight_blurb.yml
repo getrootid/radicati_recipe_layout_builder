@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - text
+_core:
+  default_config_hash: jr2AZztscSkDCp21vuyQB4BWfx01k187cYUKcUWtAIE
 id: block_content.field_highlight_blurb
 field_name: field_highlight_blurb
 entity_type: block_content

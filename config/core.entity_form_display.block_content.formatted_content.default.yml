@@ -10,6 +10,8 @@ dependencies:
   module:
     - radicati_base
     - text
+_core:
+  default_config_hash: yQMAQ-h9pbBQDKib2OwvRfJHUAeZwPUQIEwrVkNN2hg
 id: block_content.formatted_content.default
 targetEntityType: block_content
 bundle: formatted_content

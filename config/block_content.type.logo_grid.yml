@@ -2,6 +2,8 @@ uuid: 2d585aa5-8a61-4cda-a0d3-9efa2e19c5f1
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: rIOJDufK-VB5PywbH6SVuAvtlSmIVqL3OcnGMKSmZOU
 id: logo_grid
 label: 'Logo Grid'
 revision: 0

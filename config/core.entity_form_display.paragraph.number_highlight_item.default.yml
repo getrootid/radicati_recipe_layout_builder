@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.number_highlight_item
   module:
     - text
+_core:
+  default_config_hash: uhwuYDROjaAtnApXH5LxbVgmUypOOEVrbbE5sj57YsU
 id: paragraph.number_highlight_item.default
 targetEntityType: paragraph
 bundle: number_highlight_item

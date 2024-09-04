@@ -2,6 +2,8 @@ uuid: 67d58bb1-b76e-4527-a4ac-3bfbfba8eecb
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: AdYlvoNsj0hUoqAEWaV2WDjVNOMRFz_W5gK_380jwyk
 id: number_highlight_item
 label: 'Number Highlight Item'
 icon_uuid: null

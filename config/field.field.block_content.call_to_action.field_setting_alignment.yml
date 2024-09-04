@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.call_to_action
     - field.storage.block_content.field_setting_alignment
+_core:
+  default_config_hash: sR7rAEYsl-EnvKFYyaZOyPHacEzA1R8ur3DuOMMrFbw
 id: block_content.call_to_action.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

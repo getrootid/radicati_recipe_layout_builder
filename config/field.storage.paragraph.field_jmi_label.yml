@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: KQ0JrwCINru5s722y07gAVQNMM9jx_X5H6KhL0Xv3Io
 id: paragraph.field_jmi_label
 field_name: field_jmi_label
 entity_type: paragraph

@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - block_content
+_core:
+  default_config_hash: v8sOdvwsq44tCS8AKTAWLdKXSJVeHb3TUrPOcA_A8Q4
 id: block_content.field_quote_citation_title
 field_name: field_quote_citation_title
 entity_type: block_content

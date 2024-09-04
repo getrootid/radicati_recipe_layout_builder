@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.quote
     - field.storage.block_content.field_quote_citation_title
+_core:
+  default_config_hash: d9ZPbwZ1V8qlHfRb4TZxqOA-lguxVBFrbVntnsVfF9c
 id: block_content.quote.field_quote_citation_title
 field_name: field_quote_citation_title
 entity_type: block_content

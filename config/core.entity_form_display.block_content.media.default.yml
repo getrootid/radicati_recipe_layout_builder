@@ -8,7 +8,7 @@ dependencies:
   module:
     - inline_entity_form
 _core:
-  default_config_hash: 3_ceyFNDzaRz3wdzq-C7XwptF0jnoDLMO38k8pzOky8
+  default_config_hash: K1_yUXc3jPn53tD8pX-pa47eD5ord9vHWzaNpDq2RlQ
 id: block_content.media.default
 targetEntityType: block_content
 bundle: media

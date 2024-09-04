@@ -2,6 +2,8 @@ uuid: e65e8eea-54c9-445b-b334-1535432a2ba3
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: UEj6x5gZ1HA7JNVfVUAcu5xzlaiyi2kz-v5E9nhmElw
 id: webform_call_to_action
 label: 'Webform Call to Action'
 revision: 0

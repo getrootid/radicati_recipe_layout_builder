@@ -13,6 +13,8 @@ dependencies:
     - link
     - text
     - text_field_formatter
+_core:
+  default_config_hash: cC4bcUXHNz168-z10xhwKLAVJHrCEaQY_lJLi7uSX0Q
 id: paragraph.card_collection_item.default
 targetEntityType: paragraph
 bundle: card_collection_item

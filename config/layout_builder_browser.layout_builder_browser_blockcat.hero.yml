@@ -2,6 +2,11 @@ uuid: d447c22d-a76e-4c94-8500-f6236fbf3ce9
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: iKYC-l7GtmaA50ydYHMkzR3P04PVEuPbFy2taobuJI8
 id: hero
 label: Hero
 weight: -10
+opened: true
+image_path: null
+image_alt: null

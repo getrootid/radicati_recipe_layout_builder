@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.basic_hero
     - field.storage.block_content.field_setting_background
+_core:
+  default_config_hash: wQ30y1urRpuM7IhyLV4X0WRcqDwM-LA2NNKopXzHU5I
 id: block_content.basic_hero.field_setting_background
 field_name: field_setting_background
 entity_type: block_content

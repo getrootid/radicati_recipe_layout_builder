@@ -9,6 +9,8 @@ dependencies:
     - paragraphs.paragraphs_type.statistic_item
   module:
     - media_library
+_core:
+  default_config_hash: L0kjRqeu-5-czHKcZEeZ5GfmthS2gN8WFKfMSEvv0z0
 id: paragraph.statistic_item.default
 targetEntityType: paragraph
 bundle: statistic_item

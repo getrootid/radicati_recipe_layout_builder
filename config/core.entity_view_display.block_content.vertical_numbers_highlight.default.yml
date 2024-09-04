@@ -10,6 +10,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - radicati_base
+_core:
+  default_config_hash: HDbW_3VsGd8nWO_ny9eFxaTRIUlZyJ1Kjart51FLZjM
 id: block_content.vertical_numbers_highlight.default
 targetEntityType: block_content
 bundle: vertical_numbers_highlight

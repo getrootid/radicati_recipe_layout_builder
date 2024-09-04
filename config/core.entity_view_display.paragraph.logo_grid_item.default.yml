@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.logo_grid_item
   module:
     - link
+_core:
+  default_config_hash: Wf1PUe7QoUJgVYDOH_4g87BB5dbjOdzPxJ0ZBcJL2iQ
 id: paragraph.logo_grid_item.default
 targetEntityType: paragraph
 bundle: logo_grid_item

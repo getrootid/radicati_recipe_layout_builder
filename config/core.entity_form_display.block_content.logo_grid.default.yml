@@ -8,13 +8,10 @@ dependencies:
     - field.field.block_content.logo_grid.field_component_sub_title
     - field.field.block_content.logo_grid.field_component_title
     - field.field.block_content.logo_grid.field_logo_grid_items
-    - field.field.block_content.logo_grid.field_setting_alignment
-    - field.field.block_content.logo_grid.field_setting_background
   module:
     - field_group
     - inline_entity_form
     - link
-    - radicati_base
 third_party_settings:
   field_group:
     group_settings:
@@ -39,7 +36,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: rl25BNeQ8FPBuN5mfmJKy6IQsLqA99-nHO1xMkqKWsc
+  default_config_hash: ngwvxjZE7BJL_0KH97F86jjAmHcZ9lSj80MHb7L1HUU
 id: block_content.logo_grid.default
 targetEntityType: block_content
 bundle: logo_grid

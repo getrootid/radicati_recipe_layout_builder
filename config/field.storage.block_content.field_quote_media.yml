@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - media
+_core:
+  default_config_hash: 8RsjuU07NyOS0Q_4r3E5ldqL0kA8wb49WKcYCDauQ-A
 id: block_content.field_quote_media
 field_name: field_quote_media
 entity_type: block_content

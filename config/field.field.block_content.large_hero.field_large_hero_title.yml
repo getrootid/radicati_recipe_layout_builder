@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.large_hero
     - field.storage.block_content.field_large_hero_title
+_core:
+  default_config_hash: '-7Gnwkknjlzem88AWKBGMDHRbBtwlmV89Qvmqskzxtg'
 id: block_content.large_hero.field_large_hero_title
 field_name: field_large_hero_title
 entity_type: block_content

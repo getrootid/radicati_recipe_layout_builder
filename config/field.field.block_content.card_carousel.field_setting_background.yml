@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.card_carousel
     - field.storage.block_content.field_setting_background
+_core:
+  default_config_hash: 8x4-NE0zeP87GIMHYMEgvWrMpmg6kGuG6oIqn1VL_gQ
 id: block_content.card_carousel.field_setting_background
 field_name: field_setting_background
 entity_type: block_content

@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.quote
     - field.storage.block_content.field_setting_alignment
+_core:
+  default_config_hash: P7l36NxPJTkwvd10RTS0z6vQ2Zx8tQLyT5VQG24B3oo
 id: block_content.quote.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

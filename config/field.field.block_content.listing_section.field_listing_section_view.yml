@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_listing_section_view
   module:
     - viewsreference
+_core:
+  default_config_hash: B6scvV97gj9wEJfaSxMKIEgMXXJu6OgjfkMhzlKOI_M
 id: block_content.listing_section.field_listing_section_view
 field_name: field_listing_section_view
 entity_type: block_content

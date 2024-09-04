@@ -2,6 +2,8 @@ uuid: 5ff90190-45fb-401b-863f-36140fd1682c
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Mbf4s9LGcjTNkY12-u8RPr4sCkrqOMwPvKeNy-YDyoI
 id: large_hero
 label: 'Large Hero'
 revision: 0

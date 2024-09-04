@@ -2,6 +2,8 @@ uuid: 3c759eef-cf5b-484f-ab09-6957c20aeb93
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: S9oHn2KC-d6_09B8ynh1ZUoiQ6FEiiDqOERo_UWtjJ4
 id: basic_hero
 block_id: 'inline_block:basic_hero'
 category: hero

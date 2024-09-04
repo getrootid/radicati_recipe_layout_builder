@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_cta_button
   module:
     - link
+_core:
+  default_config_hash: JN_Vms9tb-35yPjxMEXOtS4oL35V-qhOBE2641X7Xto
 id: block_content.call_to_action.field_cta_button
 field_name: field_cta_button
 entity_type: block_content

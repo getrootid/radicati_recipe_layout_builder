@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - taxonomy
+_core:
+  default_config_hash: jQQNdfCqslFx1nDAG6uTcbyQLHu248nK-1WJ1ISDwig
 id: block_content.field_setting_layout
 field_name: field_setting_layout
 entity_type: block_content

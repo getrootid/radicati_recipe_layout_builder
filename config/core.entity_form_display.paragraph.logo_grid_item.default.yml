@@ -9,6 +9,8 @@ dependencies:
   module:
     - link
     - media_library
+_core:
+  default_config_hash: W_ile7OJvF4hI164i6XaExqouTdAEccZVknB2zhx628
 id: paragraph.logo_grid_item.default
 targetEntityType: paragraph
 bundle: logo_grid_item

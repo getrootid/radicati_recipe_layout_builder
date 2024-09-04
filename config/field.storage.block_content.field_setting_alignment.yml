@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - taxonomy
+_core:
+  default_config_hash: xqELLyEGUdY99NhNxD6JYKzLjEZDlv-wRckhiCbuLbU
 id: block_content.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

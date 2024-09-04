@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.statistic_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: w9r4PqQzM5pKaSs-3yNFCrqFyvuKYu_5YmSNlrnO3F4
 id: block_content.icon_stat_grid.field_icon_stat_items
 field_name: field_icon_stat_items
 entity_type: block_content

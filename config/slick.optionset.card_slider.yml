@@ -6,7 +6,7 @@ dependencies:
     module:
       - slick
 _core:
-  default_config_hash: R44sHtkxxZrBiHA2kQiOrgfOwXDce6s8fpQCTUoDhf0
+  default_config_hash: j_H0ufIDJx8LxvCGGTaimDmUFNs0c0Cc4uEYDxcuhTY
 id: card_slider
 name: card_slider
 weight: -10

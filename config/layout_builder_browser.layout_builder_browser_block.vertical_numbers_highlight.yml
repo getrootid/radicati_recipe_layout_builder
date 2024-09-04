@@ -2,6 +2,8 @@ uuid: 8e53e045-67e5-4152-8f2b-009e6c861d70
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: uDRhQ88h5QoU5gTbs3xw8Sytb1kBKdxQG023xdXJ3pk
 id: vertical_numbers_highlight
 block_id: 'inline_block:vertical_numbers_highlight'
 category: page_content

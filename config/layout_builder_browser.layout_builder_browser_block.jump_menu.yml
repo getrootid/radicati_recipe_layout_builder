@@ -2,6 +2,8 @@ uuid: d69e961f-49c7-4dd7-9960-57890c3d257f
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: NO-9Y3pObbSEdJ6wP4nuEX1jsvY3Q1x4bubptjzYFGM
 id: jump_menu
 block_id: 'inline_block:jump_menu'
 category: components

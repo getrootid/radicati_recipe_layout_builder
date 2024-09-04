@@ -14,6 +14,8 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: cJWH-zwenYZ_Jn1g211ws8U41SsDVDCQsOJU0h6yeUo
 id: media.icon.scaled_25_width
 targetEntityType: media
 bundle: icon

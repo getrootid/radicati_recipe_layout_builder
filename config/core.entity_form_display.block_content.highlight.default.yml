@@ -44,7 +44,7 @@ third_party_settings:
         open: false
         weight: 0
 _core:
-  default_config_hash: 8jr-KzYjrTyVybglMz9x0mL4MjRS9o04ZRYMgmMAi38
+  default_config_hash: N5HKlyRXQiKfupR-dC96WH2QymXQug_JJ2ieuCgKPLo
 id: block_content.highlight.default
 targetEntityType: block_content
 bundle: highlight

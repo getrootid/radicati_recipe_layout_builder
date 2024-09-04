@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.search_listing
     - field.storage.block_content.field_setting_background
+_core:
+  default_config_hash: IwJYCxDn2pZcjoWk8HiWd03fCIDgvHKsSQbvSwkOz-Q
 id: block_content.search_listing.field_setting_background
 field_name: field_setting_background
 entity_type: block_content

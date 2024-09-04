@@ -37,7 +37,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: wEBdhbmzy5aUlJLPAVTw7Znw9bQiK7eDYg-Xdl71m2E
+  default_config_hash: EsEhbfbACMi6IMQ7jx-fMyYV5Qp63aNsPV0_7JI0kD4
 id: block_content.form_section.default
 targetEntityType: block_content
 bundle: form_section

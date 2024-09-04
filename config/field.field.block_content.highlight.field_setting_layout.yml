@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.highlight
     - field.storage.block_content.field_setting_layout
+_core:
+  default_config_hash: '-rGQyhlaDqo_Gbus4KmaeQTxJKZxp5U7ysnC-VF0uiI'
 id: block_content.highlight.field_setting_layout
 field_name: field_setting_layout
 entity_type: block_content

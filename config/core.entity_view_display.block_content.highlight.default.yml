@@ -16,6 +16,8 @@ dependencies:
     - radicati_base
     - text
     - text_field_formatter
+_core:
+  default_config_hash: kcGQ_ECKZEI1USNoZO9Fg2kiOOkkrMf4AxkhPmnIj9M
 id: block_content.highlight.default
 targetEntityType: block_content
 bundle: highlight

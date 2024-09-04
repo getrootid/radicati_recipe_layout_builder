@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.card_collection
     - field.storage.block_content.field_setting_background
+_core:
+  default_config_hash: OS-70nynePa6FbBDGnWhn_99xPNhQK8LLgze5h0xS1A
 id: block_content.card_collection.field_setting_background
 field_name: field_setting_background
 entity_type: block_content

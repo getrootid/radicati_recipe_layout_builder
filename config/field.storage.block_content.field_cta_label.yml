@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - block_content
+_core:
+  default_config_hash: jgi30QYbZq-c-67SokSIRvfe6enWC7k6mOJLRKZ5e1E
 id: block_content.field_cta_label
 field_name: field_cta_label
 entity_type: block_content

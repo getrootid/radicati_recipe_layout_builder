@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_formatted_content
   module:
     - text
+_core:
+  default_config_hash: 3OJsAhAh5xuMk7haX3fCYQcthET7vqPpYrx-ovCz5k8
 id: block_content.formatted_content.field_formatted_content
 field_name: field_formatted_content
 entity_type: block_content
@@ -17,5 +19,6 @@ required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  allowed_formats: {  }
 field_type: text_long

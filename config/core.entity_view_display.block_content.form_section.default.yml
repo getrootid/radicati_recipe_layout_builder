@@ -15,7 +15,7 @@ dependencies:
     - radicati_base
     - webform
 _core:
-  default_config_hash: nOlkab1VGJNwHnkB1aDtULRWQAYP-ilYLhhpayWE9pc
+  default_config_hash: fhD5hcDqkCnIYTiBAHunx-vEvvCGHkYs1yYROJm6Cc8
 id: block_content.form_section.default
 targetEntityType: block_content
 bundle: form_section

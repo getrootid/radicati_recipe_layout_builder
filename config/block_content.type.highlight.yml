@@ -2,6 +2,8 @@ uuid: 4ed0e7d3-bfc9-45fb-ab17-9c01170398cc
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Gs1rCJ8xrc7TExczKyJ955SiMWJVmzEhAOi_WuW9dtE
 id: highlight
 label: Highlight
 revision: 0

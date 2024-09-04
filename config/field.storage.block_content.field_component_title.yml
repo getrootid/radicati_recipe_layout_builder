@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - block_content
+_core:
+  default_config_hash: kCdDYqaEqKUfxzZ-D23eG8l41EBP8LXOquhTpOiEDLo
 id: block_content.field_component_title
 field_name: field_component_title
 entity_type: block_content

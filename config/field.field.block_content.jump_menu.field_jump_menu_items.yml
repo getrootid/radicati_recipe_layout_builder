@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.jump_menu_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: wNH3-R6UtTdkUabmOHxJtq4TP5SGv9cfHuHx5KTrnHY
 id: block_content.jump_menu.field_jump_menu_items
 field_name: field_jump_menu_items
 entity_type: block_content

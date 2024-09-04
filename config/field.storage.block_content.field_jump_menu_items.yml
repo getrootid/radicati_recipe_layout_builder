@@ -6,6 +6,8 @@ dependencies:
     - block_content
     - entity_reference_revisions
     - paragraphs
+_core:
+  default_config_hash: NYIjp6PjR8o6ToQBPMsXBbZ50d_VWSFT0UD_olxEJJk
 id: block_content.field_jump_menu_items
 field_name: field_jump_menu_items
 entity_type: block_content

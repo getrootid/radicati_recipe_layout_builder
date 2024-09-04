@@ -2,6 +2,8 @@ uuid: 1f372ae2-6761-46c7-818e-1e4859d16ea4
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 37XRnzclBa-z1GH6vsi7yszCDT-es45OyxD9aTeXMwQ
 id: card_collection
 label: 'Card Collection'
 revision: 0

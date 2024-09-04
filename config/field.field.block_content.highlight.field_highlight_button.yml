@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_highlight_button
   module:
     - link
+_core:
+  default_config_hash: PxT0rsWEBYHls1v_XBlwFyOdLlAUG-QIoX3i0xn-B7Q
 id: block_content.highlight.field_highlight_button
 field_name: field_highlight_button
 entity_type: block_content

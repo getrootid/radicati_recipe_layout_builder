@@ -17,7 +17,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: T7Rs9EkKITxq6WW4UTtHpKbox-G5XksrO-BMcvVQT9g
+  default_config_hash: sXyPPK8Kyd2n63ZEzwZhfPv2iNmfABB9gMPkjGMtH5g
 id: paragraph.card_collection_item.preview
 targetEntityType: paragraph
 bundle: card_collection_item

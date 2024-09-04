@@ -15,6 +15,8 @@ dependencies:
     - manage_display
     - radicati_base
     - text
+_core:
+  default_config_hash: 3qQbc34E3nIzfqa9pq5iWBI-hRSvPdwceTzD0KPrhNA
 id: block_content.large_hero.default
 targetEntityType: block_content
 bundle: large_hero

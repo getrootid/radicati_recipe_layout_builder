@@ -8,7 +8,7 @@ dependencies:
   module:
     - slick_entityreference
 _core:
-  default_config_hash: UL2C6yMJ9KKlOB0_rFeOR3Kdic5NbE0i-RsxSJUosfQ
+  default_config_hash: WC1v8XP9a_PWkXm-ES_0N6m-ZyP4ZkloDrsImb6JVtc
 id: block_content.media.default
 targetEntityType: block_content
 bundle: media

@@ -12,6 +12,8 @@ dependencies:
     - link
     - manage_display
     - viewsreference
+_core:
+  default_config_hash: djjVbfxG5htm8uKElDJNqKhbiCm6gQL0OZTq73vQRNQ
 id: block_content.listing_section.default
 targetEntityType: block_content
 bundle: listing_section

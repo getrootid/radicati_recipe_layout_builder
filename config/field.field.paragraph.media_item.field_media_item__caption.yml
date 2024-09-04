@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_media_item__caption
     - paragraphs.paragraphs_type.media_item
+_core:
+  default_config_hash: Xhcn-_hZzbUnAlevswyWkaN528O1TPZD4zYaebzlXlQ
 id: paragraph.media_item.field_media_item__caption
 field_name: field_media_item__caption
 entity_type: paragraph

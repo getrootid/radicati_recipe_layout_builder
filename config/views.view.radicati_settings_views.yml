@@ -7,6 +7,8 @@ dependencies:
   module:
     - taxonomy
     - user
+_core:
+  default_config_hash: 6W2qbQ7_KPoYK2wpnTI44K250xQbzfT1XgYSQwZAnXU
 id: radicati_settings_views
 label: 'Radicati: Settings Views'
 module: views
@@ -88,6 +90,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:

@@ -2,6 +2,8 @@ uuid: 04b197ec-5d6f-4532-a523-c81f055570b5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: dZlpe0-K3v07SKwcwzcJlLqhtk6r9fKxxDdjkSbVC98
 id: highlight
 block_id: 'inline_block:highlight'
 category: components

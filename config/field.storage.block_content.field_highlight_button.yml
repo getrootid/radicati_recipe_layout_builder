@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - link
+_core:
+  default_config_hash: G0yWXILBPEqcRZulWVX7UaqEg9UVwdwUg0Jia-18Nq8
 id: block_content.field_highlight_button
 field_name: field_highlight_button
 entity_type: block_content

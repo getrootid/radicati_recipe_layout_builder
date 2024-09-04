@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - text
+_core:
+  default_config_hash: MSZewxmhMpIncHbinP1jHODly4tNA-FFRoVvsOjMMrY
 id: block_content.field_formatted_content
 field_name: field_formatted_content
 entity_type: block_content

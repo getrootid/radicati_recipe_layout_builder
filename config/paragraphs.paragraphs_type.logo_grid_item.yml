@@ -2,6 +2,8 @@ uuid: 0cd8c35b-0358-425c-9357-f0e84b80b8b2
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: CvGxg8XX2zlXW3XygIqc_cZf5lFYu6MmDCpuPI7IzX4
 id: logo_grid_item
 label: 'Logo Grid Item'
 icon_uuid: null

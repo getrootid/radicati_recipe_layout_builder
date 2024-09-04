@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.webform_call_to_action
     - field.storage.block_content.field_setting_background
+_core:
+  default_config_hash: 2lrtS8fgBPG8DEwFiCi3tIxv2O4mk8fvtXnvTVW8kiU
 id: block_content.webform_call_to_action.field_setting_background
 field_name: field_setting_background
 entity_type: block_content

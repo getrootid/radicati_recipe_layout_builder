@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.form_section
     - field.storage.block_content.field_component_title
+_core:
+  default_config_hash: zltkTdREN2Gqszkk2Q_FPaoKgTf1XXo5OtUo41-iTsc
 id: block_content.form_section.field_component_title
 field_name: field_component_title
 entity_type: block_content

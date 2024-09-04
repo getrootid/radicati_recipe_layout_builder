@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
     - media.type.remote_video
     - paragraphs.paragraphs_type.media_item
+_core:
+  default_config_hash: wkAQIQHKBU1vOdehxKTAsZBP6BkBlBdS-ycPoZAD0WU
 id: paragraph.media_item.field_media_item__media
 field_name: field_media_item__media
 entity_type: paragraph

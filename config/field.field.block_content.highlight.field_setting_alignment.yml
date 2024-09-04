@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.highlight
     - field.storage.block_content.field_setting_alignment
+_core:
+  default_config_hash: HzIxCl2aSRO7ZVHOGi6oB56SisTLx-780mRtSheK5cI
 id: block_content.highlight.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - media
+_core:
+  default_config_hash: Oq2BT4iq7arBcbm_i3J_ujrMPPn09WyLsPPlWgWcLhU
 id: block_content.field_component_background_media
 field_name: field_component_background_media
 entity_type: block_content

@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.call_to_action
     - field.storage.block_content.field_cta_title
+_core:
+  default_config_hash: OVHX0B-SKF676tGLkhAh4jQKyrW7nT6fsLhMQrKEHkc
 id: block_content.call_to_action.field_cta_title
 field_name: field_cta_title
 entity_type: block_content

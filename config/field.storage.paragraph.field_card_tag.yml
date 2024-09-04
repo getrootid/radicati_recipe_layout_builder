@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: TWy0nHiHKIJXLM1al31lijCJtiOp8KDKnOo6JCQbLTA
 id: paragraph.field_card_tag
 field_name: field_card_tag
 entity_type: paragraph

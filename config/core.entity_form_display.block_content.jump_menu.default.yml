@@ -8,6 +8,8 @@ dependencies:
     - field.field.block_content.jump_menu.field_jump_menu_label
   module:
     - paragraphs
+_core:
+  default_config_hash: BjEQppJh3-63ELaQlIZ8G3LUSZ8iQ3078u4Ey91oO6s
 id: block_content.jump_menu.default
 targetEntityType: block_content
 bundle: jump_menu

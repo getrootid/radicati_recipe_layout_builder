@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.quote
     - field.storage.block_content.field_setting_background
+_core:
+  default_config_hash: AMHN-mMnnWhIlKh1TxCv4wRFLbO7ar68xeEUiVD7b9o
 id: block_content.quote.field_setting_background
 field_name: field_setting_background
 entity_type: block_content

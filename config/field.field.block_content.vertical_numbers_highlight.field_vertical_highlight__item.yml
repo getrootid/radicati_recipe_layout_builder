@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.number_highlight_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: K1wqCg1TM4t5kBqYgNmQpNkm-RM6xyAmNA3wb2olg_k
 id: block_content.vertical_numbers_highlight.field_vertical_highlight__item
 field_name: field_vertical_highlight__item
 entity_type: block_content

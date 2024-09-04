@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_webform_cta_form
   module:
     - webform
+_core:
+  default_config_hash: DpFHtbZDD26nBDqsul6HBGAo7mdDFTSUnOJUu7kzN6Y
 id: block_content.webform_call_to_action.field_webform_cta_form
 field_name: field_webform_cta_form
 entity_type: block_content

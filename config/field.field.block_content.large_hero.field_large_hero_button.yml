@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_large_hero_button
   module:
     - link
+_core:
+  default_config_hash: bUwYKyXe_mt15PojDTHg5H9cwguPFa-DMsIFkRSfryE
 id: block_content.large_hero.field_large_hero_button
 field_name: field_large_hero_button
 entity_type: block_content

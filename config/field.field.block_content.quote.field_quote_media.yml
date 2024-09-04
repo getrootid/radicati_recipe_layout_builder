@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.quote
     - field.storage.block_content.field_quote_media
     - media.type.image
+_core:
+  default_config_hash: _ypyyyKufBhEdVf76CltAVgg5O8xA_bc9NUXXmjfiFA
 id: block_content.quote.field_quote_media
 field_name: field_quote_media
 entity_type: block_content

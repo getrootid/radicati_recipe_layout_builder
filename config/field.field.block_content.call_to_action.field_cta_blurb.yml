@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_cta_blurb
   module:
     - text
+_core:
+  default_config_hash: M8dFClMTNYL8iwGuLajyX_2wx8AYkBRF46sJOcL46hY
 id: block_content.call_to_action.field_cta_blurb
 field_name: field_cta_blurb
 entity_type: block_content
@@ -17,5 +19,6 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  allowed_formats: {  }
 field_type: text_long

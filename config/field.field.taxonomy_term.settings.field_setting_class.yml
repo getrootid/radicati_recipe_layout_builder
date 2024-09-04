@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_setting_class
     - taxonomy.vocabulary.settings
+_core:
+  default_config_hash: WrUwnQQtiNhypTpkfGf595QLhnO3OBi-k-cii1UNIYk
 id: taxonomy_term.settings.field_setting_class
 field_name: field_setting_class
 entity_type: taxonomy_term

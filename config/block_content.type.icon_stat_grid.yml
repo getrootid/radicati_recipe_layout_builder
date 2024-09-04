@@ -2,6 +2,8 @@ uuid: 19dad388-f9a7-4c94-9faf-e50ee431320e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: S1m1_TFruv9zMnqx7q7yA44tVh6aZBdByMOMU28J_-k
 id: icon_stat_grid
 label: 'Icon Stat Grid'
 revision: 0

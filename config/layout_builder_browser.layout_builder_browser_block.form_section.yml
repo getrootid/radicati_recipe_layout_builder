@@ -2,6 +2,8 @@ uuid: 57fe502d-0432-44a6-9b47-5ec4fe582ca6
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: vV0VX0YRfD7VlRlqLt8A15Sr_XBRFfhfhJzo2BtkswE
 id: form_section
 block_id: 'inline_block:form_section'
 category: forms

@@ -1,0 +1,8 @@
+uuid: 4cf962dd-0b14-4c9a-bada-d8fd094dc35f
+langcode: en
+status: true
+dependencies: {  }
+id: heading
+label: Heading
+revision: false
+description: 'A simple heading section.'

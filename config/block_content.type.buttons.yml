@@ -2,6 +2,8 @@ uuid: faed0718-aab6-4185-bd96-fae2c0194e77
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: mhEQRvi2QJYWd654GhouuRx3Xw-dzovLyt0v-VpuTCo
 id: buttons
 label: Buttons
 revision: 0

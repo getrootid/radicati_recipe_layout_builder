@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.vertical_numbers_highlight
     - field.storage.block_content.field_setting_background
+_core:
+  default_config_hash: A1HwJpdIUVLqNoXou-cgpMKdqp0v50DGjvXomaJXMGc
 id: block_content.vertical_numbers_highlight.field_setting_background
 field_name: field_setting_background
 entity_type: block_content

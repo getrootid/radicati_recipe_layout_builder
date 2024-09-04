@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - webform
+_core:
+  default_config_hash: txqDLhhWF1VsRVnj4fg5lazmFbZ1_YmrXR_xlA57Mmk
 id: block_content.field_form_section_form
 field_name: field_form_section_form
 entity_type: block_content

@@ -9,6 +9,8 @@ dependencies:
     - paragraphs.paragraphs_type.statistic_item
   module:
     - text_field_formatter
+_core:
+  default_config_hash: Y_Oxv_JjLqCTgyxQID0N-D2SaZ-NPW0H8iVcc9M5CLA
 id: paragraph.statistic_item.default
 targetEntityType: paragraph
 bundle: statistic_item

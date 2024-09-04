@@ -1,0 +1,25 @@
+uuid: d751bb88-79d6-4ea9-adda-5d28413388f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.heading
+    - field.storage.block_content.field_setting_background
+id: block_content.heading.field_setting_background
+field_name: field_setting_background
+entity_type: block_content
+bundle: heading
+label: Background
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_2
+      arguments: {  }
+field_type: entity_reference

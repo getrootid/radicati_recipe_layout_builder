@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_component_read_more
   module:
     - link
+_core:
+  default_config_hash: VBTrIav9Hg-HmsA6lm_szIsFSSAPDJGNCd9MDHQnQmY
 id: block_content.content_grid.field_component_read_more
 field_name: field_component_read_more
 entity_type: block_content

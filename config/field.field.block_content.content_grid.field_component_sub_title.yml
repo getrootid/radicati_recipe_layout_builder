@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.content_grid
     - field.storage.block_content.field_component_sub_title
+_core:
+  default_config_hash: QGp-XWnZO1ji_wYHH7Mcru4y8vTKjn1W7j3DlC-GJeo
 id: block_content.content_grid.field_component_sub_title
 field_name: field_component_sub_title
 entity_type: block_content

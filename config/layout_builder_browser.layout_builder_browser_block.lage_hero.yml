@@ -2,6 +2,8 @@ uuid: 3d8924c5-5b88-4763-a1d9-ea509af2ad0d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: GkIkciNo7Q-EPwbPw7WWq7885MmXDb59UkZaFo8Rms8
 id: lage_hero
 block_id: 'inline_block:large_hero'
 category: hero
