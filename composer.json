@@ -15,6 +15,7 @@
     "drupal/block_content_template": "*",
     "drupal/entity_browser": "*",
     "drupal/entity_reference_display": "*",
+    "drupal/heading": "*",
     "drupal/inline_block_title_automatic": "*",
     "drupal/inline_entity_form": "*",
     "drupal/layout_builder_browser": "*",

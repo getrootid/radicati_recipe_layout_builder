@@ -1,18 +1,20 @@
-uuid: 0080ec09-b2d3-4e8f-b0fd-b4987fc10a61
+uuid: 62c70a5a-2079-4164-adb4-849e0a373fab
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.heading
+    - block_content.type.people_listing
     - field.storage.block_content.field_component_sub_title
-id: block_content.heading.field_component_sub_title
+_core:
+  default_config_hash: ccwH510vb-OQztZmqWalKsawF5puIJe6wZYnpjcbUKc
+id: block_content.people_listing.field_component_sub_title
 field_name: field_component_sub_title
 entity_type: block_content
-bundle: heading
+bundle: people_listing
 label: Sub-Title
-description: 'Displays under the title and adds additional information or context.'
+description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

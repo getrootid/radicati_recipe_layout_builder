@@ -1,0 +1,29 @@
+uuid: b145f3e7-7fe6-4dea-af7a-d3a5ecba52db
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.heading
+    - field.storage.block_content.field_component_heading
+  module:
+    - heading
+id: block_content.heading.field_component_heading
+field_name: field_component_heading
+entity_type: block_content
+bundle: heading
+label: Heading
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  label: Heading
+  allowed_sizes:
+    h2: h2
+    h3: h3
+    h4: h4
+    h5: h5
+    h6: h6
+    h1: 0
+field_type: heading

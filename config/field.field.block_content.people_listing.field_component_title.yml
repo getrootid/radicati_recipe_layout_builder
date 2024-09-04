@@ -1,18 +1,20 @@
-uuid: 1170828d-04ab-4ada-a09b-bf1da4dd3a3a
+uuid: 3e946c24-9427-4ae7-8be8-8fcef6ee405f
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.heading
+    - block_content.type.people_listing
     - field.storage.block_content.field_component_title
-id: block_content.heading.field_component_title
+_core:
+  default_config_hash: h5s_vzAG37MVpBpgZNL9itAfn2PcHTCl548bhAqI1nc
+id: block_content.people_listing.field_component_title
 field_name: field_component_title
 entity_type: block_content
-bundle: heading
+bundle: people_listing
 label: Title
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
