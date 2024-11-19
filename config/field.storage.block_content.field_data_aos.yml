@@ -1,0 +1,20 @@
+uuid: 706df89f-b8ad-45d0-b694-b4c5d5d6b4c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - taxonomy
+id: block_content.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -13,7 +13,7 @@ default:
       value: Background
   weight:
     -
-      value: 21
+      value: 25
   parent:
     -
       target_id: 0

@@ -1,0 +1,19 @@
+uuid: 7227147b-6bbb-422a-90cd-68bb368dbbc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accordions
+    - field.storage.block_content.field_component_title
+id: block_content.accordions.field_component_title
+field_name: field_component_title
+entity_type: block_content
+bundle: accordions
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

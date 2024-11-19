@@ -1,0 +1,25 @@
+uuid: e8910134-7244-489c-9742-ab579e7668c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.listing_section
+    - field.storage.block_content.field_setting_style
+id: block_content.listing_section.field_setting_style
+field_name: field_setting_style
+entity_type: block_content
+bundle: listing_section
+label: Style
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: style
+      arguments: {  }
+field_type: entity_reference

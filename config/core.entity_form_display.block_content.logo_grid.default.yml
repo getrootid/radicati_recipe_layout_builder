@@ -7,17 +7,19 @@ dependencies:
     - field.field.block_content.logo_grid.field_component_read_more
     - field.field.block_content.logo_grid.field_component_sub_title
     - field.field.block_content.logo_grid.field_component_title
+    - field.field.block_content.logo_grid.field_data_aos
     - field.field.block_content.logo_grid.field_logo_grid_items
+    - field.field.block_content.logo_grid.field_setting_style
   module:
     - field_group
     - inline_entity_form
-    - link
+    - radicati_base
 third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_setting_background
-        - field_setting_alignment
+        - field_data_aos
+        - field_setting_style
       label: Settings
       region: content
       parent_name: ''
@@ -43,7 +45,7 @@ bundle: logo_grid
 mode: default
 content:
   field_component_read_more:
-    type: link_default
+    type: radicati_link_button_widget
     weight: 6
     region: content
     settings:
@@ -65,6 +67,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_data_aos:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_logo_grid_items:
     type: inline_entity_form_complex
@@ -93,6 +101,12 @@ content:
   field_setting_background:
     type: taxonomy_icon_widget
     weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }

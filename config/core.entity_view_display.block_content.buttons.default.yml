@@ -5,13 +5,10 @@ dependencies:
   config:
     - block_content.type.buttons
     - field.field.block_content.buttons.field_buttons_buttons
-    - field.field.block_content.buttons.field_component_title
+    - field.field.block_content.buttons.field_data_aos
     - field.field.block_content.buttons.field_setting_alignment
-    - field.field.block_content.buttons.field_setting_background
     - field.field.block_content.buttons.field_setting_direction
   module:
-    - link
-    - manage_display
     - radicati_base
 _core:
   default_config_hash: r_BsUCvW4F3uW2_UkZFibfiX9MHWLBrZxnmErQlTXh8
@@ -21,7 +18,7 @@ bundle: buttons
 mode: default
 content:
   field_buttons_buttons:
-    type: link
+    type: radicati_link_button_formatter
     label: hidden
     settings:
       trim_length: 80
@@ -40,33 +37,27 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_component_title:
-    type: title
+  field_data_aos:
+    type: rad_tax_setting
     label: hidden
     settings:
-      link_to_entity: false
-      tag: h2
+      use_data_attributes: '1'
     third_party_settings: {  }
-    weight: 0
+    weight: 3
     region: content
   field_setting_alignment:
     type: rad_tax_setting
     label: above
-    settings: {  }
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
     weight: 3
-    region: content
-  field_setting_background:
-    type: rad_tax_setting
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 4
     region: content
   field_setting_direction:
     type: rad_tax_setting
     label: above
-    settings: {  }
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
     weight: 2
     region: content

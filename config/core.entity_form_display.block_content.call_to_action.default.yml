@@ -9,11 +9,11 @@ dependencies:
     - field.field.block_content.call_to_action.field_cta_label
     - field.field.block_content.call_to_action.field_cta_media
     - field.field.block_content.call_to_action.field_cta_title
+    - field.field.block_content.call_to_action.field_data_aos
     - field.field.block_content.call_to_action.field_setting_alignment
-    - field.field.block_content.call_to_action.field_setting_background
+    - field.field.block_content.call_to_action.field_setting_style
   module:
     - field_group
-    - link
     - media_library
     - radicati_base
     - text
@@ -21,8 +21,9 @@ third_party_settings:
   field_group:
     group_settings:
       children:
+        - field_data_aos
+        - field_setting_style
         - field_setting_alignment
-        - field_setting_background
       label: Settings
       region: content
       parent_name: ''
@@ -56,7 +57,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_cta_button:
-    type: link_default
+    type: radicati_link_button_widget
     weight: 6
     region: content
     settings:
@@ -86,15 +87,21 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_setting_alignment:
-    type: taxonomy_icon_widget
-    weight: 27
+  field_data_aos:
+    type: options_select
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_setting_background:
+  field_setting_alignment:
     type: taxonomy_icon_widget
-    weight: 28
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }

@@ -6,5 +6,5 @@ _core:
   default_config_hash: avd-HxlRd4GkdbUOC9QOpEszB8kmAJqdDWQDKsscKi8
 id: media
 label: Media
-revision: 0
-description: 'A media item section.'
+revision: false
+description: 'A simple media item.'

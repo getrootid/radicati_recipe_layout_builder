@@ -1,0 +1,19 @@
+uuid: 9feba8d1-1593-4955-b561-185f63adf45d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_chi_blurb
+field_name: field_chi_blurb
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

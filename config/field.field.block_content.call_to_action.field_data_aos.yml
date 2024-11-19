@@ -1,0 +1,25 @@
+uuid: c04ea1bb-1c64-4b6c-bfe5-505efa71115d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_to_action
+    - field.storage.block_content.field_data_aos
+id: block_content.call_to_action.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+bundle: call_to_action
+label: Animation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

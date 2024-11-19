@@ -1,0 +1,53 @@
+uuid: ce080771-49eb-4f04-82e8-7ad000e20f54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.checkerboard_highlight_item.field_chi_blurb
+    - field.field.paragraph.checkerboard_highlight_item.field_chi_button
+    - field.field.paragraph.checkerboard_highlight_item.field_chi_media
+    - field.field.paragraph.checkerboard_highlight_item.field_chi_title
+    - paragraphs.paragraphs_type.checkerboard_highlight_item
+  module:
+    - media_library
+    - radicati_base
+    - text
+id: paragraph.checkerboard_highlight_item.default
+targetEntityType: paragraph
+bundle: checkerboard_highlight_item
+mode: default
+content:
+  field_chi_blurb:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_chi_button:
+    type: radicati_link_button_widget
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_chi_media:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_chi_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

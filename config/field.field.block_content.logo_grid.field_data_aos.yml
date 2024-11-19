@@ -1,0 +1,25 @@
+uuid: 4d9af56f-52a0-4731-b76a-94859b87efce
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.logo_grid
+    - field.storage.block_content.field_data_aos
+id: block_content.logo_grid.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+bundle: logo_grid
+label: Animation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

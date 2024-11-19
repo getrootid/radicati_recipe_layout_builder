@@ -1,0 +1,8 @@
+uuid: 927c09f8-706c-44b4-85d9-1e605acd1ee6
+langcode: en
+status: true
+dependencies: {  }
+id: accordions
+label: Accordions
+revision: false
+description: 'An accordions section.'

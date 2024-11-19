@@ -6,11 +6,37 @@ dependencies:
     - block_content.type.heading
     - field.field.block_content.heading.field_component_heading
     - field.field.block_content.heading.field_component_sub_heading
+    - field.field.block_content.heading.field_data_aos
     - field.field.block_content.heading.field_setting_alignment
-    - field.field.block_content.heading.field_setting_background
+    - field.field.block_content.heading.field_setting_style
   module:
+    - field_group
     - heading
     - radicati_base
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - field_data_aos
+        - field_setting_alignment
+        - field_setting_style
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 2
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        required_fields: true
 id: block_content.heading.default
 targetEntityType: block_content
 bundle: heading
@@ -28,15 +54,21 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_setting_alignment:
-    type: taxonomy_icon_widget
-    weight: 2
+  field_data_aos:
+    type: options_select
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_setting_background:
+  field_setting_alignment:
     type: taxonomy_icon_widget
-    weight: 3
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }

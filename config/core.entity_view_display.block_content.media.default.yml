@@ -4,9 +4,10 @@ status: true
 dependencies:
   config:
     - block_content.type.media
-    - field.field.block_content.media.field_media_items
+    - field.field.block_content.media.field_media_item
+    - field.field.block_content.media.field_setting_media_display_mode
   module:
-    - slick_entityreference
+    - entity_reference_display
 _core:
   default_config_hash: WC1v8XP9a_PWkXm-ES_0N6m-ZyP4ZkloDrsImb6JVtc
 id: block_content.media.default
@@ -14,29 +15,16 @@ targetEntityType: block_content
 bundle: media
 mode: default
 content:
-  field_media_items:
-    type: slick_entityreference_vanilla
+  field_media_item:
+    type: entity_reference_display_default
     label: hidden
     settings:
-      optionset: media_carousel
       view_mode: default
-      cache: 3600
-      use_theme_field: false
-      skin: ''
-      overridables:
-        arrows: '0'
-        autoplay: '0'
-        dots: '0'
-        draggable: '0'
-        infinite: '0'
-        mouseWheel: '0'
-        randomize: '0'
-        variableWidth: '0'
-      override: false
-      skin_arrows: ''
-      skin_dots: ''
+      link: false
+      display_field: ''
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
+  field_setting_media_display_mode: true
   search_api_excerpt: true

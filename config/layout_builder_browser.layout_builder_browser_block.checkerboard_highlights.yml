@@ -1,0 +1,11 @@
+uuid: b57f8bab-f37f-4a18-9e9c-accb1512bf26
+langcode: en
+status: true
+dependencies: {  }
+id: checkerboard_highlights
+block_id: 'inline_block:checkerboard_highlights'
+category: components
+label: 'Checkerboard Highlights'
+image_path: ''
+image_alt: ''
+weight: -7

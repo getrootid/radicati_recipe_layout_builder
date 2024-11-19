@@ -4,14 +4,13 @@ status: true
 dependencies:
   config:
     - block_content.type.large_hero
-    - field.field.block_content.large_hero.field_large_hero_background
-    - field.field.block_content.large_hero.field_large_hero_blurb
-    - field.field.block_content.large_hero.field_large_hero_button
+    - field.field.block_content.large_hero.field_component_background_media
+    - field.field.block_content.large_hero.field_component_read_more
+    - field.field.block_content.large_hero.field_component_sub_title_long
     - field.field.block_content.large_hero.field_large_hero_title
-    - field.field.block_content.large_hero.field_setting_background
     - field.field.block_content.large_hero.field_setting_layout
+    - field.field.block_content.large_hero.field_setting_style
   module:
-    - link
     - manage_display
     - radicati_base
     - text
@@ -22,24 +21,17 @@ targetEntityType: block_content
 bundle: large_hero
 mode: default
 content:
-  field_large_hero_background:
+  field_component_background_media:
     type: entity_reference_entity_view
     label: hidden
     settings:
       view_mode: 16_9_full_width
       link: false
     third_party_settings: {  }
-    weight: 0
-    region: content
-  field_large_hero_blurb:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
     weight: 2
     region: content
-  field_large_hero_button:
-    type: link
+  field_component_read_more:
+    type: radicati_link_button_formatter
     label: hidden
     settings:
       trim_length: 80
@@ -50,6 +42,13 @@ content:
     third_party_settings: {  }
     weight: 3
     region: content
+  field_component_sub_title_long:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_large_hero_title:
     type: title
     label: hidden
@@ -57,21 +56,23 @@ content:
       link_to_entity: false
       tag: h1
     third_party_settings: {  }
-    weight: 1
-    region: content
-  field_setting_background:
-    type: rad_tax_setting
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 4
+    weight: 0
     region: content
   field_setting_layout:
     type: rad_tax_setting
     label: hidden
-    settings: {  }
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
     weight: 5
+    region: content
+  field_setting_style:
+    type: rad_tax_setting
+    label: above
+    settings:
+      use_data_attributes: false
+    third_party_settings: {  }
+    weight: 4
     region: content
 hidden:
   search_api_excerpt: true

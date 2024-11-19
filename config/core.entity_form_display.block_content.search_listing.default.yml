@@ -5,9 +5,6 @@ dependencies:
   config:
     - block_content.type.search_listing
     - field.field.block_content.search_listing.field_component_title
-    - field.field.block_content.search_listing.field_setting_background
-  module:
-    - radicati_base
 _core:
   default_config_hash: MAUKIZ0XXREv2lzjdjYYN8AU0d83VDd3DB8VFN4c8GE
 id: block_content.search_listing.default
@@ -22,12 +19,6 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_setting_background:
-    type: taxonomy_icon_widget
-    weight: 27
-    region: content
-    settings: {  }
     third_party_settings: {  }
   info:
     type: string_textfield

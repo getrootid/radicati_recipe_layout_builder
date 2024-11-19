@@ -1,0 +1,31 @@
+uuid: 8b3820c4-8ab3-49a3-841d-a3b11c256328
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.highlight
+    - field.storage.block_content.field_component_media
+    - media.type.image
+    - media.type.remote_video
+id: block_content.highlight.field_component_media
+field_name: field_component_media
+entity_type: block_content
+bundle: highlight
+label: 'Component Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

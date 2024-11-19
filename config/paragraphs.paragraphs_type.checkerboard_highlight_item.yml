@@ -1,0 +1,10 @@
+uuid: 266f764c-0dbb-437a-83eb-8dc108b2fc4d
+langcode: en
+status: true
+dependencies: {  }
+id: checkerboard_highlight_item
+label: 'Checkerboard Highlight Item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

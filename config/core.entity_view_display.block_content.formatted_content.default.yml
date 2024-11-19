@@ -4,11 +4,9 @@ status: true
 dependencies:
   config:
     - block_content.type.formatted_content
-    - field.field.block_content.formatted_content.field_component_title
+    - field.field.block_content.formatted_content.field_data_aos
     - field.field.block_content.formatted_content.field_formatted_content
-    - field.field.block_content.formatted_content.field_setting_background
   module:
-    - manage_display
     - radicati_base
     - text
 _core:
@@ -18,14 +16,13 @@ targetEntityType: block_content
 bundle: formatted_content
 mode: default
 content:
-  field_component_title:
-    type: title
+  field_data_aos:
+    type: rad_tax_setting
     label: hidden
     settings:
-      link_to_entity: false
-      tag: h2
+      use_data_attributes: '1'
     third_party_settings: {  }
-    weight: 0
+    weight: 3
     region: content
   field_formatted_content:
     type: text_default
@@ -33,13 +30,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
-    region: content
-  field_setting_background:
-    type: rad_tax_setting
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
     region: content
 hidden:
   search_api_excerpt: true

@@ -1,0 +1,99 @@
+uuid: 16a7fd5c-5ea4-4e0f-9193-3ad44214719d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accordions
+    - field.field.block_content.accordions.field_accordions_items
+    - field.field.block_content.accordions.field_component_sub_title_long
+    - field.field.block_content.accordions.field_component_title
+    - field.field.block_content.accordions.field_data_aos
+    - field.field.block_content.accordions.field_setting_style
+  module:
+    - field_group
+    - inline_entity_form
+    - radicati_base
+    - text
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - field_data_aos
+        - field_setting_style
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        required_fields: true
+id: block_content.accordions.default
+targetEntityType: block_content
+bundle: accordions
+mode: default
+content:
+  field_accordions_items:
+    type: inline_entity_form_complex
+    weight: 4
+    region: content
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: 'Accordion Item'
+      label_plural: 'Accordion Items'
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: delete
+    third_party_settings: {  }
+  field_component_sub_title_long:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_component_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_data_aos:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

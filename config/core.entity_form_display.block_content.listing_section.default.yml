@@ -7,10 +7,36 @@ dependencies:
     - field.field.block_content.listing_section.field_component_read_more
     - field.field.block_content.listing_section.field_component_sub_title
     - field.field.block_content.listing_section.field_component_title
+    - field.field.block_content.listing_section.field_data_aos
     - field.field.block_content.listing_section.field_listing_section_view
+    - field.field.block_content.listing_section.field_setting_style
   module:
-    - link
+    - field_group
+    - radicati_base
     - viewsreference
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - field_data_aos
+        - field_setting_style
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        required_fields: true
 _core:
   default_config_hash: 3EXmesHx4hAZML93sdKDHFrLboQ61r1lthG_41NKLWc
 id: block_content.listing_section.default
@@ -19,8 +45,8 @@ bundle: listing_section
 mode: default
 content:
   field_component_read_more:
-    type: link_default
-    weight: 4
+    type: radicati_link_button_widget
+    weight: 5
     region: content
     settings:
       placeholder_url: ''
@@ -42,9 +68,21 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_data_aos:
+    type: options_select
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_listing_section_view:
     type: viewsreference_select
-    weight: 3
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }

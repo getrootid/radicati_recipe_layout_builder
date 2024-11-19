@@ -1,0 +1,25 @@
+uuid: fbf37ab9-f2aa-4aa0-90d6-981c56c69297
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accordions
+    - field.storage.block_content.field_data_aos
+id: block_content.accordions.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+bundle: accordions
+label: Animation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

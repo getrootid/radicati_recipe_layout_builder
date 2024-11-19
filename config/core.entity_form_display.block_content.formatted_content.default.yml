@@ -4,12 +4,33 @@ status: true
 dependencies:
   config:
     - block_content.type.formatted_content
-    - field.field.block_content.formatted_content.field_component_title
+    - field.field.block_content.formatted_content.field_data_aos
     - field.field.block_content.formatted_content.field_formatted_content
-    - field.field.block_content.formatted_content.field_setting_background
   module:
-    - radicati_base
+    - field_group
     - text
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - field_data_aos
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 2
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        required_fields: true
 _core:
   default_config_hash: yQMAQ-h9pbBQDKib2OwvRfJHUAeZwPUQIEwrVkNN2hg
 id: block_content.formatted_content.default
@@ -17,27 +38,19 @@ targetEntityType: block_content
 bundle: formatted_content
 mode: default
 content:
-  field_component_title:
-    type: string_textfield
-    weight: 0
+  field_data_aos:
+    type: options_select
+    weight: 5
     region: content
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   field_formatted_content:
     type: text_textarea
-    weight: 3
+    weight: 4
     region: content
     settings:
       rows: 5
       placeholder: ''
-    third_party_settings: {  }
-  field_setting_background:
-    type: taxonomy_icon_widget
-    weight: 2
-    region: content
-    settings: {  }
     third_party_settings: {  }
   info:
     type: string_textfield

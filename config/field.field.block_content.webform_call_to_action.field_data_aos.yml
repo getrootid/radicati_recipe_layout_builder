@@ -1,0 +1,25 @@
+uuid: 83d7451f-d58a-4781-99ea-097516e82242
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_call_to_action
+    - field.storage.block_content.field_data_aos
+id: block_content.webform_call_to_action.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+bundle: webform_call_to_action
+label: Animation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

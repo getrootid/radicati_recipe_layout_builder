@@ -5,10 +5,11 @@ dependencies:
   config:
     - block_content.type.webform_call_to_action
     - field.field.block_content.webform_call_to_action.field_component_background_media
-    - field.field.block_content.webform_call_to_action.field_component_sub_title
+    - field.field.block_content.webform_call_to_action.field_component_sub_title_long
     - field.field.block_content.webform_call_to_action.field_component_title
-    - field.field.block_content.webform_call_to_action.field_setting_background
+    - field.field.block_content.webform_call_to_action.field_data_aos
     - field.field.block_content.webform_call_to_action.field_setting_layout
+    - field.field.block_content.webform_call_to_action.field_setting_style
     - field.field.block_content.webform_call_to_action.field_webform_cta_blurb
     - field.field.block_content.webform_call_to_action.field_webform_cta_form
   module:
@@ -21,8 +22,9 @@ third_party_settings:
   field_group:
     group_settings:
       children:
+        - field_data_aos
+        - field_setting_style
         - field_setting_layout
-        - field_setting_background
       label: Settings
       region: content
       parent_name: ''
@@ -54,12 +56,12 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
-  field_component_sub_title:
-    type: string_textfield
+  field_component_sub_title_long:
+    type: text_textarea
     weight: 2
     region: content
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
   field_component_title:
@@ -70,15 +72,21 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_setting_background:
-    type: taxonomy_icon_widget
-    weight: 4
+  field_data_aos:
+    type: options_select
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   field_setting_layout:
     type: taxonomy_icon_widget
-    weight: 3
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }

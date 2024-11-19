@@ -1,0 +1,25 @@
+uuid: 7d1e24a1-7f4d-4b8d-ae5e-f2ae430af3e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.form_section
+    - field.storage.block_content.field_data_aos
+id: block_content.form_section.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+bundle: form_section
+label: Animation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

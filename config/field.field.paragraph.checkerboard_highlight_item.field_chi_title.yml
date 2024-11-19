@@ -1,0 +1,19 @@
+uuid: 91269e00-50b0-4823-bd3d-f66fe765a3bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chi_title
+    - paragraphs.paragraphs_type.checkerboard_highlight_item
+id: paragraph.checkerboard_highlight_item.field_chi_title
+field_name: field_chi_title
+entity_type: paragraph
+bundle: checkerboard_highlight_item
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

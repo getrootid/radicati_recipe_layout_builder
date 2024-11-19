@@ -1,0 +1,25 @@
+uuid: 09056bcc-34b8-42d2-a260-7bb8b1ca5cce
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.buttons
+    - field.storage.block_content.field_data_aos
+id: block_content.buttons.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+bundle: buttons
+label: Animation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

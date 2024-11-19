@@ -1,0 +1,80 @@
+uuid: ad2d9e6e-d068-45e0-a8b8-219f417961b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.checkerboard_highlights
+    - field.field.block_content.checkerboard_highlights.field_chhi_items
+    - field.field.block_content.checkerboard_highlights.field_data_aos
+    - field.field.block_content.checkerboard_highlights.field_setting_style
+  module:
+    - field_group
+    - inline_entity_form
+    - radicati_base
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - field_data_aos
+        - field_setting_style
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        required_fields: true
+id: block_content.checkerboard_highlights.default
+targetEntityType: block_content
+bundle: checkerboard_highlights
+mode: default
+content:
+  field_chhi_items:
+    type: inline_entity_form_complex
+    weight: 4
+    region: content
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: Highlight
+      label_plural: Highlights
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: delete
+    third_party_settings: {  }
+  field_data_aos:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

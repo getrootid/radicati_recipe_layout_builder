@@ -4,18 +4,18 @@ status: true
 dependencies:
   config:
     - block_content.type.highlight
-    - field.field.block_content.highlight.field_highlight_blurb
-    - field.field.block_content.highlight.field_highlight_button
-    - field.field.block_content.highlight.field_highlight_media
-    - field.field.block_content.highlight.field_highlight_title
+    - field.field.block_content.highlight.field_component_media
+    - field.field.block_content.highlight.field_component_read_more
+    - field.field.block_content.highlight.field_component_sub_title_long
+    - field.field.block_content.highlight.field_component_title
+    - field.field.block_content.highlight.field_data_aos
     - field.field.block_content.highlight.field_setting_alignment
-    - field.field.block_content.highlight.field_setting_background
     - field.field.block_content.highlight.field_setting_layout
+    - field.field.block_content.highlight.field_setting_style
   module:
-    - link
+    - manage_display
     - radicati_base
     - text
-    - text_field_formatter
 _core:
   default_config_hash: kcGQ_ECKZEI1USNoZO9Fg2kiOOkkrMf4AxkhPmnIj9M
 id: block_content.highlight.default
@@ -23,15 +23,17 @@ targetEntityType: block_content
 bundle: highlight
 mode: default
 content:
-  field_highlight_blurb:
-    type: text_default
-    label: hidden
-    settings: {  }
+  field_component_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: 1
+    weight: 10
     region: content
-  field_highlight_button:
-    type: link
+  field_component_read_more:
+    type: radicati_link_button_formatter
     label: hidden
     settings:
       trim_length: 80
@@ -40,28 +42,31 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 4
     region: content
-  field_highlight_media:
-    type: entity_reference_entity_view
+  field_component_sub_title_long:
+    type: text_default
     label: hidden
-    settings:
-      view_mode: 16_9_half_width
-      link: false
+    settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 1
     region: content
-  field_highlight_title:
-    type: text_field_formatter
+  field_component_title:
+    type: title
     label: hidden
     settings:
-      wrap_tag: h2
-      wrap_class: ''
-      wrap_attributes: ''
-      override_link_label: ''
-      link_to_entity: 0
+      link_to_entity: false
+      tag: h2
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_data_aos:
+    type: rad_tax_setting
+    label: hidden
+    settings:
+      use_data_attributes: '1'
+    third_party_settings: {  }
+    weight: 3
     region: content
   field_setting_alignment:
     type: rad_tax_setting
@@ -70,19 +75,20 @@ content:
     third_party_settings: {  }
     weight: 9
     region: content
-  field_setting_background:
-    type: rad_tax_setting
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 7
-    region: content
   field_setting_layout:
     type: rad_tax_setting
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 8
+    region: content
+  field_setting_style:
+    type: rad_tax_setting
+    label: above
+    settings:
+      use_data_attributes: false
+    third_party_settings: {  }
+    weight: 3
     region: content
 hidden:
   search_api_excerpt: true

@@ -5,10 +5,11 @@ dependencies:
   config:
     - block_content.type.webform_call_to_action
     - field.field.block_content.webform_call_to_action.field_component_background_media
-    - field.field.block_content.webform_call_to_action.field_component_sub_title
+    - field.field.block_content.webform_call_to_action.field_component_sub_title_long
     - field.field.block_content.webform_call_to_action.field_component_title
-    - field.field.block_content.webform_call_to_action.field_setting_background
+    - field.field.block_content.webform_call_to_action.field_data_aos
     - field.field.block_content.webform_call_to_action.field_setting_layout
+    - field.field.block_content.webform_call_to_action.field_setting_style
     - field.field.block_content.webform_call_to_action.field_webform_cta_blurb
     - field.field.block_content.webform_call_to_action.field_webform_cta_form
   module:
@@ -32,13 +33,12 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_component_sub_title:
-    type: string
+  field_component_sub_title_long:
+    type: text_default
     label: hidden
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   field_component_title:
     type: title
@@ -47,19 +47,29 @@ content:
       link_to_entity: false
       tag: h2
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
-  field_setting_background:
+  field_data_aos:
     type: rad_tax_setting
     label: hidden
-    settings: {  }
+    settings:
+      use_data_attributes: '1'
     third_party_settings: {  }
-    weight: 1
+    weight: 5
     region: content
   field_setting_layout:
     type: rad_tax_setting
     label: above
-    settings: {  }
+    settings:
+      use_data_attributes: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_setting_style:
+    type: rad_tax_setting
+    label: above
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
     weight: 6
     region: content
@@ -68,7 +78,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
   field_webform_cta_form:
     type: webform_entity_reference_entity_view
@@ -77,7 +87,7 @@ content:
       source_entity: true
       lazy: false
     third_party_settings: {  }
-    weight: 5
+    weight: 4
     region: content
 hidden:
   search_api_excerpt: true

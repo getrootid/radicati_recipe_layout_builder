@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1fdace3c-bfc4-42c1-bd07-03c34845864f
+  bundle: settings
+  default_langcode: en
+  depends:
+    1591740f-99d8-44b2-a935-feba694c339b: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Light
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 1591740f-99d8-44b2-a935-feba694c339b
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

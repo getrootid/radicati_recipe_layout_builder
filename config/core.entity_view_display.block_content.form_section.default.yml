@@ -7,10 +7,11 @@ dependencies:
     - field.field.block_content.form_section.field_component_read_more
     - field.field.block_content.form_section.field_component_sub_title
     - field.field.block_content.form_section.field_component_title
+    - field.field.block_content.form_section.field_data_aos
     - field.field.block_content.form_section.field_form_section_form
     - field.field.block_content.form_section.field_setting_alignment
+    - field.field.block_content.form_section.field_setting_style
   module:
-    - link
     - manage_display
     - radicati_base
     - webform
@@ -22,7 +23,7 @@ bundle: form_section
 mode: default
 content:
   field_component_read_more:
-    type: link
+    type: radicati_link_button_formatter
     label: hidden
     settings:
       trim_length: 80
@@ -50,6 +51,14 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_data_aos:
+    type: rad_tax_setting
+    label: hidden
+    settings:
+      use_data_attributes: '1'
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_form_section_form:
     type: webform_entity_reference_entity_view
     label: hidden
@@ -62,9 +71,18 @@ content:
   field_setting_alignment:
     type: rad_tax_setting
     label: above
-    settings: {  }
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_setting_style:
+    type: rad_tax_setting
+    label: above
+    settings:
+      use_data_attributes: false
+    third_party_settings: {  }
+    weight: 3
     region: content
 hidden:
   search_api_excerpt: true

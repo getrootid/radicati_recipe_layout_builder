@@ -9,22 +9,23 @@ dependencies:
     - field.field.block_content.content_grid.field_component_title
     - field.field.block_content.content_grid.field_content_grid_display_mode
     - field.field.block_content.content_grid.field_content_grid_items
-    - field.field.block_content.content_grid.field_setting_background
+    - field.field.block_content.content_grid.field_data_aos
     - field.field.block_content.content_grid.field_setting_items_per_row
+    - field.field.block_content.content_grid.field_setting_style
   module:
     - field_group
-    - link
     - radicati_base
 third_party_settings:
   field_group:
     group_settings:
       children:
+        - field_data_aos
         - field_setting_items_per_row
-        - field_setting_background
+        - field_setting_style
       label: Settings
       region: content
       parent_name: ''
-      weight: 2
+      weight: 3
       format_type: html_element
       format_settings:
         classes: ''
@@ -46,8 +47,8 @@ bundle: content_grid
 mode: default
 content:
   field_component_read_more:
-    type: link_default
-    weight: 7
+    type: radicati_link_button_widget
+    weight: 6
     region: content
     settings:
       placeholder_url: ''
@@ -71,13 +72,13 @@ content:
     third_party_settings: {  }
   field_content_grid_display_mode:
     type: options_select
-    weight: 5
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
   field_content_grid_items:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 5
     region: content
     settings:
       match_operator: CONTAINS
@@ -85,15 +86,21 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_setting_background:
-    type: taxonomy_icon_widget
+  field_data_aos:
+    type: options_select
     weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   field_setting_items_per_row:
     type: taxonomy_icon_widget
-    weight: 4
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }

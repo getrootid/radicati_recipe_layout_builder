@@ -4,9 +4,10 @@ status: true
 dependencies:
   config:
     - block_content.type.media
-    - field.field.block_content.media.field_media_items
+    - field.field.block_content.media.field_media_item
+    - field.field.block_content.media.field_setting_media_display_mode
   module:
-    - inline_entity_form
+    - media_library
 _core:
   default_config_hash: K1_yUXc3jPn53tD8pX-pa47eD5ord9vHWzaNpDq2RlQ
 id: block_content.media.default
@@ -14,27 +15,22 @@ targetEntityType: block_content
 bundle: media
 mode: default
 content:
-  field_media_items:
-    type: inline_entity_form_complex
-    weight: 26
+  field_media_item:
+    type: media_library_widget
+    weight: 2
     region: content
     settings:
-      form_mode: default
-      override_labels: true
-      label_singular: 'Media Item'
-      label_plural: 'Media Items'
-      allow_new: true
-      allow_existing: false
-      match_operator: CONTAINS
-      allow_duplicate: false
-      collapsible: false
-      collapsed: true
-      revision: false
-      removed_reference: delete
+      media_types: {  }
+    third_party_settings: {  }
+  field_setting_media_display_mode:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
     third_party_settings: {  }
   info:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60

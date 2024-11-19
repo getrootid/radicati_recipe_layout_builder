@@ -1,0 +1,25 @@
+uuid: 46f56510-667a-4c0c-87af-8f985cce0e2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.logo_grid
+    - field.storage.block_content.field_setting_style
+id: block_content.logo_grid.field_setting_style
+field_name: field_setting_style
+entity_type: block_content
+bundle: logo_grid
+label: Style
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: style
+      arguments: {  }
+field_type: entity_reference

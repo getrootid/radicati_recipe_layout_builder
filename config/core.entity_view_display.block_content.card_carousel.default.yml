@@ -8,9 +8,8 @@ dependencies:
     - field.field.block_content.card_carousel.field_component_read_more
     - field.field.block_content.card_carousel.field_component_sub_title
     - field.field.block_content.card_carousel.field_component_title
-    - field.field.block_content.card_carousel.field_setting_background
+    - field.field.block_content.card_carousel.field_setting_style
   module:
-    - link
     - manage_display
     - radicati_base
     - slick_entityreference
@@ -46,7 +45,7 @@ content:
     weight: 3
     region: content
   field_component_read_more:
-    type: link
+    type: radicati_link_button_formatter
     label: hidden
     settings:
       trim_length: 80
@@ -74,12 +73,13 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_setting_background:
+  field_setting_style:
     type: rad_tax_setting
-    label: hidden
-    settings: {  }
+    label: above
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
 hidden:
   search_api_excerpt: true

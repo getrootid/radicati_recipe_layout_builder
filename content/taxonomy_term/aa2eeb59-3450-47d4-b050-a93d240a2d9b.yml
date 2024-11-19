@@ -13,7 +13,7 @@ default:
       value: 'Content Width'
   weight:
     -
-      value: 19
+      value: 23
   parent:
     -
       target_id: 0

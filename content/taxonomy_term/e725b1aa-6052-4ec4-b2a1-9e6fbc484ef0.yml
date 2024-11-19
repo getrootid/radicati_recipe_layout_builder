@@ -13,7 +13,7 @@ default:
       value: Direction
   weight:
     -
-      value: 2
+      value: 15
   parent:
     -
       target_id: 0

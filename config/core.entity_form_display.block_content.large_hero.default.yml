@@ -4,15 +4,14 @@ status: true
 dependencies:
   config:
     - block_content.type.large_hero
-    - field.field.block_content.large_hero.field_large_hero_background
-    - field.field.block_content.large_hero.field_large_hero_blurb
-    - field.field.block_content.large_hero.field_large_hero_button
+    - field.field.block_content.large_hero.field_component_background_media
+    - field.field.block_content.large_hero.field_component_read_more
+    - field.field.block_content.large_hero.field_component_sub_title_long
     - field.field.block_content.large_hero.field_large_hero_title
-    - field.field.block_content.large_hero.field_setting_background
     - field.field.block_content.large_hero.field_setting_layout
+    - field.field.block_content.large_hero.field_setting_style
   module:
     - field_group
-    - link
     - media_library
     - radicati_base
     - text
@@ -20,8 +19,8 @@ third_party_settings:
   field_group:
     group_settings:
       children:
+        - field_setting_style
         - field_setting_layout
-        - field_setting_background
       label: Settings
       region: content
       parent_name: ''
@@ -46,46 +45,46 @@ targetEntityType: block_content
 bundle: large_hero
 mode: default
 content:
-  field_large_hero_background:
+  field_component_background_media:
     type: media_library_widget
-    weight: 1
+    weight: 4
     region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
-  field_large_hero_blurb:
-    type: text_textarea
+  field_component_read_more:
+    type: radicati_link_button_widget
     weight: 6
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-  field_large_hero_button:
-    type: link_default
-    weight: 7
     region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
+  field_component_sub_title_long:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
   field_large_hero_title:
     type: string_textfield
-    weight: 2
+    weight: 1
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_setting_background:
+  field_setting_layout:
     type: taxonomy_icon_widget
-    weight: 5
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_setting_layout:
+  field_setting_style:
     type: taxonomy_icon_widget
-    weight: 4
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }

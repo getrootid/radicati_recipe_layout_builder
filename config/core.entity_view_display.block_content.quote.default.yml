@@ -4,12 +4,12 @@ status: true
 dependencies:
   config:
     - block_content.type.quote
+    - field.field.block_content.quote.field_data_aos
     - field.field.block_content.quote.field_quote_citation_name
     - field.field.block_content.quote.field_quote_citation_title
     - field.field.block_content.quote.field_quote_media
     - field.field.block_content.quote.field_quote_quote
     - field.field.block_content.quote.field_setting_alignment
-    - field.field.block_content.quote.field_setting_background
   module:
     - radicati_base
     - text
@@ -20,6 +20,14 @@ targetEntityType: block_content
 bundle: quote
 mode: default
 content:
+  field_data_aos:
+    type: rad_tax_setting
+    label: hidden
+    settings:
+      use_data_attributes: '1'
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_quote_citation_name:
     type: string
     label: hidden
@@ -55,16 +63,10 @@ content:
   field_setting_alignment:
     type: rad_tax_setting
     label: hidden
-    settings: {  }
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
     weight: 4
-    region: content
-  field_setting_background:
-    type: rad_tax_setting
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
     region: content
 hidden:
   search_api_excerpt: true

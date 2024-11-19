@@ -1,0 +1,44 @@
+uuid: 6707b684-a034-47f0-bc2b-312b39f27d1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.checkerboard_highlights
+    - field.field.block_content.checkerboard_highlights.field_chhi_items
+    - field.field.block_content.checkerboard_highlights.field_data_aos
+    - field.field.block_content.checkerboard_highlights.field_setting_style
+  module:
+    - entity_reference_revisions
+    - radicati_base
+id: block_content.checkerboard_highlights.default
+targetEntityType: block_content
+bundle: checkerboard_highlights
+mode: default
+content:
+  field_chhi_items:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_data_aos:
+    type: rad_tax_setting
+    label: hidden
+    settings:
+      use_data_attributes: '1'
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_setting_style:
+    type: rad_tax_setting
+    label: above
+    settings:
+      use_data_attributes: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -13,7 +13,7 @@ default:
       value: 'Items Per Row'
   weight:
     -
-      value: 18
+      value: 22
   parent:
     -
       target_id: 0

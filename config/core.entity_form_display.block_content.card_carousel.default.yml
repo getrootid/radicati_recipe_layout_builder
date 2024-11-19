@@ -8,18 +8,16 @@ dependencies:
     - field.field.block_content.card_carousel.field_component_read_more
     - field.field.block_content.card_carousel.field_component_sub_title
     - field.field.block_content.card_carousel.field_component_title
-    - field.field.block_content.card_carousel.field_setting_background
+    - field.field.block_content.card_carousel.field_setting_style
   module:
     - field_group
     - inline_entity_form
-    - link
     - radicati_base
 third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_setting_background
-        - field_setting_width
+        - field_setting_style
       label: Settings
       region: content
       parent_name: ''
@@ -63,7 +61,7 @@ content:
       removed_reference: delete
     third_party_settings: {  }
   field_component_read_more:
-    type: link_default
+    type: radicati_link_button_widget
     weight: 6
     region: content
     settings:
@@ -86,9 +84,9 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_setting_background:
+  field_setting_style:
     type: taxonomy_icon_widget
-    weight: 3
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }

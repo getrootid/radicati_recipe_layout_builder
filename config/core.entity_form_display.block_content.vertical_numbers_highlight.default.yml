@@ -5,7 +5,6 @@ dependencies:
   config:
     - block_content.type.vertical_numbers_highlight
     - field.field.block_content.vertical_numbers_highlight.field_setting_alignment
-    - field.field.block_content.vertical_numbers_highlight.field_setting_background
     - field.field.block_content.vertical_numbers_highlight.field_vertical_highlight__item
   module:
     - inline_entity_form
@@ -20,12 +19,6 @@ content:
   field_setting_alignment:
     type: taxonomy_icon_widget
     weight: 3
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_setting_background:
-    type: taxonomy_icon_widget
-    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }

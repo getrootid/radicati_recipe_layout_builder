@@ -1,0 +1,8 @@
+uuid: 7dc01e28-f0c7-408c-838a-45a87bc1f5aa
+langcode: en
+status: true
+dependencies: {  }
+id: checkerboard_highlights
+label: 'Checkerboard Highlights'
+revision: false
+description: 'A set of content highlights that alternates the side the content and image are on.'

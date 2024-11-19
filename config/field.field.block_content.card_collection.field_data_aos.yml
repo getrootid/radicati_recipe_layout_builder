@@ -1,0 +1,25 @@
+uuid: cd6517c4-371f-49ef-88d3-1475656e2cda
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_collection
+    - field.storage.block_content.field_data_aos
+id: block_content.card_collection.field_data_aos
+field_name: field_data_aos
+entity_type: block_content
+bundle: card_collection
+label: Animation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

@@ -1,0 +1,73 @@
+uuid: 1aef6a77-4c5a-46f3-b81e-f1f1cd723dfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accordions
+    - field.storage.block_content.field_accordions_items
+    - paragraphs.paragraphs_type.accordion_item
+  module:
+    - entity_reference_revisions
+id: block_content.accordions.field_accordions_items
+field_name: field_accordions_items
+entity_type: block_content
+bundle: accordions
+label: 'Accordion Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      accordion_item: accordion_item
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_item:
+        weight: 16
+        enabled: true
+      card_collection_item:
+        weight: 17
+        enabled: false
+      checkerboard_highlight_item:
+        weight: 18
+        enabled: false
+      inline_content_accordions:
+        weight: 19
+        enabled: false
+      inline_content_call_to_action:
+        weight: 20
+        enabled: false
+      inline_content_formatted_text:
+        weight: 21
+        enabled: false
+      inline_content_heading:
+        weight: 22
+        enabled: false
+      inline_content_media_item:
+        weight: 23
+        enabled: false
+      inline_content_quote:
+        weight: 24
+        enabled: false
+      jump_menu_item:
+        weight: 25
+        enabled: false
+      logo_grid_item:
+        weight: 26
+        enabled: false
+      media_item:
+        weight: 27
+        enabled: false
+      number_highlight_item:
+        weight: 28
+        enabled: false
+      statistic_item:
+        weight: 29
+        enabled: false
+      timeline_item:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

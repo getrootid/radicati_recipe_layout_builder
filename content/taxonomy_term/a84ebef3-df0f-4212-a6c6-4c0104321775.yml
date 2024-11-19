@@ -15,7 +15,7 @@ default:
       value: Vertical
   weight:
     -
-      value: 0
+      value: 1
   parent:
     -
       entity: e725b1aa-6052-4ec4-b2a1-9e6fbc484ef0

@@ -5,7 +5,6 @@ dependencies:
   config:
     - block_content.type.vertical_numbers_highlight
     - field.field.block_content.vertical_numbers_highlight.field_setting_alignment
-    - field.field.block_content.vertical_numbers_highlight.field_setting_background
     - field.field.block_content.vertical_numbers_highlight.field_vertical_highlight__item
   module:
     - entity_reference_revisions
@@ -23,13 +22,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 3
-    region: content
-  field_setting_background:
-    type: rad_tax_setting
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
     region: content
   field_vertical_highlight__item:
     type: entity_reference_revisions_entity_view

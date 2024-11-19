@@ -4,10 +4,10 @@ status: true
 dependencies:
   config:
     - block_content.type.basic_hero
-    - field.field.block_content.basic_hero.field_basic_hero_background
-    - field.field.block_content.basic_hero.field_basic_hero_title
-    - field.field.block_content.basic_hero.field_setting_background
+    - field.field.block_content.basic_hero.field_component_background_media
+    - field.field.block_content.basic_hero.field_component_title
     - field.field.block_content.basic_hero.field_setting_layout
+    - field.field.block_content.basic_hero.field_setting_style
   module:
     - manage_display
     - radicati_base
@@ -18,7 +18,7 @@ targetEntityType: block_content
 bundle: basic_hero
 mode: default
 content:
-  field_basic_hero_background:
+  field_component_background_media:
     type: entity_reference_entity_view
     label: hidden
     settings:
@@ -27,28 +27,30 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_basic_hero_title:
+  field_component_title:
     type: title
     label: hidden
     settings:
       link_to_entity: false
-      tag: h1
+      tag: h2
     third_party_settings: {  }
-    weight: 2
-    region: content
-  field_setting_background:
-    type: rad_tax_setting
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
   field_setting_layout:
     type: rad_tax_setting
     label: hidden
-    settings: {  }
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
     weight: 3
+    region: content
+  field_setting_style:
+    type: rad_tax_setting
+    label: above
+    settings:
+      use_data_attributes: false
+    third_party_settings: {  }
+    weight: 4
     region: content
 hidden:
   search_api_excerpt: true

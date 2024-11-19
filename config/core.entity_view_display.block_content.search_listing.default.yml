@@ -5,9 +5,7 @@ dependencies:
   config:
     - block_content.type.search_listing
     - field.field.block_content.search_listing.field_component_title
-    - field.field.block_content.search_listing.field_setting_background
   module:
-    - radicati_base
     - text_field_formatter
 _core:
   default_config_hash: 7IblGjnTsyixZse46Slg5RnfW-jEdsbyrIX3Gtg-FYs
@@ -27,13 +25,6 @@ content:
       link_to_entity: 0
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_setting_background:
-    type: rad_tax_setting
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
     region: content
 hidden:
   search_api_excerpt: true

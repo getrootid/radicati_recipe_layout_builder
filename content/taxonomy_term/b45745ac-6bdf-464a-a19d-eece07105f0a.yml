@@ -13,7 +13,7 @@ default:
       value: 'Media Layout'
   weight:
     -
-      value: 22
+      value: 26
   parent:
     -
       target_id: 0
