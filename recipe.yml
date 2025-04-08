@@ -21,6 +21,7 @@ install:
   - inline_entity_form
   - layout_builder_operation_link
   - layout_builder_restrictions
+  - protected_pages
   - slick
   - slick_entityreference
   - slick_ui
