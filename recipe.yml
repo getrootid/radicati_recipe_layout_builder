@@ -35,7 +35,6 @@ install:
 config:
   import:
     link: "*"
-    path: "*"
     pathauto: "*"
     manage_display: "*"
     paragraphs: "*"
