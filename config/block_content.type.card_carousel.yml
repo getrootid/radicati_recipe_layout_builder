@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: NLsKyM-gT7WNaLjf379cf4RBiKNiG6fFBTfwm81zXHE
+  default_config_hash: A8AfjXa19UnvjnBkSRjWb8phw2deKfJyk3daeZ0C4Gw
 id: card_carousel
 label: 'Card Carousel'
 revision: 0

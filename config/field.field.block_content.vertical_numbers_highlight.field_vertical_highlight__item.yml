@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: K1wqCg1TM4t5kBqYgNmQpNkm-RM6xyAmNA3wb2olg_k
+  default_config_hash: XJu0VVjx0_8ziUezybXpwy62SFi9MXYZcZ8zryW6-Ys
 id: block_content.vertical_numbers_highlight.field_vertical_highlight__item
 field_name: field_vertical_highlight__item
 entity_type: block_content

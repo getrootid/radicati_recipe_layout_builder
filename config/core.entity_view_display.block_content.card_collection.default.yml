@@ -8,7 +8,6 @@ dependencies:
     - field.field.block_content.card_collection.field_component_read_more
     - field.field.block_content.card_collection.field_component_sub_title
     - field.field.block_content.card_collection.field_component_title
-    - field.field.block_content.card_collection.field_data_aos
     - field.field.block_content.card_collection.field_setting_items_per_row
     - field.field.block_content.card_collection.field_setting_style
   module:
@@ -16,7 +15,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: nj7lMdcpm4StiZHOZSXuucGFnFmQVeUtr7aUxKwshwI
+  default_config_hash: 6XRPcCNL0assorAkRSCl62-TcBjWRXGbeDRMCOT4sfs
 id: block_content.card_collection.default
 targetEntityType: block_content
 bundle: card_collection
@@ -60,19 +59,11 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_setting_items_per_row:
-    type: rad_tax_setting
+    type: entity_reference_label
     label: hidden
     settings:
-      use_data_attributes: false
+      link: false
     third_party_settings: {  }
     weight: 4
     region: content

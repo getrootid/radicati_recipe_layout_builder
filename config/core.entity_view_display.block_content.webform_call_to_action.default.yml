@@ -5,20 +5,31 @@ dependencies:
   config:
     - block_content.type.webform_call_to_action
     - field.field.block_content.webform_call_to_action.field_component_background_media
-    - field.field.block_content.webform_call_to_action.field_component_sub_title_long
+    - field.field.block_content.webform_call_to_action.field_component_blurb
     - field.field.block_content.webform_call_to_action.field_component_title
-    - field.field.block_content.webform_call_to_action.field_data_aos
     - field.field.block_content.webform_call_to_action.field_setting_layout
     - field.field.block_content.webform_call_to_action.field_setting_style
-    - field.field.block_content.webform_call_to_action.field_webform_cta_blurb
     - field.field.block_content.webform_call_to_action.field_webform_cta_form
   module:
     - manage_display
     - radicati_base
+    - sdc_display
     - text
     - webform
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
 _core:
-  default_config_hash: izxc3E4Stx7OqonAeG9-fB9Ve8dJ-xcok946jnMFsGs
+  default_config_hash: pDUNk_QjlIKdXF-83NrgWY61sJgN6SPuJNnJF6voPXM
 id: block_content.webform_call_to_action.default
 targetEntityType: block_content
 bundle: webform_call_to_action
@@ -32,6 +43,13 @@ content:
       link: false
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_component_blurb:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
     region: content
   field_component_sub_title_long:
     type: text_default
@@ -49,21 +67,13 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 5
-    region: content
   field_setting_layout:
     type: rad_tax_setting
     label: above
     settings:
       use_data_attributes: false
     third_party_settings: {  }
-    weight: 7
+    weight: 5
     region: content
   field_setting_style:
     type: rad_tax_setting
@@ -71,7 +81,7 @@ content:
     settings:
       use_data_attributes: false
     third_party_settings: {  }
-    weight: 6
+    weight: 4
     region: content
   field_webform_cta_blurb:
     type: text_default
@@ -87,7 +97,7 @@ content:
       source_entity: true
       lazy: false
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
 hidden:
   search_api_excerpt: true

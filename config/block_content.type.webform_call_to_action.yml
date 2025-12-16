@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: UEj6x5gZ1HA7JNVfVUAcu5xzlaiyi2kz-v5E9nhmElw
+  default_config_hash: OLtx7S5kfAyxv0_YKWTNlUFXjyDoZCtojPjM2uEgll0
 id: webform_call_to_action
 label: 'Webform Call to Action'
 revision: 0

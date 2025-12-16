@@ -5,9 +5,9 @@ dependencies:
   config:
     - block_content.type.large_hero
     - field.field.block_content.large_hero.field_component_background_media
+    - field.field.block_content.large_hero.field_component_blurb
     - field.field.block_content.large_hero.field_component_read_more
-    - field.field.block_content.large_hero.field_component_sub_title_long
-    - field.field.block_content.large_hero.field_large_hero_title
+    - field.field.block_content.large_hero.field_component_title
     - field.field.block_content.large_hero.field_setting_layout
     - field.field.block_content.large_hero.field_setting_style
   module:
@@ -15,7 +15,7 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: 3qQbc34E3nIzfqa9pq5iWBI-hRSvPdwceTzD0KPrhNA
+  default_config_hash: 7nCmMRbJduJvC0q9i4xp_Br5OuZwctHF65p20UofFQ8
 id: block_content.large_hero.default
 targetEntityType: block_content
 bundle: large_hero
@@ -27,6 +27,13 @@ content:
     settings:
       view_mode: 16_9_full_width
       link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_component_blurb:
+    type: text_default
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
     weight: 2
     region: content
@@ -46,6 +53,15 @@ content:
     type: text_default
     label: hidden
     settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_component_title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h1
     third_party_settings: {  }
     weight: 1
     region: content

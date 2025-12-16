@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.listing_section
     - field.storage.block_content.field_component_title
 _core:
-  default_config_hash: Cl41BYYu7a1LbqhroHiPLsWZvNKjqpzRuqVmjzgF8MU
+  default_config_hash: YtKrep6aOJg1qimZtylt_37CX5dgE22Xa3jGbl0hJOM
 id: block_content.listing_section.field_component_title
 field_name: field_component_title
 entity_type: block_content

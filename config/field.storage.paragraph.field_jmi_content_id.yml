@@ -5,7 +5,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: sBw1FevzY4Xw_Q26Ra2Ikq0_HfwCqyKj4SobMcJA0cI
+  default_config_hash: CoTqR1Xi8H1X4J-vsO8Jm3gJXjT7_h95Nkdbl5uvOTU
 id: paragraph.field_jmi_content_id
 field_name: field_jmi_content_id
 entity_type: paragraph

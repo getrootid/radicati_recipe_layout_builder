@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - block_content.type.quote
-    - field.field.block_content.quote.field_data_aos
     - field.field.block_content.quote.field_quote_citation_name
     - field.field.block_content.quote.field_quote_citation_title
     - field.field.block_content.quote.field_quote_media
@@ -19,7 +18,6 @@ third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_data_aos
         - field_setting_alignment
       label: Settings
       region: content
@@ -39,18 +37,12 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: h6bQa896myDe_velSwwQyCaW1ibInVSn0I5dDZoJdQI
+  default_config_hash: bgbELhbqAQkXICkmZnyF_bBPj1NB4di93StAd3dpcBo
 id: block_content.quote.default
 targetEntityType: block_content
 bundle: quote
 mode: default
 content:
-  field_data_aos:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_quote_citation_name:
     type: string_textfield
     weight: 4

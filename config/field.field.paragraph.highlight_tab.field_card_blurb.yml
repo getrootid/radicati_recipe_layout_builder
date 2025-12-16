@@ -1,0 +1,22 @@
+uuid: e1ed4c51-a1b1-4b63-9a28-c631912585f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_blurb
+    - paragraphs.paragraphs_type.highlight_tab
+  module:
+    - text
+id: paragraph.highlight_tab.field_card_blurb
+field_name: field_card_blurb
+entity_type: paragraph
+bundle: highlight_tab
+label: Blurb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

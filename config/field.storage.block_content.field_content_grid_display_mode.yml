@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - entity_reference_display
 _core:
-  default_config_hash: sSVktM6i-GYJDbjV-bwubZrUWi6YfySGvxqu1j87GAU
+  default_config_hash: oxSbt1poU9yK8YUCT_1Jb6GL5WFUdJqu_Ri-CLsxw28
 id: block_content.field_content_grid_display_mode
 field_name: field_content_grid_display_mode
 entity_type: block_content

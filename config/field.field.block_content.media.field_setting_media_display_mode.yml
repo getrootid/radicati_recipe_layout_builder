@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_setting_media_display_mode
   module:
     - entity_reference_display
+_core:
+  default_config_hash: TXjEW2P23CD2_3tKFpRB9lnW4iGrNWn6WreUWSLf5KA
 id: block_content.media.field_setting_media_display_mode
 field_name: field_setting_media_display_mode
 entity_type: block_content
@@ -19,12 +21,7 @@ default_value: {  }
 default_value_callback: ''
 settings:
   exclude:
-    16_9_full_width: 16_9_full_width
-    16_9_half_width: 16_9_half_width
-    1_1_full_width: 1_1_full_width
-    1_1_half_width: 1_1_half_width
-    4_3_full_width: 4_3_full_width
-    4_3_half_width: 4_3_half_width
-    scaled_25_width: scaled_25_width
+    '16_9': '16_9'
+    '1_1': '1_1'
   negate: true
 field_type: entity_reference_display

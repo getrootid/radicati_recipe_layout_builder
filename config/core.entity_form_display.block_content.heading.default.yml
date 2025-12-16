@@ -5,10 +5,7 @@ dependencies:
   config:
     - block_content.type.heading
     - field.field.block_content.heading.field_component_heading
-    - field.field.block_content.heading.field_component_sub_heading
-    - field.field.block_content.heading.field_data_aos
     - field.field.block_content.heading.field_setting_alignment
-    - field.field.block_content.heading.field_setting_style
   module:
     - field_group
     - heading
@@ -17,7 +14,6 @@ third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_data_aos
         - field_setting_alignment
         - field_setting_style
       label: Settings
@@ -37,6 +33,8 @@ third_party_settings:
         effect: none
         speed: fast
         required_fields: true
+_core:
+  default_config_hash: lKtX2K8Mi1dhJoYxt5YiX3KaI-hYVNdRi8Duvj4NLeQ
 id: block_content.heading.default
 targetEntityType: block_content
 bundle: heading
@@ -48,27 +46,9 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_component_sub_heading:
-    type: heading
-    weight: 1
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_data_aos:
-    type: options_select
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_setting_alignment:
     type: taxonomy_icon_widget
     weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_setting_style:
-    type: taxonomy_icon_widget
-    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }

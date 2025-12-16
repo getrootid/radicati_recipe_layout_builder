@@ -5,12 +5,10 @@ dependencies:
   config:
     - block_content.type.webform_call_to_action
     - field.field.block_content.webform_call_to_action.field_component_background_media
-    - field.field.block_content.webform_call_to_action.field_component_sub_title_long
+    - field.field.block_content.webform_call_to_action.field_component_blurb
     - field.field.block_content.webform_call_to_action.field_component_title
-    - field.field.block_content.webform_call_to_action.field_data_aos
     - field.field.block_content.webform_call_to_action.field_setting_layout
     - field.field.block_content.webform_call_to_action.field_setting_style
-    - field.field.block_content.webform_call_to_action.field_webform_cta_blurb
     - field.field.block_content.webform_call_to_action.field_webform_cta_form
   module:
     - field_group
@@ -22,13 +20,12 @@ third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_data_aos
         - field_setting_style
         - field_setting_layout
       label: Settings
       region: content
       parent_name: ''
-      weight: 3
+      weight: 0
       format_type: html_element
       format_settings:
         classes: ''
@@ -43,7 +40,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: i9c5n0v128_-fAvMDQQ1xmJZhICSoVllhsYIs4BaDDc
+  default_config_hash: qQB9VqEqs2Y9IGhNgvgF34Q0cpBHtUNIHgfoFnR_3j8
 id: block_content.webform_call_to_action.default
 targetEntityType: block_content
 bundle: webform_call_to_action
@@ -51,10 +48,18 @@ mode: default
 content:
   field_component_background_media:
     type: media_library_widget
-    weight: 4
+    weight: 3
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  field_component_blurb:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
   field_component_sub_title_long:
     type: text_textarea
@@ -71,12 +76,6 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_data_aos:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
     third_party_settings: {  }
   field_setting_layout:
     type: taxonomy_icon_widget
@@ -100,7 +99,7 @@ content:
     third_party_settings: {  }
   field_webform_cta_form:
     type: webform_entity_reference_select
-    weight: 6
+    weight: 5
     region: content
     settings:
       default_data: false

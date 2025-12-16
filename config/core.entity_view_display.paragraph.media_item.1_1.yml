@@ -1,0 +1,59 @@
+uuid: 42808b52-d186-4c20-a400-1ee041798b3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.1_1
+    - field.field.paragraph.media_item.field_alt_text_override
+    - field.field.paragraph.media_item.field_media_item__caption
+    - field.field.paragraph.media_item.field_media_item__media
+    - paragraphs.paragraphs_type.media_item
+  module:
+    - layout_builder
+    - nomarkup
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: 3CFZbH1r_jXHe5edZKRVi3gMCryMVPZlUCG4bp-mseU
+id: paragraph.media_item.1_1
+targetEntityType: paragraph
+bundle: media_item
+mode: '1_1'
+content:
+  field_media_item__caption:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media_item__media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: 1_1_half_width
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: '1'
+    weight: 0
+    region: content
+hidden:
+  field_alt_text_override: true
+  search_api_excerpt: true

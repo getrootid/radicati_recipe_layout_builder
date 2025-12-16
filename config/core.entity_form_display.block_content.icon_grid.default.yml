@@ -1,0 +1,76 @@
+uuid: 8c547a18-68e8-49fd-8cac-5e7d284183b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icon_grid
+    - field.field.block_content.icon_grid.field_component_read_more
+    - field.field.block_content.icon_grid.field_component_sub_title
+    - field.field.block_content.icon_grid.field_component_title
+    - field.field.block_content.icon_grid.field_icon_grid__items
+    - field.field.block_content.icon_grid.field_setting_items_per_row
+  module:
+    - inline_entity_form
+    - radicati_base
+id: block_content.icon_grid.default
+targetEntityType: block_content
+bundle: icon_grid
+mode: default
+content:
+  field_component_read_more:
+    type: radicati_link_button_widget
+    weight: 5
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_component_sub_title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_component_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_icon_grid__items:
+    type: inline_entity_form_complex
+    weight: 4
+    region: content
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: 'Icon Grid Item'
+      label_plural: 'Icon Grid Items'
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: delete
+    third_party_settings: {  }
+  field_setting_items_per_row:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

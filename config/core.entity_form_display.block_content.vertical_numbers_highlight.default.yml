@@ -10,7 +10,7 @@ dependencies:
     - inline_entity_form
     - radicati_base
 _core:
-  default_config_hash: QHure80PwsvhE-17rjXOu4zDuRK4fiwszgqLTDbXcyE
+  default_config_hash: dD2RN6sUTi-Vk24vQBrz2uGuuXvg28LDQfjcjQtMs4A
 id: block_content.vertical_numbers_highlight.default
 targetEntityType: block_content
 bundle: vertical_numbers_highlight

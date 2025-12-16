@@ -9,7 +9,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: BjEQppJh3-63ELaQlIZ8G3LUSZ8iQ3078u4Ey91oO6s
+  default_config_hash: 2-qNU4BstckCWHuOwAGasFcp7clDyzsHouETnJR_s-o
 id: block_content.jump_menu.default
 targetEntityType: block_content
 bundle: jump_menu

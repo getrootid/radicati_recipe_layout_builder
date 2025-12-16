@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: wJq-2-ANDnJTrCrGdyRlQCzwVLgpTpfe8nU2zpveLsc
+  default_config_hash: 9mWdlT-VHtda0M9JmPfYNsOmrQav178DDiq7G1OtowQ
 id: vertical_numbers_highlight
 label: 'Vertical Numbers Highlight'
 revision: false

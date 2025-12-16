@@ -1,0 +1,79 @@
+uuid: 3003d236-aa23-4d04-872c-608901050679
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media
+    - field.storage.block_content.field_media__media_item
+    - paragraphs.paragraphs_type.media_item
+  module:
+    - entity_reference_revisions
+id: block_content.media.field_media__media_item
+field_name: field_media__media_item
+entity_type: block_content
+bundle: media
+label: 'Media Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      media_item: media_item
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_item:
+        weight: 18
+        enabled: false
+      card_collection_item:
+        weight: 19
+        enabled: false
+      checkerboard_highlight_item:
+        weight: 20
+        enabled: false
+      highlight_tab:
+        weight: 21
+        enabled: false
+      icon_grid_item:
+        weight: 22
+        enabled: false
+      icon_tab:
+        weight: 23
+        enabled: false
+      inline_content_accordions:
+        weight: 24
+        enabled: false
+      inline_content_call_to_action:
+        weight: 25
+        enabled: false
+      inline_content_formatted_text:
+        weight: 26
+        enabled: false
+      inline_content_heading:
+        weight: 27
+        enabled: false
+      inline_content_media_item:
+        weight: 28
+        enabled: false
+      inline_content_quote:
+        weight: 29
+        enabled: false
+      jump_menu_item:
+        weight: 30
+        enabled: false
+      logo_grid_item:
+        weight: 31
+        enabled: false
+      media_item:
+        weight: 32
+        enabled: true
+      number_highlight_item:
+        weight: 33
+        enabled: false
+      statistic_item:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

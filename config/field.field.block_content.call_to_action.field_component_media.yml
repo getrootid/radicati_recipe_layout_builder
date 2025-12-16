@@ -1,0 +1,33 @@
+uuid: 34a6df71-9239-4a75-acce-081d7e731812
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_to_action
+    - field.storage.block_content.field_component_media
+    - media.type.image
+    - media.type.remote_video
+_core:
+  default_config_hash: EStJdZSWD_pc_Cnx3UaG7tdZPru99nDn3UqgwOg_LqE
+id: block_content.call_to_action.field_component_media
+field_name: field_component_media
+entity_type: block_content
+bundle: call_to_action
+label: 'Component Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

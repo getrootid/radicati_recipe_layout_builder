@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: m90eoCTtovj7ei12SDc2CghVt0XEIMSQy-bE78J1_3M
+  default_config_hash: 7GiBuSNL1aojjy7z2-GT6gdnn6EAviqVhbqOocxWS7Q
 id: form_section
 label: 'Form Section'
 revision: 0

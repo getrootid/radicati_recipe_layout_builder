@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.icon_stat_grid
     - field.storage.block_content.field_setting_style
+_core:
+  default_config_hash: Na2SX39JDiWhBC1j3EhXZgV9d5MH7rvuQPfQy-KqLvw
 id: block_content.icon_stat_grid.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

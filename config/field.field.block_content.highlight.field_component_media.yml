@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_component_media
     - media.type.image
     - media.type.remote_video
+_core:
+  default_config_hash: UcxOvgsBseUV9u9FiPmfYlf7W_QTinnti39N6ZhmfQI
 id: block_content.highlight.field_component_media
 field_name: field_component_media
 entity_type: block_content

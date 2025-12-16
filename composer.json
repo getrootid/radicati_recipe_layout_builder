@@ -22,6 +22,8 @@
     "drupal/layout_builder_operation_link": "*",
     "drupal/layout_builder_restrictions": "*",
     "drupal/slick_entityreference": "*",
-    "drupal/text_field_formatter": "*"
+    "drupal/text_field_formatter": "*",
+    "drupal/link_attributes": "*",
+    "drupal/nomarkup": "*"
   }
 }

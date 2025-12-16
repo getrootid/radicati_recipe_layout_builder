@@ -1,0 +1,11 @@
+uuid: d81894fe-fd18-4051-bbf7-d674be5a8023
+langcode: en
+status: true
+dependencies: {  }
+id: media_carousel
+block_id: 'inline_block:media_carousel'
+category: components
+label: 'Media Carousel'
+image_path: ''
+image_alt: ''
+weight: 1

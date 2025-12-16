@@ -1,0 +1,26 @@
+uuid: 4c62a3c3-43cb-4f9b-8f86-336f2b09c1e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_call_to_action
+    - field.storage.block_content.field_component_blurb
+    - filter.format.basic_html
+  module:
+    - text
+_core:
+  default_config_hash: BaTpPbxBlrJODLNoeiCymNZVwiz1cpq3_uwHexBoTzc
+id: block_content.webform_call_to_action.field_component_blurb
+field_name: field_component_blurb
+entity_type: block_content
+bundle: webform_call_to_action
+label: Blurb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

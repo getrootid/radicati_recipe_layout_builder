@@ -2,6 +2,8 @@ uuid: b57f8bab-f37f-4a18-9e9c-accb1512bf26
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: sSPdAePpKmc6tIkjKVy2xCasY2wflZfrYeuc9V0WF-Y
 id: checkerboard_highlights
 block_id: 'inline_block:checkerboard_highlights'
 category: components

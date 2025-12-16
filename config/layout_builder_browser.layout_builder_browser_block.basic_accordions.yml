@@ -1,0 +1,11 @@
+uuid: ef0462a1-63bf-435d-b9fa-24f57d34e65d
+langcode: en
+status: true
+dependencies: {  }
+id: basic_accordions
+block_id: 'inline_block:basic_accordions'
+category: page_content
+label: 'Basic Accordions'
+image_path: ''
+image_alt: ''
+weight: -13

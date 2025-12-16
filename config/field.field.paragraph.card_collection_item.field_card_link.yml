@@ -8,7 +8,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: RwqvixlxTrfBvkPy-aEhHvpQKpz2ET3AcmHtX2WYZdk
+  default_config_hash: iUm4m4bABUxvYyMnAioFC_ksbrkPEwxuStMV7xGxsOM
 id: paragraph.card_collection_item.field_card_link
 field_name: field_card_link
 entity_type: paragraph

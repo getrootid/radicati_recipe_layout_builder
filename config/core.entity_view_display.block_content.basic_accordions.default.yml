@@ -1,0 +1,48 @@
+uuid: 3640075d-2a16-47a0-94e2-5c30957a7736
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_accordions
+    - field.field.block_content.basic_accordions.field_accordions_items
+  module:
+    - entity_reference_revisions
+    - nomarkup
+    - sdc_display
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
+id: block_content.basic_accordions.default
+targetEntityType: block_content
+bundle: basic_accordions
+mode: default
+content:
+  field_accordions_items:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

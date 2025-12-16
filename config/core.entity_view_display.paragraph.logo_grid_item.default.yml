@@ -8,23 +8,46 @@ dependencies:
     - paragraphs.paragraphs_type.logo_grid_item
   module:
     - link
+    - nomarkup
+    - sdc_display
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
 _core:
-  default_config_hash: Wf1PUe7QoUJgVYDOH_4g87BB5dbjOdzPxJ0ZBcJL2iQ
+  default_config_hash: C-m2XWyehkqIdj8Zv-id4suwHzFDXxHZ3u1V9yR7gFQ
 id: paragraph.logo_grid_item.default
 targetEntityType: paragraph
 bundle: logo_grid_item
 mode: default
 content:
   field_logo_item_link:
-    type: link
+    type: link_separate
     label: hidden
     settings:
       trim_length: 80
       url_only: false
       url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
     weight: 1
     region: content
   field_logo_item_logo:

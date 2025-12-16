@@ -8,7 +8,7 @@ dependencies:
     - media.type.remote_video
     - paragraphs.paragraphs_type.media_item
 _core:
-  default_config_hash: wkAQIQHKBU1vOdehxKTAsZBP6BkBlBdS-ycPoZAD0WU
+  default_config_hash: '-LbhJ0K6hqV8AMvn4C1CVkvztIveacDBR3vUO9DKD7k'
 id: paragraph.media_item.field_media_item__media
 field_name: field_media_item__media
 entity_type: paragraph

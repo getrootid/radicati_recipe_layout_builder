@@ -6,6 +6,8 @@ dependencies:
     - block_content
     - entity_reference_revisions
     - paragraphs
+_core:
+  default_config_hash: 4vGXv-T21KW-Ycl3lyML-iZNMJGSVwdUzJcRUVqXTUQ
 id: block_content.field_accordions_items
 field_name: field_accordions_items
 entity_type: block_content

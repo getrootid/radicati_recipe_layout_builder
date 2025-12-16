@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - block_content.type.quote
-    - field.field.block_content.quote.field_data_aos
     - field.field.block_content.quote.field_quote_citation_name
     - field.field.block_content.quote.field_quote_citation_title
     - field.field.block_content.quote.field_quote_media
@@ -14,20 +13,12 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: CdmBx6rEgkfoUAgGI0_HI7sSykugCj0FeVD0gj9GdO0
+  default_config_hash: SiFSAsEaQkqChMV3VbZaLyBxbvuSAf5PMGkythbSVGs
 id: block_content.quote.default
 targetEntityType: block_content
 bundle: quote
 mode: default
 content:
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_quote_citation_name:
     type: string
     label: hidden

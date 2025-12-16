@@ -1,0 +1,19 @@
+uuid: 6c2e570b-ec83-49cc-8868-3e56987653d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_carousel
+    - field.storage.block_content.field_component_title
+id: block_content.media_carousel.field_component_title
+field_name: field_component_title
+entity_type: block_content
+bundle: media_carousel
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

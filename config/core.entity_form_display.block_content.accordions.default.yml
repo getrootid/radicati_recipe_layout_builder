@@ -5,20 +5,17 @@ dependencies:
   config:
     - block_content.type.accordions
     - field.field.block_content.accordions.field_accordions_items
-    - field.field.block_content.accordions.field_component_sub_title_long
+    - field.field.block_content.accordions.field_component_sub_title
     - field.field.block_content.accordions.field_component_title
-    - field.field.block_content.accordions.field_data_aos
     - field.field.block_content.accordions.field_setting_style
   module:
     - field_group
     - inline_entity_form
     - radicati_base
-    - text
 third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_data_aos
         - field_setting_style
       label: Settings
       region: content
@@ -37,6 +34,8 @@ third_party_settings:
         effect: none
         speed: fast
         required_fields: true
+_core:
+  default_config_hash: K-h41STtRPx6M2h66GcMeDfapvXP02qdMi5ogzcQsJw
 id: block_content.accordions.default
 targetEntityType: block_content
 bundle: accordions
@@ -76,12 +75,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_data_aos:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_setting_style:
     type: taxonomy_icon_widget
     weight: 6
@@ -96,4 +89,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_component_sub_title: true

@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: dZlpe0-K3v07SKwcwzcJlLqhtk6r9fKxxDdjkSbVC98
+  default_config_hash: QmURB9rJRqLFNo7o3mm74vte4JG5wh4nlgLbQZHeFlA
 id: highlight
 block_id: 'inline_block:highlight'
 category: components

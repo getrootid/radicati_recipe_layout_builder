@@ -2,10 +2,12 @@ uuid: 12253ded-b8ee-4df5-9280-81e7530985c9
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: EpO5uTW4GCD59MnjC6pMRKIk1n_5VKJSCGgOwub7Ul0
 id: accordions
-block_id: 'inline_block:accordions'
+block_id: 'inline_block:accordion_section'
 category: components
-label: Accordions
+label: 'Accordion Section'
 image_path: ''
 image_alt: ''
 weight: -12

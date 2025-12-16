@@ -4,26 +4,70 @@ status: true
 dependencies:
   config:
     - block_content.type.call_to_action
-    - field.field.block_content.call_to_action.field_cta_blurb
-    - field.field.block_content.call_to_action.field_cta_button
+    - field.field.block_content.call_to_action.field_component_blurb
+    - field.field.block_content.call_to_action.field_component_media
+    - field.field.block_content.call_to_action.field_component_read_more
+    - field.field.block_content.call_to_action.field_component_sub_title
+    - field.field.block_content.call_to_action.field_component_title
     - field.field.block_content.call_to_action.field_cta_label
-    - field.field.block_content.call_to_action.field_cta_media
-    - field.field.block_content.call_to_action.field_cta_title
-    - field.field.block_content.call_to_action.field_data_aos
     - field.field.block_content.call_to_action.field_setting_alignment
     - field.field.block_content.call_to_action.field_setting_style
   module:
-    - link
     - manage_display
     - radicati_base
     - text
 _core:
-  default_config_hash: qfOSQsw3f1MTgO8AFHTI36IjxidTdSs9sqdVEWqb2FE
+  default_config_hash: rdfoshYa9-SJla4sAjV4PaWVXEa2earM3-vLagqLFjk
 id: block_content.call_to_action.default
 targetEntityType: block_content
 bundle: call_to_action
 mode: default
 content:
+  field_component_blurb:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_component_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: 16_9_full_width
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_component_read_more:
+    type: radicati_link_button_formatter
+    label: hidden
+    settings:
+      trim_length: '80'
+      url_only: ''
+      url_plain: ''
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_component_sub_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_component_title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h2
+    third_party_settings: {  }
+    weight: 2
+    region: content
   field_cta_blurb:
     type: text_default
     label: hidden
@@ -69,20 +113,13 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_setting_alignment:
     type: rad_tax_setting
     label: hidden
-    settings: {  }
+    settings:
+      use_data_attributes: false
     third_party_settings: {  }
-    weight: 5
+    weight: 7
     region: content
   field_setting_style:
     type: rad_tax_setting
@@ -90,7 +127,7 @@ content:
     settings:
       use_data_attributes: false
     third_party_settings: {  }
-    weight: 3
+    weight: 6
     region: content
 hidden:
   search_api_excerpt: true

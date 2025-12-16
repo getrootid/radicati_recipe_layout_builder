@@ -12,6 +12,8 @@ dependencies:
     - media_library
     - radicati_base
     - text
+_core:
+  default_config_hash: 9Wm9-vnduxo0H0vRM38pW95DQkv6RGJyOYAXFsGM3ug
 id: paragraph.checkerboard_highlight_item.default
 targetEntityType: paragraph
 bundle: checkerboard_highlight_item

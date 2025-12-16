@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2873c27d-1bfc-41eb-b5c8-f92d3dc40f31
+  bundle: settings
+  default_langcode: en
+  depends:
+    179e89fc-fa15-48e3-915f-3b5ee78ebbad: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: White
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      entity: 1e9dbb56-a0ad-44bf-9674-0124d12ce98a
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_setting_class:
+    - value: button button--white

@@ -9,7 +9,6 @@ dependencies:
     - field.field.block_content.content_grid.field_component_title
     - field.field.block_content.content_grid.field_content_grid_display_mode
     - field.field.block_content.content_grid.field_content_grid_items
-    - field.field.block_content.content_grid.field_data_aos
     - field.field.block_content.content_grid.field_setting_items_per_row
     - field.field.block_content.content_grid.field_setting_style
   module:
@@ -19,7 +18,6 @@ third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_data_aos
         - field_setting_items_per_row
         - field_setting_style
       label: Settings
@@ -40,7 +38,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: mRN10OBVM172jXBw-oER04IwT2t95PZjGtitXVrscPw
+  default_config_hash: 2p9Mn109pjDdbO1s22O6yckSmX0iNgTVMBonkNvAywU
 id: block_content.content_grid.default
 targetEntityType: block_content
 bundle: content_grid
@@ -85,12 +83,6 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_data_aos:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
     third_party_settings: {  }
   field_setting_items_per_row:
     type: taxonomy_icon_widget

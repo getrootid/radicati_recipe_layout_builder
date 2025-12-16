@@ -10,38 +10,46 @@ dependencies:
     - field.field.block_content.card_carousel.field_component_title
     - field.field.block_content.card_carousel.field_setting_style
   module:
+    - entity_reference_revisions
     - manage_display
+    - nomarkup
     - radicati_base
-    - slick_entityreference
+    - sdc_display
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
 _core:
-  default_config_hash: BUqY54UOHWzAeKp8TwnZnFQJxgFrTsGrk234O5XdL54
+  default_config_hash: tbhj7PN_pkBPcPRL4LsxRETuaRC7_WLdqbzDtguRop8
 id: block_content.card_carousel.default
 targetEntityType: block_content
 bundle: card_carousel
 mode: default
 content:
   field_carousel_cards:
-    type: slick_entityreference_vanilla
+    type: entity_reference_revisions_entity_view
     label: hidden
     settings:
-      optionset: card_slider
       view_mode: default
-      cache: 0
-      use_theme_field: false
-      skin: ''
-      overridables:
-        arrows: '0'
-        autoplay: '0'
-        dots: '0'
-        draggable: '0'
-        infinite: '0'
-        mouseWheel: '0'
-        randomize: '0'
-        variableWidth: '0'
-      override: false
-      skin_arrows: ''
-      skin_dots: ''
-    third_party_settings: {  }
+      link: ''
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
     weight: 3
     region: content
   field_component_read_more:

@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.checkerboard_highlight_item
   module:
     - link
+_core:
+  default_config_hash: IpMEpDSjYZNRfUb1ptFaUQJBddTHKNqZPwhh1GzAIQ4
 id: paragraph.checkerboard_highlight_item.field_chi_button
 field_name: field_chi_button
 entity_type: paragraph

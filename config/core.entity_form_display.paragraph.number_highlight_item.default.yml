@@ -9,7 +9,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: uhwuYDROjaAtnApXH5LxbVgmUypOOEVrbbE5sj57YsU
+  default_config_hash: Y8TJXN_AdywUNuw2MxOaShJkGT4gQTtAUpsTI3sYIi8
 id: paragraph.number_highlight_item.default
 targetEntityType: paragraph
 bundle: number_highlight_item

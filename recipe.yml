@@ -21,9 +21,6 @@ install:
   - inline_entity_form
   - layout_builder_operation_link
   - layout_builder_restrictions
-  - slick
-  - slick_entityreference
-  - slick_ui
   - taxonomy
   - radicati_base
   - text_field_formatter
@@ -32,9 +29,14 @@ install:
   - fontawesome
   - fontawesome_menu_icons
   - radicati_layouts
+  - link_attributes
+  - nomarkup
+  - splide
+  - splide_ui
 config:
   import:
     link: "*"
+    path: "*"
     pathauto: "*"
     manage_display: "*"
     paragraphs: "*"
@@ -48,15 +50,15 @@ config:
     layout_builder_operation_link: "*"
     layout_builder_restrictions: "*"
     text_field_formatter: "*"
-    slick: "*"
-    slick_entityreference: "*"
-    slick_ui: "*"
     taxonomy: "*"
     radicati_base: "*"
     viewsreference: "*"
     webform: "*"
     fontawesome: "*"
     fontawesome_menu_icons: "*"
+    link_attributes: "*"
+    splide: "*"
+    splide_ui: "*"
   actions:
     fontawesome.settings:
       simple_config_update:

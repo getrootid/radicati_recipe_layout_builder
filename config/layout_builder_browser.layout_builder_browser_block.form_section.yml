@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: vV0VX0YRfD7VlRlqLt8A15Sr_XBRFfhfhJzo2BtkswE
+  default_config_hash: 5WzgHePAQOojBuZzvwOke1V3-UyU4YnmzXmpOCgyy4g
 id: form_section
 block_id: 'inline_block:form_section'
 category: forms

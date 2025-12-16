@@ -1,0 +1,68 @@
+uuid: a226ad0e-1360-4757-a298-55a54ababc11
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accordion_section
+    - field.field.block_content.accordion_section.field_accordions_items
+    - field.field.block_content.accordion_section.field_component_sub_title
+    - field.field.block_content.accordion_section.field_component_title
+  module:
+    - entity_reference_revisions
+    - manage_display
+    - nomarkup
+    - sdc_display
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
+id: block_content.accordion_section.default
+targetEntityType: block_content
+bundle: accordion_section
+mode: default
+content:
+  field_accordions_items:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
+    weight: 2
+    region: content
+  field_component_sub_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_component_title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

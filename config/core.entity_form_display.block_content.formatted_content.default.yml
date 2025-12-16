@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - block_content.type.formatted_content
-    - field.field.block_content.formatted_content.field_data_aos
     - field.field.block_content.formatted_content.field_formatted_content
   module:
     - field_group
@@ -12,8 +11,7 @@ dependencies:
 third_party_settings:
   field_group:
     group_settings:
-      children:
-        - field_data_aos
+      children: null
       label: Settings
       region: content
       parent_name: ''
@@ -32,18 +30,12 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: yQMAQ-h9pbBQDKib2OwvRfJHUAeZwPUQIEwrVkNN2hg
+  default_config_hash: 1yKLJStix8leDDS53D5Upj7CavWCNgB6UvcLY3wCTUA
 id: block_content.formatted_content.default
 targetEntityType: block_content
 bundle: formatted_content
 mode: default
 content:
-  field_data_aos:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_formatted_content:
     type: text_textarea
     weight: 4

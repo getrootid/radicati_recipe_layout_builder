@@ -5,6 +5,8 @@ dependencies:
   module:
     - block_content
     - heading
+_core:
+  default_config_hash: rHfqieuvRV4TQ-0wd0N8WZqk0c-Lj50nzmQAlgI1vWQ
 id: block_content.field_component_heading
 field_name: field_component_heading
 entity_type: block_content

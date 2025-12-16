@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.large_hero
     - field.storage.block_content.field_component_background_media
     - media.type.image
+_core:
+  default_config_hash: ygGLLs5AGRXhYeX1f65lS1ur4ktmAJuHwWGSz2a12no
 id: block_content.large_hero.field_component_background_media
 field_name: field_component_background_media
 entity_type: block_content

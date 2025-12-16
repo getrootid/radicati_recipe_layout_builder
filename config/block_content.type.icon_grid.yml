@@ -1,0 +1,8 @@
+uuid: c5612d12-d64f-41d9-9fc7-0d9e091c43d8
+langcode: en
+status: true
+dependencies: {  }
+id: icon_grid
+label: 'Icon Grid'
+revision: false
+description: 'A grid of icons. Mostly used for logo grids, but can be for any icon/link type of data.'

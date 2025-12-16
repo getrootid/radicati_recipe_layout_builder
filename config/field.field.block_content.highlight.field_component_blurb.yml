@@ -1,0 +1,26 @@
+uuid: 4e136773-f733-4b05-b3fe-6295a295137c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.highlight
+    - field.storage.block_content.field_component_blurb
+    - filter.format.basic_html
+  module:
+    - text
+_core:
+  default_config_hash: s8v2l59Txoj_j93r2vVazF4Jz3oFExAxsxwPhGoTJ4g
+id: block_content.highlight.field_component_blurb
+field_name: field_component_blurb
+entity_type: block_content
+bundle: highlight
+label: Blurb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

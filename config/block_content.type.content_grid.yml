@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: hjjZGzS5eNwhW2lLI1URaeXuAmJBNatU8d4AgKZodIk
+  default_config_hash: NYjUsb4kgfyxhppoARxZoHa9C7mfeJEgFsImPyHnl8g
 id: content_grid
 label: 'Content Grid'
 revision: 0

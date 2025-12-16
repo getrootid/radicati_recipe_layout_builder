@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: _xaIV0Z4VsAEFWFomZQugs2uRYQhzM3tnGisP1_NjtQ
+  default_config_hash: QnQHyyphbXUeHuk6R4gbhkEQf-qnHpm12UV83S28UcM
 id: buttons
 block_id: 'inline_block:buttons'
 category: components

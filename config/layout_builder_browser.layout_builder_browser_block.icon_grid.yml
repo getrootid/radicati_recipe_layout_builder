@@ -1,0 +1,11 @@
+uuid: 2d7701bb-8db9-452f-86d7-614248245a9e
+langcode: en
+status: true
+dependencies: {  }
+id: icon_grid
+block_id: 'inline_block:icon_grid'
+category: components
+label: 'Icon Grid'
+image_path: ''
+image_alt: ''
+weight: -3

@@ -1,0 +1,22 @@
+uuid: c8545140-5793-48dc-857c-696a79a129ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_blurb
+    - paragraphs.paragraphs_type.icon_grid_item
+  module:
+    - text
+id: paragraph.icon_grid_item.field_card_blurb
+field_name: field_card_blurb
+entity_type: paragraph
+bundle: icon_grid_item
+label: Blurb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

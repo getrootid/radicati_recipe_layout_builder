@@ -5,15 +5,15 @@ dependencies:
   config:
     - block_content.type.accordions
     - field.field.block_content.accordions.field_accordions_items
-    - field.field.block_content.accordions.field_component_sub_title_long
+    - field.field.block_content.accordions.field_component_sub_title
     - field.field.block_content.accordions.field_component_title
-    - field.field.block_content.accordions.field_data_aos
     - field.field.block_content.accordions.field_setting_style
   module:
     - entity_reference_revisions
     - manage_display
     - radicati_base
-    - text
+_core:
+  default_config_hash: 8Wq0VxSBANOIuwsR3831ABvHSwdmO9T22amsbB2E5h8
 id: block_content.accordions.default
 targetEntityType: block_content
 bundle: accordions
@@ -44,14 +44,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_setting_style:
     type: rad_tax_setting
     label: above
@@ -61,4 +53,5 @@ content:
     weight: 3
     region: content
 hidden:
+  field_component_sub_title: true
   search_api_excerpt: true

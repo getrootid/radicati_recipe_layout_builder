@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: fETdOfCpPiwuBZKQQWtQnFIGEGVDnKMaCIP8ogTp294
+  default_config_hash: od4ZJecneTirH8Ycv89HDAuJuogNLcEX3VTnvWNN5v8
 name: Settings
 vid: settings
 description: 'Use by Radicati Components to manage component settings.'

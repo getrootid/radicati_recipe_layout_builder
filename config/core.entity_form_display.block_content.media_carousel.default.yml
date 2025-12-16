@@ -1,0 +1,69 @@
+uuid: 05fee0f1-8a10-4ca9-9581-c9161a12db79
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_carousel
+    - field.field.block_content.media_carousel.field_component_read_more
+    - field.field.block_content.media_carousel.field_component_sub_title
+    - field.field.block_content.media_carousel.field_component_title
+    - field.field.block_content.media_carousel.field_media_carousel__items
+  module:
+    - inline_entity_form
+    - radicati_base
+id: block_content.media_carousel.default
+targetEntityType: block_content
+bundle: media_carousel
+mode: default
+content:
+  field_component_read_more:
+    type: radicati_link_button_widget
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_component_sub_title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_component_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_media_carousel__items:
+    type: inline_entity_form_complex
+    weight: 3
+    region: content
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: 'Media Item'
+      label_plural: 'Media Items'
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: delete
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

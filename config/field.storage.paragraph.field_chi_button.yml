@@ -5,6 +5,8 @@ dependencies:
   module:
     - link
     - paragraphs
+_core:
+  default_config_hash: eQSm2OIk76t4UZmWIT7w-aL8-0DxLRo3hTRY2QQu-yU
 id: paragraph.field_chi_button
 field_name: field_chi_button
 entity_type: paragraph

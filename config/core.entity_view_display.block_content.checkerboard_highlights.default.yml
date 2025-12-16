@@ -5,11 +5,12 @@ dependencies:
   config:
     - block_content.type.checkerboard_highlights
     - field.field.block_content.checkerboard_highlights.field_chhi_items
-    - field.field.block_content.checkerboard_highlights.field_data_aos
     - field.field.block_content.checkerboard_highlights.field_setting_style
   module:
     - entity_reference_revisions
     - radicati_base
+_core:
+  default_config_hash: Y41I4LZM6DKtZ8vzT7ESf_jqPkitHGgFhfGe0iOegd4
 id: block_content.checkerboard_highlights.default
 targetEntityType: block_content
 bundle: checkerboard_highlights
@@ -23,14 +24,6 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
     region: content
   field_setting_style:
     type: rad_tax_setting

@@ -5,9 +5,10 @@ dependencies:
   config:
     - block_content.type.accordions
     - field.storage.block_content.field_accordions_items
-    - paragraphs.paragraphs_type.accordion_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: HttYK9YFgPXhazP_suba0EjTXDSooUYc8mHFqF4ICSE
 id: block_content.accordions.field_accordions_items
 field_name: field_accordions_items
 entity_type: block_content

@@ -1,0 +1,21 @@
+uuid: 9d2c164b-1c87-486b-9d3a-a1585706798e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_to_action
+    - field.storage.block_content.field_component_title
+_core:
+  default_config_hash: OND98lkXwulhqLB_UwdXPdtwgjBVZD4dB0yeOCB9LXE
+id: block_content.call_to_action.field_component_title
+field_name: field_component_title
+entity_type: block_content
+bundle: call_to_action
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

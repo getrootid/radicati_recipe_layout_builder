@@ -10,7 +10,7 @@ dependencies:
     - manage_display
     - text
 _core:
-  default_config_hash: AXRbxKaHRBJxcb5zxzDq9HdTOAzduThMMPS38ESvA5k
+  default_config_hash: 7d_6AXDtRWnALnWLl5DRQa25mnOXwg3jgZgAZIL3PsM
 id: taxonomy_term.settings.default
 targetEntityType: taxonomy_term
 bundle: settings

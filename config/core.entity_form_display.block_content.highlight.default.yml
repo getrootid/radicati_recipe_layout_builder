@@ -4,11 +4,10 @@ status: true
 dependencies:
   config:
     - block_content.type.highlight
+    - field.field.block_content.highlight.field_component_blurb
     - field.field.block_content.highlight.field_component_media
     - field.field.block_content.highlight.field_component_read_more
-    - field.field.block_content.highlight.field_component_sub_title_long
     - field.field.block_content.highlight.field_component_title
-    - field.field.block_content.highlight.field_data_aos
     - field.field.block_content.highlight.field_setting_alignment
     - field.field.block_content.highlight.field_setting_layout
     - field.field.block_content.highlight.field_setting_style
@@ -16,12 +15,10 @@ dependencies:
     - field_group
     - media_library
     - radicati_base
-    - text
 third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_data_aos
         - field_setting_style
         - field_setting_alignment
         - field_setting_layout
@@ -45,7 +42,7 @@ third_party_settings:
         open: false
         weight: 0
 _core:
-  default_config_hash: N5HKlyRXQiKfupR-dC96WH2QymXQug_JJ2ieuCgKPLo
+  default_config_hash: vAfzHrAcCiNuzlLCq8H9Etx5nALu1hi_1AaNadFK8oY
 id: block_content.highlight.default
 targetEntityType: block_content
 bundle: highlight
@@ -82,12 +79,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_data_aos:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_setting_alignment:
     type: taxonomy_icon_widget
     weight: 7
@@ -107,4 +98,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_component_blurb: true
   info: true

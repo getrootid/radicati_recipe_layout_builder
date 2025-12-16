@@ -7,7 +7,6 @@ dependencies:
     - field.field.block_content.listing_section.field_component_read_more
     - field.field.block_content.listing_section.field_component_sub_title
     - field.field.block_content.listing_section.field_component_title
-    - field.field.block_content.listing_section.field_data_aos
     - field.field.block_content.listing_section.field_listing_section_view
     - field.field.block_content.listing_section.field_setting_style
   module:
@@ -15,7 +14,7 @@ dependencies:
     - radicati_base
     - viewsreference
 _core:
-  default_config_hash: djjVbfxG5htm8uKElDJNqKhbiCm6gQL0OZTq73vQRNQ
+  default_config_hash: CWnAJpOEpigqoeCVemBD6-B1wcvjeMZG1GvqA7KypYI
 id: block_content.listing_section.default
 targetEntityType: block_content
 bundle: listing_section
@@ -50,14 +49,6 @@ content:
       tag: h2
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
     region: content
   field_listing_section_view:
     type: viewsreference_formatter

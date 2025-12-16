@@ -7,7 +7,6 @@ dependencies:
     - field.field.block_content.icon_stat_grid.field_component_read_more
     - field.field.block_content.icon_stat_grid.field_component_sub_title
     - field.field.block_content.icon_stat_grid.field_component_title
-    - field.field.block_content.icon_stat_grid.field_data_aos
     - field.field.block_content.icon_stat_grid.field_icon_stat_items
     - field.field.block_content.icon_stat_grid.field_setting_items_per_row
     - field.field.block_content.icon_stat_grid.field_setting_style
@@ -16,7 +15,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: eLS__KsmjdNNrcGUlKwrlHlJyUTX_wncnm5Sg76WkA0
+  default_config_hash: fVEcCJEyZQJ9ANCgBuutU1XWPzbStPnC792Rzknmue0
 id: block_content.icon_stat_grid.default
 targetEntityType: block_content
 bundle: icon_stat_grid
@@ -51,14 +50,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 4
-    region: content
   field_icon_stat_items:
     type: entity_reference_revisions_entity_view
     label: hidden
@@ -69,10 +60,11 @@ content:
     weight: 2
     region: content
   field_setting_items_per_row:
-    type: rad_tax_setting
+    type: entity_reference_entity_view
     label: above
     settings:
-      use_data_attributes: false
+      view_mode: default
+      link: false
     third_party_settings: {  }
     weight: 6
     region: content

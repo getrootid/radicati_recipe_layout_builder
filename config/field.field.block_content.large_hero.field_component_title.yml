@@ -1,0 +1,21 @@
+uuid: c0e794bf-3f5a-4fd4-8411-d19d0f6f6eee
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.large_hero
+    - field.storage.block_content.field_component_title
+_core:
+  default_config_hash: WIjBtHvuXFml6AW_Uo-rh5ieHtZ1hP3CzfrxgteeyDg
+id: block_content.large_hero.field_component_title
+field_name: field_component_title
+entity_type: block_content
+bundle: large_hero
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

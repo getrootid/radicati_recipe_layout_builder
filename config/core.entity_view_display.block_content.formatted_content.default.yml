@@ -4,26 +4,16 @@ status: true
 dependencies:
   config:
     - block_content.type.formatted_content
-    - field.field.block_content.formatted_content.field_data_aos
     - field.field.block_content.formatted_content.field_formatted_content
   module:
-    - radicati_base
     - text
 _core:
-  default_config_hash: _8sbkxru3LDGlAnO2_h6Jcbkhf2SdsXpa7GGkQfKlQ0
+  default_config_hash: qxttvVF02yXMr_EQh4ggLt6zt56jP44JwaKgaC8TrI8
 id: block_content.formatted_content.default
 targetEntityType: block_content
 bundle: formatted_content
 mode: default
 content:
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_formatted_content:
     type: text_default
     label: hidden

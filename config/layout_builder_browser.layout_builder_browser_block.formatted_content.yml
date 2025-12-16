@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: lsassFBGYpDaZIGZnyOFea7dPzqp87GysbtEJPi2b7U
+  default_config_hash: SNxTkamBNkPu7IMitChYyLJUqqs4xjaLPgka6yLEVcU
 id: formatted_content
 block_id: 'inline_block:formatted_content'
 category: page_content
 label: 'Formatted Content'
 image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/paragraph-duotone.svg
 image_alt: 'Formatted Content'
-weight: -100
+weight: -12

@@ -8,7 +8,7 @@ dependencies:
   module:
     - viewsreference
 _core:
-  default_config_hash: B6scvV97gj9wEJfaSxMKIEgMXXJu6OgjfkMhzlKOI_M
+  default_config_hash: sX6JU0PZcNvgS4fS0HWntcgbQsg-Pz2BoiSMSXfg1J0
 id: block_content.listing_section.field_listing_section_view
 field_name: field_listing_section_view
 entity_type: block_content
@@ -25,13 +25,12 @@ settings:
     target_bundles: null
     auto_create: false
   plugin_types:
-    block: block
     embed: embed
+    block: block
   preselect_views:
     radicati_default_listing_views: radicati_default_listing_views
   enabled_settings:
     argument: argument
-    limit: 0
-    offset: 0
+    limit: limit
     pager: pager
 field_type: viewsreference

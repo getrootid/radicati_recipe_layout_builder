@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: d6DtTQaNYTMFUs9MKdwrRiR1c0mdzS-WsQXAxeaYfp8
+  default_config_hash: rdSPniEMRr-duZzJXKrB87gedv7qjmaw171_PzXXUQg
 id: logo_grid
 block_id: 'inline_block:logo_grid'
 category: components
 label: 'Logo Grid'
 image_path: ''
 image_alt: ''
-weight: -2
+weight: 0

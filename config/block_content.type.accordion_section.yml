@@ -1,0 +1,8 @@
+uuid: efff2043-aa1f-44e1-a7d4-a1b45e1296c4
+langcode: en
+status: true
+dependencies: {  }
+id: accordion_section
+label: 'Accordion Section'
+revision: false
+description: null

@@ -7,7 +7,6 @@ dependencies:
     - field.field.block_content.logo_grid.field_component_read_more
     - field.field.block_content.logo_grid.field_component_sub_title
     - field.field.block_content.logo_grid.field_component_title
-    - field.field.block_content.logo_grid.field_data_aos
     - field.field.block_content.logo_grid.field_logo_grid_items
     - field.field.block_content.logo_grid.field_setting_style
   module:
@@ -15,7 +14,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: CgUIgDEnKqqlRlev0w-PBeNx82RYU_8SFZhsgxovjW4
+  default_config_hash: DpYnoKeX6BT2TepaDEDzbvNBjRH6IbeSbJ9sKk7R6DI
 id: block_content.logo_grid.default
 targetEntityType: block_content
 bundle: logo_grid
@@ -49,14 +48,6 @@ content:
       tag: h2
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_data_aos:
-    type: rad_tax_setting
-    label: hidden
-    settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
     region: content
   field_logo_grid_items:
     type: entity_reference_revisions_entity_view

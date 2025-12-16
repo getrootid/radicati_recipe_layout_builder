@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.basic_hero
     - field.storage.block_content.field_component_title
+_core:
+  default_config_hash: JgCO4ruyW0GBIIJ8okmqv7XqZ3w2p7j4yFcgEktTZhE
 id: block_content.basic_hero.field_component_title
 field_name: field_component_title
 entity_type: block_content

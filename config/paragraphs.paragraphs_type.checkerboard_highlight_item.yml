@@ -2,6 +2,8 @@ uuid: 266f764c-0dbb-437a-83eb-8dc108b2fc4d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: ZlpYSfKzKOCw_v3YahrfUFplR2hIY9xj7pwv_lqnzVA
 id: checkerboard_highlight_item
 label: 'Checkerboard Highlight Item'
 icon_uuid: null

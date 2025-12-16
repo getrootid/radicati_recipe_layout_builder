@@ -1,0 +1,29 @@
+uuid: a47e307d-7d9d-413a-8388-03cef8792e0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_media
+    - media.type.icon
+    - paragraphs.paragraphs_type.icon_grid_item
+id: paragraph.icon_grid_item.field_card_media
+field_name: field_card_media
+entity_type: paragraph
+bundle: icon_grid_item
+label: 'Card Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      icon: icon
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

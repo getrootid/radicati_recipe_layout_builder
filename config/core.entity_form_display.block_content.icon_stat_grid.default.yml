@@ -7,7 +7,6 @@ dependencies:
     - field.field.block_content.icon_stat_grid.field_component_read_more
     - field.field.block_content.icon_stat_grid.field_component_sub_title
     - field.field.block_content.icon_stat_grid.field_component_title
-    - field.field.block_content.icon_stat_grid.field_data_aos
     - field.field.block_content.icon_stat_grid.field_icon_stat_items
     - field.field.block_content.icon_stat_grid.field_setting_items_per_row
     - field.field.block_content.icon_stat_grid.field_setting_style
@@ -19,7 +18,6 @@ third_party_settings:
   field_group:
     group_settings:
       children:
-        - field_data_aos
         - field_setting_items_per_row
         - field_setting_style
       label: Settings
@@ -40,7 +38,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: faBAJOn91LGNVJatyZilecyegulILjMp_2Ogc9KWpes
+  default_config_hash: VckHAwh6YLO_S3JnCJbwl2J7FVElxkKNLbNdv82PZbQ
 id: block_content.icon_stat_grid.default
 targetEntityType: block_content
 bundle: icon_stat_grid
@@ -69,12 +67,6 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_data_aos:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
     third_party_settings: {  }
   field_icon_stat_items:
     type: inline_entity_form_complex

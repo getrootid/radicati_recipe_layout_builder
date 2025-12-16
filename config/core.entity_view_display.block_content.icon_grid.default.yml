@@ -1,0 +1,100 @@
+uuid: 7554dd48-026e-4b2e-b87c-1cc0321b6ba4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icon_grid
+    - field.field.block_content.icon_grid.field_component_read_more
+    - field.field.block_content.icon_grid.field_component_sub_title
+    - field.field.block_content.icon_grid.field_component_title
+    - field.field.block_content.icon_grid.field_icon_grid__items
+    - field.field.block_content.icon_grid.field_setting_items_per_row
+  module:
+    - entity_reference_revisions
+    - manage_display
+    - nomarkup
+    - radicati_base
+    - sdc_display
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
+id: block_content.icon_grid.default
+targetEntityType: block_content
+bundle: icon_grid
+mode: default
+content:
+  field_component_read_more:
+    type: radicati_link_button_formatter
+    label: hidden
+    settings:
+      trim_length: '80'
+      url_only: ''
+      url_plain: ''
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_component_sub_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_component_title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_icon_grid__items:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
+    weight: 2
+    region: content
+  field_setting_items_per_row:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
+    weight: 4
+    region: content
+hidden:
+  search_api_excerpt: true

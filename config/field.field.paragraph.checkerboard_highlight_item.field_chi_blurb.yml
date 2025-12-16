@@ -1,0 +1,26 @@
+uuid: 8b7af823-e85f-4f96-8928-a982a1bb1bc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chi_blurb
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.checkerboard_highlight_item
+  module:
+    - text
+_core:
+  default_config_hash: Zf1sSSSe1JqnhaL38muqcpQIH46JGpFOq779VRZmtKs
+id: paragraph.checkerboard_highlight_item.field_chi_blurb
+field_name: field_chi_blurb
+entity_type: paragraph
+bundle: checkerboard_highlight_item
+label: Blurb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

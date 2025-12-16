@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.accordions
     - field.storage.block_content.field_setting_style
+_core:
+  default_config_hash: DRD3RP2iQ9By6BHsFtV9czWsdx867ZVsF7kU7W0t_e4
 id: block_content.accordions.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

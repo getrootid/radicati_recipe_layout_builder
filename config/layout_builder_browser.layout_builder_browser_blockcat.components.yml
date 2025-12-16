@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: qxj9dd9owAfZLjAiHGaFc39HLbOjzHlmxGlfF_E6KGE
+  default_config_hash: 6cy_jLJGIN2soXKddMJxiqpEYT4hobTkoqynbB4iKT0
 id: components
 label: Components
 weight: -8

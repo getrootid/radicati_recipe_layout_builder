@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.heading
     - field.storage.block_content.field_setting_alignment
+_core:
+  default_config_hash: P5Rx5X1XwkCovWs-mx1S1OVFCGbL-EO-jD9diuxCD5s
 id: block_content.heading.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

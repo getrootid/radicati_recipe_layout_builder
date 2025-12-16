@@ -6,7 +6,7 @@ dependencies:
     - paragraphs
     - text
 _core:
-  default_config_hash: 3moMpcgFcvhl71TrrLoDbzWYujEbImOibWwx2euUk7I
+  default_config_hash: SEF6Wlfj47tIn4YnYpZQ80xQ6GwLdIbnjdT96iusBfU
 id: paragraph.field_card_blurb
 field_name: field_card_blurb
 entity_type: paragraph

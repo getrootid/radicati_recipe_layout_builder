@@ -5,13 +5,26 @@ dependencies:
   config:
     - block_content.type.buttons
     - field.field.block_content.buttons.field_buttons_buttons
-    - field.field.block_content.buttons.field_data_aos
     - field.field.block_content.buttons.field_setting_alignment
     - field.field.block_content.buttons.field_setting_direction
   module:
+    - nomarkup
     - radicati_base
+    - sdc_display
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
 _core:
-  default_config_hash: r_BsUCvW4F3uW2_UkZFibfiX9MHWLBrZxnmErQlTXh8
+  default_config_hash: ztqme0UdlbrevFDU2QkZ_4bZzN2m7bjAJ6BR2XssBFM
 id: block_content.buttons.default
 targetEntityType: block_content
 bundle: buttons
@@ -21,12 +34,21 @@ content:
     type: radicati_link_button_formatter
     label: hidden
     settings:
-      trim_length: 80
+      trim_length: '80'
       url_only: false
       url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
+      rel: 0
+      target: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
     weight: 1
     region: content
   field_component_sub_title:
@@ -37,28 +59,38 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_data_aos:
-    type: rad_tax_setting
+  field_setting_alignment:
+    type: entity_reference_label
     label: hidden
     settings:
-      use_data_attributes: '1'
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_setting_alignment:
-    type: rad_tax_setting
-    label: above
-    settings:
-      use_data_attributes: false
-    third_party_settings: {  }
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
     weight: 3
     region: content
   field_setting_direction:
-    type: rad_tax_setting
-    label: above
+    type: entity_reference_label
+    label: hidden
     settings:
-      use_data_attributes: false
-    third_party_settings: {  }
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
     weight: 2
     region: content
 hidden:

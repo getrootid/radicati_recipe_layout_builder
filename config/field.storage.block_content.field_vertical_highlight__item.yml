@@ -7,7 +7,7 @@ dependencies:
     - entity_reference_revisions
     - paragraphs
 _core:
-  default_config_hash: 9kToVPukqxqyjLZkzZc2KG8kutdf_VkN9LVIutTo93w
+  default_config_hash: GqBJ80yV3trfRfbLokgf6bS6j_UwpD6_FfVmaZaegJk
 id: block_content.field_vertical_highlight__item
 field_name: field_vertical_highlight__item
 entity_type: block_content

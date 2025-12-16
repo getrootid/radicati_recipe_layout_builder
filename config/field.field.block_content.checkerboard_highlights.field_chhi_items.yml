@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.checkerboard_highlight_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: PdtZiLTh_XH761i3mFwey38L4RixjlCwb5p5nLGiEaE
 id: block_content.checkerboard_highlights.field_chhi_items
 field_name: field_chhi_items
 entity_type: block_content
