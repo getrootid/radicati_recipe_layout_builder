@@ -10,19 +10,6 @@ dependencies:
   module:
     - nomarkup
     - radicati_base
-    - sdc_display
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
 _core:
   default_config_hash: ztqme0UdlbrevFDU2QkZ_4bZzN2m7bjAJ6BR2XssBFM
 id: block_content.buttons.default
@@ -44,11 +31,6 @@ content:
         enabled: true
         separator: ''
         referenced_entity: ''
-      sdc_display:
-        enabled: 0
-        component:
-          machine_name: null
-          show_deprecated: 0
     weight: 1
     region: content
   field_component_sub_title:
@@ -69,11 +51,6 @@ content:
         enabled: true
         separator: '|'
         referenced_entity: ''
-      sdc_display:
-        enabled: 0
-        component:
-          machine_name: null
-          show_deprecated: 0
     weight: 3
     region: content
   field_setting_direction:
@@ -86,11 +63,6 @@ content:
         enabled: true
         separator: '|'
         referenced_entity: ''
-      sdc_display:
-        enabled: 0
-        component:
-          machine_name: null
-          show_deprecated: 0
     weight: 2
     region: content
 hidden:

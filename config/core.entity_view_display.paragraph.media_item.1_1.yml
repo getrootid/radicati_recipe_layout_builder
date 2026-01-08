@@ -11,18 +11,6 @@ dependencies:
   module:
     - layout_builder
     - nomarkup
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
   layout_builder:
     enabled: false
     allow_custom: false

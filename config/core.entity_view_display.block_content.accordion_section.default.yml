@@ -11,19 +11,6 @@ dependencies:
     - entity_reference_revisions
     - manage_display
     - nomarkup
-    - sdc_display
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
 id: block_content.accordion_section.default
 targetEntityType: block_content
 bundle: accordion_section
@@ -40,11 +27,6 @@ content:
         enabled: true
         separator: ''
         referenced_entity: ''
-      sdc_display:
-        enabled: 0
-        component:
-          machine_name: null
-          show_deprecated: 0
     weight: 2
     region: content
   field_component_sub_title:

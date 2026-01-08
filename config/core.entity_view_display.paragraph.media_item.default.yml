@@ -7,20 +7,6 @@ dependencies:
     - field.field.paragraph.media_item.field_media_item__caption
     - field.field.paragraph.media_item.field_media_item__media
     - paragraphs.paragraphs_type.media_item
-  module:
-    - sdc_display
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
 _core:
   default_config_hash: 3CFZbH1r_jXHe5edZKRVi3gMCryMVPZlUCG4bp-mseU
 id: paragraph.media_item.default

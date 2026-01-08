@@ -23,6 +23,7 @@ install:
   - layout_builder_restrictions
   - taxonomy
   - radicati_base
+  - taxonomy
   - text_field_formatter
   - viewsreference
   - webform

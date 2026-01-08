@@ -13,19 +13,6 @@ dependencies:
     - manage_display
     - nomarkup
     - radicati_base
-    - sdc_display
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
 id: block_content.media_carousel.default
 targetEntityType: block_content
 bundle: media_carousel
@@ -71,11 +58,6 @@ content:
         enabled: true
         separator: ''
         referenced_entity: ''
-      sdc_display:
-        enabled: 0
-        component:
-          machine_name: null
-          show_deprecated: 0
     weight: 4
     region: content
 hidden:

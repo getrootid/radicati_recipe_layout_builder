@@ -13,21 +13,8 @@ dependencies:
   module:
     - manage_display
     - radicati_base
-    - sdc_display
     - text
     - webform
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
 _core:
   default_config_hash: pDUNk_QjlIKdXF-83NrgWY61sJgN6SPuJNnJF6voPXM
 id: block_content.webform_call_to_action.default

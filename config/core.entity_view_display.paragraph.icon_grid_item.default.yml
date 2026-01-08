@@ -9,21 +9,8 @@ dependencies:
     - field.field.paragraph.icon_grid_item.field_card_title
     - paragraphs.paragraphs_type.icon_grid_item
   module:
-    - sdc_display
     - text
     - text_field_formatter
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
 id: paragraph.icon_grid_item.default
 targetEntityType: paragraph
 bundle: icon_grid_item

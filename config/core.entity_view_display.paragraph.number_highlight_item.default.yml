@@ -8,20 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.number_highlight_item
   module:
     - nomarkup
-    - sdc_display
     - text
-third_party_settings:
-  sdc_display:
-    enabled: false
-    component:
-      machine_name: ''
-    mappings:
-      static:
-        props: {  }
-        slots: {  }
-      dynamic:
-        props: {  }
-        slots: {  }
 _core:
   default_config_hash: 3gQMfSj-psji9cZPYN8Xb2emfXazh2_ErynSNCovDYQ
 id: paragraph.number_highlight_item.default
@@ -38,11 +25,6 @@ content:
         enabled: true
         separator: '|'
         referenced_entity: ''
-      sdc_display:
-        enabled: 0
-        component:
-          machine_name: null
-          show_deprecated: 0
     weight: 1
     region: content
   field_number_highlight__value:
@@ -55,11 +37,6 @@ content:
         enabled: true
         separator: '|'
         referenced_entity: ''
-      sdc_display:
-        enabled: 0
-        component:
-          machine_name: null
-          show_deprecated: 0
     weight: 0
     region: content
 hidden:
