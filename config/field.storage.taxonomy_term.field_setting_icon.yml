@@ -5,7 +5,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: jRv2Hibj20hxa0R-NsS2-gC1CAvIQc2ddYeQZt_yX_A
+  default_config_hash: 4G45mTNFJvoQYGOC4DwjoIA4VTVBP9tr4g5WKUfe_1E
 id: taxonomy_term.field_setting_icon
 field_name: field_setting_icon
 entity_type: taxonomy_term

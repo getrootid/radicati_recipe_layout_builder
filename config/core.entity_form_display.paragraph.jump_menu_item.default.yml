@@ -7,7 +7,7 @@ dependencies:
     - field.field.paragraph.jump_menu_item.field_jmi_label
     - paragraphs.paragraphs_type.jump_menu_item
 _core:
-  default_config_hash: CbZsJpQeEsZuOGozNc3xc7HMKOX-15Mf2Dh1EaPABas
+  default_config_hash: BH8P4JxIcpxRFl0ZhOcydl3p6JD1aEDUUZIJ78VrsC8
 id: paragraph.jump_menu_item.default
 targetEntityType: paragraph
 bundle: jump_menu_item

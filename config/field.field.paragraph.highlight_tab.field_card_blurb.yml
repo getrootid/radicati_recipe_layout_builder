@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: 2qBEetN-7Uh5SiN0_XGOcG0jAtVZV1Fqow1xdNNOM8I
+  default_config_hash: mgxN3mvDyilklC-yC3iDb_BMNb-fyI04cMRkDAx6rCk
 id: paragraph.highlight_tab.field_card_blurb
 field_name: field_card_blurb
 entity_type: paragraph

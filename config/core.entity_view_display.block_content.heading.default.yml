@@ -12,7 +12,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: NyNQqFKkO4x-_zcfN_Q6qBzxadd_s3A0okcZXDuFyuE
+  default_config_hash: usvUYzGOmtXT7lMjM7_2HN4f6QhCNfXvQMwHA1gE1wg
 id: block_content.heading.default
 targetEntityType: block_content
 bundle: heading

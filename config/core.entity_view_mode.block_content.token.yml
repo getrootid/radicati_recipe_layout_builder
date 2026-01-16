@@ -5,7 +5,7 @@ dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: 6LyYXIg3VcEn74cdUR4s2XbD_wkwTfWCRliUpEXCeQM
+  default_config_hash: t0eKuOaGtKJlnnEGPrQkM4oZoAYYvvgqQR6J_K0xjJk
 id: block_content.token
 label: Token
 description: ''

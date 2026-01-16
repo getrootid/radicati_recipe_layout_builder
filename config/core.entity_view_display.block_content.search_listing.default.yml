@@ -8,7 +8,7 @@ dependencies:
   module:
     - text_field_formatter
 _core:
-  default_config_hash: Ler9nCf0TRtau8u5jkrPWY_oIB1ftk91YSN8Q8yxaRQ
+  default_config_hash: W1RpyEPJxzyg9urbvRN639B0StjkN3G3064fbTHdL24
 id: block_content.search_listing.default
 targetEntityType: block_content
 bundle: search_listing

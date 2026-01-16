@@ -6,7 +6,7 @@ dependencies:
     module:
       - splide
 _core:
-  default_config_hash: TWe9Vq644JNVhOa234XVmjdQXzlKF6r_AtItiV8K1us
+  default_config_hash: RTzRmDcSRuNZ9bz493mDa7UHD6FYh26QG_ODPy4LsdQ
 name: splide_media
 label: 'Splide media'
 effects:

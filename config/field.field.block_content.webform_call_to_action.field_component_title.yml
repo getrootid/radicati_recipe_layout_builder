@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.webform_call_to_action
     - field.storage.block_content.field_component_title
 _core:
-  default_config_hash: x2tTaTa0ehQBgFZmraI4KuLzSfTeRoYap3bmLLP4Yzg
+  default_config_hash: p6stQdpZx00Y4MmCOQA7c5i-Bgypzd4WOhXz5EPAYLA
 id: block_content.webform_call_to_action.field_component_title
 field_name: field_component_title
 entity_type: block_content

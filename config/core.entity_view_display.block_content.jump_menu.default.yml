@@ -10,7 +10,7 @@ dependencies:
     - entity_reference_revisions
     - nomarkup
 _core:
-  default_config_hash: 9BSSGRueIqsJ7GZCo_K2UUrb6wwfjwSHv6rA4fgHIBg
+  default_config_hash: 19yFX9SjGHJfIB5I1Oz6cnT4a-Xu1QXoL85JtGh-Fz0
 id: block_content.jump_menu.default
 targetEntityType: block_content
 bundle: jump_menu

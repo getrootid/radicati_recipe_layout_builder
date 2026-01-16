@@ -10,7 +10,7 @@ dependencies:
   module:
     - media_library
 _core:
-  default_config_hash: NfcGwGZ_xCt3h7sRb6o2nwsaH9VjXyJh7pN95FePrK8
+  default_config_hash: eyWX9ehrLZu_PbkJMAinbwzo7eepZNDMKZd3uLJzPJs
 id: paragraph.media_item.default
 targetEntityType: paragraph
 bundle: media_item

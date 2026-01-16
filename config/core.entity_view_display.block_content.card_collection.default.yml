@@ -15,7 +15,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: 1f2rKjs3adoNXDJ0-7nmhnheRv8yzrJQeOc0iAcbdsM
+  default_config_hash: Gjs7vkFAXSd_q8M8zQMfwMevX-FW-BxxR8pqTSHZ0vE
 id: block_content.card_collection.default
 targetEntityType: block_content
 bundle: card_collection

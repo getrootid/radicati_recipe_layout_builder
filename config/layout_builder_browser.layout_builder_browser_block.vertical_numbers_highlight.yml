@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: p7uxbhsjqHfFfDt2dIKZvSVHC7raMMsYQuv-hTu0qlU
+  default_config_hash: 4A6mFMQWy-_pJSlPhFGIT0Qneo2KFpJLabwj7ANUuX0
 id: vertical_numbers_highlight
 block_id: 'inline_block:vertical_numbers_highlight'
 category: page_content
 label: 'Vertical Numbers Highlight'
+weight: -8
 image_path: ''
 image_alt: ''
-weight: -8

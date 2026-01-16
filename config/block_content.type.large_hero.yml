@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: lkjEUIxrMJcEtj4--5dJAXiq5Y_URZRwiOt2WvTivUg
+  default_config_hash: UxWJajcBxEX2NbOupV0aGP7R-ePyWDyvRmjBWCdCj0s
 id: large_hero
 label: 'Large Hero'
 revision: 0

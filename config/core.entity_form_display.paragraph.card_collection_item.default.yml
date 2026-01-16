@@ -14,7 +14,7 @@ dependencies:
     - media_library
     - text
 _core:
-  default_config_hash: TIwqp072fpfmkO9z1sL4ToNm5eAJiTTACzA4benn-kE
+  default_config_hash: dTAtYdFK-gz2NPWLHF48_XwlN2AFPEVyetoYAiznbZg
 id: paragraph.card_collection_item.default
 targetEntityType: paragraph
 bundle: card_collection_item

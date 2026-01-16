@@ -14,7 +14,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: J-shsIG8k97Yyr3C9rJXEJtZgQCcW73GzlvA9U5sg7w
+  default_config_hash: blu9tDARYr3eRiw7hpbbmEERQo4PTVnVl7vzpQeC428
 id: block_content.media_carousel.default
 targetEntityType: block_content
 bundle: media_carousel

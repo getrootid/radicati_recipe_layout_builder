@@ -12,7 +12,7 @@ dependencies:
     - nomarkup
     - text_field_formatter
 _core:
-  default_config_hash: vfzTNid2dt-Tcjg4ASPkKfBkIdhUSvc_RKgpu-rqaxk
+  default_config_hash: 3blE0Sgjl1bJM88iFLQRsLHR-Aw-p-DMlGQmC3xewKU
 id: block_content.accordion_section.default
 targetEntityType: block_content
 bundle: accordion_section

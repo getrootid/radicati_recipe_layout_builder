@@ -6,6 +6,7 @@ dependencies:
     - block_content.type.quote
     - field.field.block_content.quote.field_quote_citation_name
     - field.field.block_content.quote.field_quote_citation_title
+    - field.field.block_content.quote.field_quote_media
     - field.field.block_content.quote.field_quote_quote
     - field.field.block_content.quote.field_setting_alignment
   module:
@@ -35,7 +36,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: EyHab7Nwnh0JTf27X2rNk_ZV2yolOn4KspbSWLYxYl8
+  default_config_hash: SG5_3vLtqy-T7qqewNH7qyq7L5t2cvKUlrteDEgGNFc
 id: block_content.quote.default
 targetEntityType: block_content
 bundle: quote
@@ -86,4 +87,5 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_quote_media: true

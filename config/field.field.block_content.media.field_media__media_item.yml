@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: pnojjd9IJ_V-b5rdeKq4o7uKRzUqf4HNbRIN2oYL_-U
+  default_config_hash: DnWBIeWRQ5Sa0w4UZWlNNGFlAk7ktR62vKCCa_W8vNE
 id: block_content.media.field_media__media_item
 field_name: field_media__media_item
 entity_type: block_content

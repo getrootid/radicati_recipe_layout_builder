@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: '-lRk05igVi9WEdfPAhJSaq7SdCC0fh8yXc80GNY-DNk'
+  default_config_hash: q54WtG0U5fgbCCeRnirEzreAsFkosd6bTsV9ZHoqtDo
 id: content_grid
 block_id: 'inline_block:content_grid'
 category: components
 label: 'Content Grid'
+weight: -7
 image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/cards-duotone.svg
 image_alt: 'Content Grid'
-weight: -7

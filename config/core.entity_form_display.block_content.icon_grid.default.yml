@@ -14,7 +14,7 @@ dependencies:
     - inline_entity_form
     - radicati_base
 _core:
-  default_config_hash: GlYXCBuKL2odZY0tenqn3n8b59G1yrPozR8RD3JxSBU
+  default_config_hash: t6VxbVoX_W_ZliVCC4cdrzAd1dcyl6qLeMJcFCXvVbQ
 id: block_content.icon_grid.default
 targetEntityType: block_content
 bundle: icon_grid

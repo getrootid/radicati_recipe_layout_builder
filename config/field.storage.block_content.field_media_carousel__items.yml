@@ -7,7 +7,7 @@ dependencies:
     - entity_reference_revisions
     - paragraphs
 _core:
-  default_config_hash: 5S3RyzZZm3r6uOrZKEo8kz0pxf8gifRlbFubo8gRzk0
+  default_config_hash: cGyuTZ-nubNfUWMQ4chVyY91vkqcvcS0tG1I262jS1Q
 id: block_content.field_media_carousel__items
 field_name: field_media_carousel__items
 entity_type: block_content

@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.vertical_numbers_highlight
     - field.storage.block_content.field_setting_alignment
 _core:
-  default_config_hash: kucoJcHVlHTAkLRh6StZOvLp7eyHK7l_rdrgOA8nlPg
+  default_config_hash: 3ffm4sG_dbe6myZV04-GGyDvsFMZT0nalacK4fPYHK8
 id: block_content.vertical_numbers_highlight.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

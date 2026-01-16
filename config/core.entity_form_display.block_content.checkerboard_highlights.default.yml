@@ -33,7 +33,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: rANAXNiLg5iYgm26otuRkwM7bUk261SgLWtQk0ZEM-w
+  default_config_hash: xeOhThY6tPdnVtW-RF1CJGUaVMCb2w7N1_Ljr7cnrSg
 id: block_content.checkerboard_highlights.default
 targetEntityType: block_content
 bundle: checkerboard_highlights

@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.testimonial
     - field.storage.block_content.field_quote_citation_name
+_core:
+  default_config_hash: Nnfg8feI5PVUKJS6ISpe-PcoYn7GSHnv7U-Gjw2ZDBg
 id: block_content.testimonial.field_quote_citation_name
 field_name: field_quote_citation_name
 entity_type: block_content

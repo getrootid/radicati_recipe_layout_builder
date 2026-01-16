@@ -2,10 +2,12 @@ uuid: 2ca3278f-0115-4506-a2b9-98daf2e2bf98
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: hvJtLseXeN2Jl3c1TNq7Mq0hbbQ_zF5D46mGBqHOl8c
 id: testimonial
 block_id: 'inline_block:testimonial'
 category: components
 label: Testimonial
+weight: -1
 image_path: ''
 image_alt: ''
-weight: -1

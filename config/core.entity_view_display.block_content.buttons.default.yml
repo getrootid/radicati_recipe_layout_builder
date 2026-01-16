@@ -11,7 +11,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: yEyHE2K0Om1V4Xsf14-fbXUvNW0VnweS7g4gWNd0Qvk
+  default_config_hash: B-xf56_mrD9ToMbsyJhgBF3TQA0o4dI3jcspCoEwDCY
 id: block_content.buttons.default
 targetEntityType: block_content
 bundle: buttons

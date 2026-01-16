@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: 9NID5bzvpMUzzkqav4wQI_1TIFXbS9LJiYSJKTOH-DU
+  default_config_hash: IFULCdDJWbVTatszVtbmo-4UH-e6xfEKndJEzo60HmQ
 id: paragraph.number_highlight_item.field_number_highlight__label
 field_name: field_number_highlight__label
 entity_type: paragraph

@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.testimonial
     - field.storage.block_content.field_setting_style
+_core:
+  default_config_hash: 4bNCHV-egnDX4_vzx4GarewdBeCqOay9I6QT1qmOFg8
 id: block_content.testimonial.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

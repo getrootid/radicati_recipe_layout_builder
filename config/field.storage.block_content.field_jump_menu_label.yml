@@ -5,7 +5,7 @@ dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: 1BEMkkxl2QVos62JoTbbpFnzupaXfO-ZcG_uwBDzKKY
+  default_config_hash: 52gLWxT-tYyu34lOuzK1G_TGEIDoOJpWoPMIDNTXKjM
 id: block_content.field_jump_menu_label
 field_name: field_jump_menu_label
 entity_type: block_content

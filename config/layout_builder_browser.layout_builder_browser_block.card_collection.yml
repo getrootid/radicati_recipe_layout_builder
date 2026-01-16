@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 26yg5ZvgpJPaf_KBty1svmPdzfFwOWwaRHiA1NvkSUI
+  default_config_hash: inH9Ft-2e3HQuyM8LGO1LENAanxu0paaLaV7m9vkOUY
 id: card_collection
 block_id: 'inline_block:card_collection'
 category: components
 label: 'Card Collection'
+weight: -9
 image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/cards-duotone.svg
 image_alt: 'Card Collection'
-weight: -9

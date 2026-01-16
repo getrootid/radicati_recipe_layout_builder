@@ -13,7 +13,7 @@ dependencies:
     - text
     - text_field_formatter
 _core:
-  default_config_hash: zAZZ8iUsyN81Zz_IEHbslOZNRu-wdIyQwjWxut-rZrQ
+  default_config_hash: vrhRvmFZh54SHaf3TvCtvWrSr_cD-V-hB22oLAQHmWg
 id: paragraph.highlight_tab.default
 targetEntityType: paragraph
 bundle: highlight_tab

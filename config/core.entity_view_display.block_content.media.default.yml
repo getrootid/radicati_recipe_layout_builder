@@ -11,7 +11,7 @@ dependencies:
     - nomarkup
     - options
 _core:
-  default_config_hash: ajeHz202_5dLZu_YRnfgHpbZaTPLIP0O6kU03KFErac
+  default_config_hash: 8IIAv88Tan-rOapjHRngGpCqX7SXjtF0cr2ZYsUq5f4
 id: block_content.media.default
 targetEntityType: block_content
 bundle: media

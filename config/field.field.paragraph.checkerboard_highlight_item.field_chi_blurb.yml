@@ -9,7 +9,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: k9-3PnAneu9PaaX5loFHCf29axkOEPWXxJV1AQ1X13Q
+  default_config_hash: Gghlp82SBvMEAC-UWqMT6FY3dtsdRLITVfuk2v76BvQ
 id: paragraph.checkerboard_highlight_item.field_chi_blurb
 field_name: field_chi_blurb
 entity_type: paragraph

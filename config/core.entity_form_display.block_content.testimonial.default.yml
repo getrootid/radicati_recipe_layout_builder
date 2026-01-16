@@ -15,6 +15,8 @@ dependencies:
     - media_library
     - radicati_base
     - text
+_core:
+  default_config_hash: Yio73eRT_0qdHYOtKUOF1ZdUVaoJon9J1ay6FhbnDdA
 id: block_content.testimonial.default
 targetEntityType: block_content
 bundle: testimonial

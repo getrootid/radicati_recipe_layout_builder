@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: wp4p085GLGGyHP3iyauSJZ-tIwOwvNgiqOgjWwC451I
+  default_config_hash: 3010jSiH03hZeHF0pcVCjzxGWnmUjToDFjXQLJ1HLiQ
 id: media
 block_id: 'inline_block:media'
 category: page_content
 label: Media
+weight: -7
 image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/photo-film-duotone.svg
 image_alt: Media
-weight: -7

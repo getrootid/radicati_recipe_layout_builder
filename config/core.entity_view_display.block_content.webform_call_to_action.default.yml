@@ -16,7 +16,7 @@ dependencies:
     - text
     - webform
 _core:
-  default_config_hash: yUZ_4977owuAjAj8A2-ri64z-3mJ-jUH4J8FjLrKbDA
+  default_config_hash: uMQB4EVKSGB-NthJP-Yq4LfMzya2HNoZh6A8D8VAZSI
 id: block_content.webform_call_to_action.default
 targetEntityType: block_content
 bundle: webform_call_to_action

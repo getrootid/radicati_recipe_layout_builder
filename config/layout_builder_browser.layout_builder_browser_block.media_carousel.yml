@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: a4G0MFFfv0SnIky3fUBM1jodcLeNwCb9MvXhuYwFSBo
+  default_config_hash: JP15rLkvTSLhyoekvnFVTSPNOCmqTlHcXTf-XuRO0-c
 id: media_carousel
 block_id: 'inline_block:media_carousel'
 category: components
 label: 'Media Carousel'
+weight: -2
 image_path: ''
 image_alt: ''
-weight: -2

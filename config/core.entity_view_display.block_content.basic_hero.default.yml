@@ -12,7 +12,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: RNApolZzRyCctvJ9KY1jsLHQPnxVSrrPrkBzb3hb4to
+  default_config_hash: iPooK_asjHAhEQ9d1hoGRWo7nM_7nAQMKiv9ZLNGLXE
 id: block_content.basic_hero.default
 targetEntityType: block_content
 bundle: basic_hero

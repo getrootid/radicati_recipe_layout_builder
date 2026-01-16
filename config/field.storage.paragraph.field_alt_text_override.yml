@@ -5,7 +5,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: SfeBzy-k7k_4KuE0AWkXBu0wjA_RrcvsjC0UeM9c6Dw
+  default_config_hash: QtEDyVmfrjFO3MW_YvdRdhA02V8c0l-r0jyssFL4vvc
 id: paragraph.field_alt_text_override
 field_name: field_alt_text_override
 entity_type: paragraph

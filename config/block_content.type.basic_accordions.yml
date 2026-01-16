@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: gnKeU1yGr1hvc_44uhf9_jaOrlBTT5Ffi5vje7PbG-8
+  default_config_hash: WI5J2tJihq48XDpW2Puf5BeiV8xZw2qY3H6zNAL9rSo
 id: basic_accordions
 label: 'Basic Accordions'
 revision: false

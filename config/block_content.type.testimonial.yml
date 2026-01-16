@@ -2,6 +2,8 @@ uuid: ff984cba-70ca-4a5f-ae7e-cd4b42bb362e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: VBcyu2ZBgXoMpeOsp_KumDaEdORICnILRL9QKKvsCbU
 id: testimonial
 label: Testimonial
 revision: false

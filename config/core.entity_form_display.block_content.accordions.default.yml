@@ -35,7 +35,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: on0leNd5B8NvLJtDYVdnypVk0Hwj8_L8mOLfx9UgnH0
+  default_config_hash: cybcfe4p_xVIQjI58yzRC2XHCd2YbrxiI4e3lq13jts
 id: block_content.accordions.default
 targetEntityType: block_content
 bundle: accordions

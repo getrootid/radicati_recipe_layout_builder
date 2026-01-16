@@ -1,0 +1,11 @@
+uuid: 4daeeaa5-8978-45e9-9705-cff4c1245789
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.card_content_card
+label: 'Card: Content Card'
+description: 'The default card that should be used in a Content Grid component.'
+targetEntityType: node
+cache: true

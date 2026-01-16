@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: GCQUP276wTZ_vFePa3DUYgY97OXK5VQlnzkR3-QGdVw
+  default_config_hash: FhOef6YIdZ-cnc1PhbCLTWHm6P8Cr5NFTrTmIDucolY
 id: listing_section
 block_id: 'inline_block:listing_section'
 category: search_listing
 label: 'Listing Section'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100

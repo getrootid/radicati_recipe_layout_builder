@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: 4pFpMCvlw09VjvGCaxhkZF74SickfFSA5tCli0-17WQ
+  default_config_hash: O9YnVae0zeNzEeiS8uB7QpfuZ4_COErvNoFcQWUCeS8
 id: block_content.checkerboard_highlights.field_chhi_items
 field_name: field_chhi_items
 entity_type: block_content

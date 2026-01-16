@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: I68qfxSkJ4eqLWA8aJiFE_GQqm3vYcL9EAoJWQD9-Ug
+  default_config_hash: lzxEtnknTiewsRHhXy4hvZVsvVwu-8CYo-G2s10DL8w
 id: call_to_action
 block_id: 'inline_block:call_to_action'
 category: components
 label: 'Call to Action'
+weight: -11
 image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/bullhorn-duotone.svg
 image_alt: ''
-weight: -11

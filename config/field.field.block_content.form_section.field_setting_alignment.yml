@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.form_section
     - field.storage.block_content.field_setting_alignment
 _core:
-  default_config_hash: 0KbOT8dt9gY5qe0Ey19Z3f5RJslO0DRdsAXpsgAU8mE
+  default_config_hash: 7og8syLuOGlYImDkmtxFhboR-ooUuduuvnF0PgzTs0c
 id: block_content.form_section.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

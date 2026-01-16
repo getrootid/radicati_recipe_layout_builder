@@ -7,7 +7,7 @@ dependencies:
     - entity_reference_revisions
     - paragraphs
 _core:
-  default_config_hash: b2PtENMH0Vc-P4r6y_KlRwiZy6MMhegyRo5o0gSwPYQ
+  default_config_hash: i0Fh0bH66zO6UoBqTzPWgrPqTJN8FU7ReQNsOTGQmnE
 id: block_content.field_chhi_items
 field_name: field_chhi_items
 entity_type: block_content

@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.highlight
     - field.storage.block_content.field_component_title
 _core:
-  default_config_hash: pmqlQO0RJw8_hbq97rIm1ygmcqeWsbWEc5r1SChLLFs
+  default_config_hash: vebp78jAbVWVfzAa9wzuVPBOSUPbIArqoO6HieNzxdM
 id: block_content.highlight.field_component_title
 field_name: field_component_title
 entity_type: block_content

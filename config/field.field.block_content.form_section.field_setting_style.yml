@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.form_section
     - field.storage.block_content.field_setting_style
 _core:
-  default_config_hash: F4yx_6OKGQd6bIB9-4GjHxhLZQTzHjTAm3yeW5z7BQQ
+  default_config_hash: XQAyK9gx6SS9i3EkSV-lmgqErEiwF-sRfb0LXksAzwU
 id: block_content.form_section.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

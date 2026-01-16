@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: in-Iu6vFh_O6qGC_ey7tjwrPAQQ783jr6YsYLsSbVxg
+  default_config_hash: QaeJjW1Z06Bgswg8_qA5iPvGVAZsmqvRNjvdbwS4jFA
 id: checkerboard_highlights
 label: 'Checkerboard Highlights'
 revision: false

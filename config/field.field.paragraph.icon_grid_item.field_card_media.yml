@@ -7,7 +7,7 @@ dependencies:
     - media.type.icon
     - paragraphs.paragraphs_type.icon_grid_item
 _core:
-  default_config_hash: mvm7dsBzsWuPhYoWt3BHdzHNC9deET8iOCTec3n0Ll8
+  default_config_hash: '-QVHokV64gendcyQzOzuRpVvaBQFECSKSLcK6WFBhZA'
 id: paragraph.icon_grid_item.field_card_media
 field_name: field_card_media
 entity_type: paragraph

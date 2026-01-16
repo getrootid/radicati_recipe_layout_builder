@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: '-ErPT-OK3sO5D7gUFVC8uwrRsEwoFs0E_KVeDMevLTM'
+  default_config_hash: avPFn9-VRNX-UpJo1cqXSZUPQCPtT4TAJRCRWC9FOao
 id: jump_menu
 block_id: 'inline_block:jump_menu'
 category: components
 label: 'Jump Menu'
+weight: -3
 image_path: ''
 image_alt: ''
-weight: -3

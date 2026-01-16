@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: T9zN2UYSccpkc0f3KVErD7mOgW-5WRkF8IvsZH9s4qk
+  default_config_hash: 2HQzXronfNAIg0tDdec8iYwaq1CMqaD0cgjdQELLPu0
 id: block_content.jump_menu.field_jump_menu_items
 field_name: field_jump_menu_items
 entity_type: block_content

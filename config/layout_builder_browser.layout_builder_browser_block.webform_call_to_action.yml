@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 6rttoMxFImJMWCWdSasTTLbca5lb1CYw0eTZYKny8KY
+  default_config_hash: 70hqQ3OFcJ5vt3yquF8hNvUvH8eutWEhlTLrvlUZl3s
 id: webform_call_to_action
 block_id: 'inline_block:webform_call_to_action'
 category: forms
 label: 'Webform Call to Action'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100

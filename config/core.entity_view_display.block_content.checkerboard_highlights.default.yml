@@ -11,7 +11,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: 1dfIvRna8uPUw4mTZwnPjkUky514Rh7RLIip1ZvJRkI
+  default_config_hash: 8lIPMs8GwpVfoAdm0eroOQDnDifwh5jVNml1-TjpXrw
 id: block_content.checkerboard_highlights.default
 targetEntityType: block_content
 bundle: checkerboard_highlights

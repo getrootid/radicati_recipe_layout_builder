@@ -8,7 +8,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: 4mojG7LIX7L_-bA73XJxinG4l6dUvSDfhdlH8auIng0
+  default_config_hash: BtIlGRcagvpe-KqkzlXF7yUFebIetbjsdMSjBA7329s
 id: radicati_settings_views
 label: 'Radicati: Settings Views'
 module: views

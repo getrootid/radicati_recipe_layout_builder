@@ -12,7 +12,7 @@ dependencies:
     - nomarkup
     - text
 _core:
-  default_config_hash: HPsk8MTD6L95obAq8U-Ftm5-kZTV5GH2b3xDR0dhtq4
+  default_config_hash: mKVntmvJjyUmmmUljfN5eYLPDaszDoGvxsY30oCwytA
 id: paragraph.icon_grid_item.default
 targetEntityType: paragraph
 bundle: icon_grid_item

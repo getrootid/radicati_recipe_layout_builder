@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: AvKk0b2CNeoB5tC189kD9QqSULbGuyh7qWfiGtw-SGo
+  default_config_hash: 8i7cRkUQCjg9kT-ENlXDm9txlebALo25YsBidGzBphE
 id: checkerboard_highlights
 block_id: 'inline_block:checkerboard_highlights'
 category: components
 label: 'Checkerboard Highlights'
+weight: -8
 image_path: ''
 image_alt: ''
-weight: -8

@@ -8,7 +8,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: 2dKzQv1gQLG1u5hJYNynQ7d7x2yIUx0sxpxMPUl5ZZY
+  default_config_hash: syVDI4TjOGChQ_Y8SCHA_J5iwdL2KoIF-2b6GSrZKm4
 id: block_content.buttons.field_buttons_buttons
 field_name: field_buttons_buttons
 entity_type: block_content

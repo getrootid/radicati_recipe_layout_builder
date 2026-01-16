@@ -5,8 +5,14 @@ dependencies:
   config:
     - block_content.type.content_grid
     - field.storage.block_content.field_content_grid_items
+    - node.type.event
+    - node.type.landing_page
+    - node.type.news_item
+    - node.type.page
+    - node.type.person
+    - node.type.post
 _core:
-  default_config_hash: KtrpHhLHXX5UFiqUX1IzgMhwu85QBafrxnBdxm8Tm7g
+  default_config_hash: EEfs99yNIUl9GzR0pYhcw3vIfNeoDs2LYFsA6qrpE6A
 id: block_content.content_grid.field_content_grid_items
 field_name: field_content_grid_items
 entity_type: block_content
@@ -21,17 +27,14 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      alert: alert
       page: page
-      event: event
       landing_page: landing_page
       news_item: news_item
       person: person
       post: post
-      resource: resource
     sort:
       field: _none
       direction: ASC
     auto_create: false
-    auto_create_bundle: alert
+    auto_create_bundle: page
 field_type: entity_reference

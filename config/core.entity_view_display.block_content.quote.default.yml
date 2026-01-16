@@ -6,6 +6,7 @@ dependencies:
     - block_content.type.quote
     - field.field.block_content.quote.field_quote_citation_name
     - field.field.block_content.quote.field_quote_citation_title
+    - field.field.block_content.quote.field_quote_media
     - field.field.block_content.quote.field_quote_quote
     - field.field.block_content.quote.field_setting_alignment
   module:
@@ -13,7 +14,7 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: Fc5QptKY57KMxkhwcV2AsEmtX1Rk0XBrOTcJQCvU-d8
+  default_config_hash: gWwcH5jEH1mk9Q0_WARhntu68AH8FOzkTwrMHRaCG0A
 id: block_content.quote.default
 targetEntityType: block_content
 bundle: quote
@@ -67,5 +68,6 @@ content:
     weight: 4
     region: content
 hidden:
+  field_quote_media: true
   langcode: true
   search_api_excerpt: true

@@ -8,7 +8,7 @@ dependencies:
   module:
     - inline_entity_form
 _core:
-  default_config_hash: LRe4yVOqFHX5JRzZHbZ_Z0IvGEUiZHB3eb5OZlr1oRg
+  default_config_hash: NmT9o2leHAupBr1Au3TWMCxRjfS4ZMQuL6pJIyjlQmc
 id: block_content.basic_accordions.default
 targetEntityType: block_content
 bundle: basic_accordions

@@ -9,7 +9,7 @@ dependencies:
   module:
     - nomarkup
 _core:
-  default_config_hash: r2eGQIAMIz4KJsiFl1oCShlTv8YbFI5Wa1_VBYP5Lio
+  default_config_hash: 1n1awKSvS911JR_ztW5vv5DTrvlHrMCl5-0Zy0_bmf0
 id: paragraph.jump_menu_item.default
 targetEntityType: paragraph
 bundle: jump_menu_item

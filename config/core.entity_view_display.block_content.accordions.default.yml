@@ -13,7 +13,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: oL5zamNC0QI8DxMD078OWxc62Y-_UYgrKBjUkE9_auE
+  default_config_hash: dfkPOnZ_sEKGG2Z5gQDj4-u9rc3cHwh0meo5J577UPk
 id: block_content.accordions.default
 targetEntityType: block_content
 bundle: accordions

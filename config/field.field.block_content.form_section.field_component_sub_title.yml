@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.form_section
     - field.storage.block_content.field_component_sub_title
 _core:
-  default_config_hash: 6QnBvieJqkRRLv8TCsuNHbviEj-6W-7X2Ac_0GO5AK8
+  default_config_hash: ouTiTcM14dOR5GdaDXO-IjBufCJdNx5OuZ2tDOt-5NA
 id: block_content.form_section.field_component_sub_title
 field_name: field_component_sub_title
 entity_type: block_content

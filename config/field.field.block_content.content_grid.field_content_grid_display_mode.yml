@@ -8,7 +8,7 @@ dependencies:
   module:
     - entity_reference_display
 _core:
-  default_config_hash: 2YcZbrjkwp3DqXwD4gzmQN15pI92JYIWCE6NFwsdaas
+  default_config_hash: AkMY8T-AtD9cC1deKz4WvvIG1PguXccqryrmcr7kkF4
 id: block_content.content_grid.field_content_grid_display_mode
 field_name: field_content_grid_display_mode
 entity_type: block_content
@@ -19,13 +19,12 @@ required: false
 translatable: false
 default_value:
   -
-    value: card_vertical
+    value: card_content_card
 default_value_callback: ''
 settings:
   exclude:
-    card_highlight: card_highlight
+    card_content_card: card_content_card
     card_horizontal: card_horizontal
-    card_image_background: card_image_background
     card_vertical: card_vertical
-  negate: 1
+  negate: true
 field_type: entity_reference_display

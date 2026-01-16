@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: DeShIrwBL59qbSbWM4ZJ7l_sePH_pJ-sGe4yvxNvmuc
+  default_config_hash: i1LENu3glX_ywXB-zIrLB2Df26tYj0TBWnq0nVNnQe0
 id: accordions
 block_id: 'inline_block:accordion_section'
 category: components
 label: 'Accordion Section'
+weight: -12
 image_path: ''
 image_alt: ''
-weight: -12

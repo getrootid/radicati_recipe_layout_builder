@@ -8,7 +8,7 @@ dependencies:
   module:
     - heading
 _core:
-  default_config_hash: fnopSbOCN_zHwWS1L6wY6R_1U3hkOt4bzQ7xDCSQCMc
+  default_config_hash: KmCOawdVaUdKyNQChWRN6oe4nDS4pwNEU8UuXPvfNdE
 id: block_content.heading.field_component_heading
 field_name: field_component_heading
 entity_type: block_content

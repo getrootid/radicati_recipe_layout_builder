@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: NmwjTCr6abAvw8XYWfSX1s2pagRhQjCDTkLJSlaU2P4
+  default_config_hash: 93Al4ev8Wghoptw05r7Y-hluegFbzvQ4UjrumvyFYRY
 id: basic_hero
 block_id: 'inline_block:basic_hero'
 category: hero
 label: 'Basic Hero'
+weight: -100
 image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/address-card-duotone.svg
 image_alt: 'Basic Hero'
-weight: -100

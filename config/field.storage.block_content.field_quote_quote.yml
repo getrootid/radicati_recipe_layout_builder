@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - text
 _core:
-  default_config_hash: nJNoO97uumwhgZqZNFpir0yvLoVlmQVIaRXBS00Zc6Q
+  default_config_hash: Ee8Esn66pEaMBR6zFB-7crI0UHo3UZX2NBPr4y_S4hk
 id: block_content.field_quote_quote
 field_name: field_quote_quote
 entity_type: block_content

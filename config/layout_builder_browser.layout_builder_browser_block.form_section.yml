@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: idcwkDkdWOMwhmWnJMA0x6FfB4kToQNEWugOX17P9Hk
+  default_config_hash: h2ZNpF4rfIqppicfOHsyT__GuQx56Jjq--gNpQ1QmWk
 id: form_section
 block_id: 'inline_block:form_section'
 category: forms
 label: 'Form Section'
+weight: -100
 image_path: ''
 image_alt: ''
-weight: -100
