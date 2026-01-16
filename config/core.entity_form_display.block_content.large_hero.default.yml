@@ -9,7 +9,6 @@ dependencies:
     - field.field.block_content.large_hero.field_component_read_more
     - field.field.block_content.large_hero.field_component_title
     - field.field.block_content.large_hero.field_setting_layout
-    - field.field.block_content.large_hero.field_setting_style
   module:
     - field_group
     - media_library
@@ -39,7 +38,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: jB3h3sr-SI8vdsW5a9Ti_OHtoc--kCTgkR9EQu1kJ-o
+  default_config_hash: vvAqN-HBl97pIllvwOsggx9XiJSgjCpFMTtNfyo0zYg
 id: block_content.large_hero.default
 targetEntityType: block_content
 bundle: large_hero
@@ -98,12 +97,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_setting_style:
-    type: taxonomy_icon_widget
-    weight: 6
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   info:
     type: string_textfield
     weight: 0
@@ -111,5 +104,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

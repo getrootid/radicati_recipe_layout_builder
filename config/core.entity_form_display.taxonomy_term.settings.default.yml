@@ -10,7 +10,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: B2-eOGtxHOfWb1in3ZzQYgnpJ-G7b0ySyikkMOftv1g
+  default_config_hash: 0MgJtkO0UAjdsm449yvJoBxKAxWAmf68ecNFjcqyVjg
 id: taxonomy_term.settings.default
 targetEntityType: taxonomy_term
 bundle: settings
@@ -39,6 +39,13 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   name:
     type: string_textfield

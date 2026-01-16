@@ -5,7 +5,7 @@ dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: mNobqH-00HBzaNEPqIpBMFzHlw0w1T6q159i_gM2hJ8
+  default_config_hash: bgQlXNJIYwA1pqCXkxPAMebg2sldmij4y94TSh79Zvo
 id: block_content.full
 label: Full
 description: ''

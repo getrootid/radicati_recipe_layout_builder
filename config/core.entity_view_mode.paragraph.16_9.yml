@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: MVcWM8H4F9g0zMed8gutGHeO2SvFpqTMg0DGN5-uSqs
 id: paragraph.16_9
 label: '16:9'
 description: null

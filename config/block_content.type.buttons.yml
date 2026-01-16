@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: yImuMovtV0VQndHAIuDAwMXyxc9-qKevqmdMPFQo4dk
+  default_config_hash: xtLswGRwVvz4BzF-WayT0yaxFUafzG2hk1TECZ7YhS0
 id: buttons
 label: Buttons
 revision: 0

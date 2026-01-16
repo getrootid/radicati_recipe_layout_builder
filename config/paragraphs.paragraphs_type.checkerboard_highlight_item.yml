@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: ZlpYSfKzKOCw_v3YahrfUFplR2hIY9xj7pwv_lqnzVA
+  default_config_hash: f7_cTBaOGvOfCZvVl7KlsQG9BdzilzuhuNH81v7mt5E
 id: checkerboard_highlight_item
 label: 'Checkerboard Highlight Item'
 icon_uuid: null

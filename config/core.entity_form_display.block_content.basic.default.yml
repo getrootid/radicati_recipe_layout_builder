@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: peN5-g63imtdvm7CgJhs-0HvyjXrvHG1xwLX6jsyvKA
+  default_config_hash: CFh7en1eChC64dAS917b2TVvdur68PxcXLK-I1eqpWs
 id: block_content.basic.default
 targetEntityType: block_content
 bundle: basic
@@ -31,5 +31,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

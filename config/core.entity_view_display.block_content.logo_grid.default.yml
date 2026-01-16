@@ -14,7 +14,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: DpYnoKeX6BT2TepaDEDzbvNBjRH6IbeSbJ9sKk7R6DI
+  default_config_hash: HRgU_8BeNyJy6LpIIikpz97l6lWB2wKBVlcHTpqZ5Jk
 id: block_content.logo_grid.default
 targetEntityType: block_content
 bundle: logo_grid
@@ -81,4 +81,5 @@ content:
     weight: 3
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

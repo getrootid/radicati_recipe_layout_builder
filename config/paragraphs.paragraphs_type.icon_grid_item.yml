@@ -2,6 +2,8 @@ uuid: a6751a22-25b0-4097-a3b6-67003e21d555
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: eCire6-aHtoryd2faoBrdCuGnKojTJiKiizqypnDH34
 id: icon_grid_item
 label: 'Icon Grid Item'
 icon_uuid: null

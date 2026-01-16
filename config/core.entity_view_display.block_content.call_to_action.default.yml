@@ -13,11 +13,11 @@ dependencies:
     - field.field.block_content.call_to_action.field_setting_alignment
     - field.field.block_content.call_to_action.field_setting_style
   module:
-    - manage_display
+    - nomarkup
     - radicati_base
     - text
 _core:
-  default_config_hash: rdfoshYa9-SJla4sAjV4PaWVXEa2earM3-vLagqLFjk
+  default_config_hash: 3MOFMPMJX6jmaDYjCvV2u82K57FKe23JZ_BohULeWks
 id: block_content.call_to_action.default
 targetEntityType: block_content
 bundle: call_to_action
@@ -27,7 +27,11 @@ content:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 4
     region: content
   field_component_media:
@@ -36,7 +40,11 @@ content:
     settings:
       view_mode: 16_9_full_width
       link: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: false
+        separator: '|'
+        referenced_entity: '1'
     weight: 0
     region: content
   field_component_read_more:
@@ -46,9 +54,13 @@ content:
       trim_length: '80'
       url_only: ''
       url_plain: ''
-      rel: ''
-      target: ''
-    third_party_settings: {  }
+      rel: 0
+      target: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 5
     region: content
   field_component_sub_title:
@@ -56,16 +68,23 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 3
     region: content
   field_component_title:
-    type: title
+    type: string
     label: hidden
     settings:
       link_to_entity: false
-      tag: h2
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 2
     region: content
   field_cta_blurb:
@@ -92,7 +111,11 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 1
     region: content
   field_cta_media:
@@ -118,7 +141,11 @@ content:
     label: hidden
     settings:
       use_data_attributes: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 7
     region: content
   field_setting_style:
@@ -130,4 +157,5 @@ content:
     weight: 6
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

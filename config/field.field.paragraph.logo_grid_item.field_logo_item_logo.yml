@@ -8,7 +8,7 @@ dependencies:
     - media.type.image
     - paragraphs.paragraphs_type.logo_grid_item
 _core:
-  default_config_hash: _KMHW5D_KFbsGry1pyim2CsbhJ-gaqala9WFLs5G_YY
+  default_config_hash: rRvkvgijyOElWGbu2hi7bpNETPa7LdCdfSnGH3EpjIo
 id: paragraph.logo_grid_item.field_logo_item_logo
 field_name: field_logo_item_logo
 entity_type: paragraph

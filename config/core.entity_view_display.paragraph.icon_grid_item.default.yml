@@ -9,8 +9,10 @@ dependencies:
     - field.field.paragraph.icon_grid_item.field_card_title
     - paragraphs.paragraphs_type.icon_grid_item
   module:
+    - nomarkup
     - text
-    - text_field_formatter
+_core:
+  default_config_hash: HPsk8MTD6L95obAq8U-Ftm5-kZTV5GH2b3xDR0dhtq4
 id: paragraph.icon_grid_item.default
 targetEntityType: paragraph
 bundle: icon_grid_item
@@ -20,7 +22,11 @@ content:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 2
     region: content
   field_card_media:
@@ -29,19 +35,23 @@ content:
     settings:
       view_mode: 16_9_half_width
       link: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: '1'
     weight: 0
     region: content
   field_card_title:
-    type: text_field_formatter
+    type: string
     label: hidden
     settings:
-      wrap_tag: h3
-      wrap_class: ''
-      wrap_attributes: ''
-      override_link_label: ''
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 1
     region: content
 hidden:

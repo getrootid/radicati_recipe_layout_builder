@@ -2,6 +2,8 @@ uuid: 264d2655-2f78-4c6e-a6c0-a81af6b830b5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: yyHjsNX3gVaZvfm5LXyRYPYIzJ9TQdN8cxTPcLhjtAI
 id: highlight_tab
 label: 'Highlight Tab'
 icon_uuid: null

@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: gNVgFTl28JTbtov80FVU--IuDTu8AFkW92G2XT01dFs
+  default_config_hash: MYjSOcl9TbN2nzMgNYbgCmYluv_1qxaGwBpI_zUJ8tc
 id: block_content.quote.field_quote_quote
 field_name: field_quote_quote
 entity_type: block_content

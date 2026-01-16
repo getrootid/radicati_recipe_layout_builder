@@ -6,12 +6,12 @@ dependencies:
     - block_content.type.call_to_action
     - field.storage.block_content.field_setting_alignment
 _core:
-  default_config_hash: 7ec3Fx_bMGkCaQczSvxzvOmcVw8imTSy5TxL_CP57M8
+  default_config_hash: ocqAO7Ep_RtbyacW_xqQa0N0oM-Qr4yt-1XJnOXarhg
 id: block_content.call_to_action.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content
 bundle: call_to_action
-label: Alignment
+label: 'Content Position'
 description: ''
 required: true
 translatable: true

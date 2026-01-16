@@ -8,7 +8,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: '-YlKG8Kz1Da0h4UUGvG9AwSN55g2fVExFLuOGSPL2lE'
+  default_config_hash: vfRk0dKeFlJKejJo9FDW7RjIUUpeIixJhdY4jvsY5go
 id: block_content.card_collection.field_component_read_more
 field_name: field_component_read_more
 entity_type: block_content

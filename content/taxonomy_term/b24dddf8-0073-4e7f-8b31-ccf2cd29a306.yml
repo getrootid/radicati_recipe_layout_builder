@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: taxonomy_term
-  uuid: 15436d40-3dd5-4194-b9db-e750b2c07ac9
+  uuid: b24dddf8-0073-4e7f-8b31-ccf2cd29a306
   bundle: settings
   default_langcode: en
   depends:
-    179e89fc-fa15-48e3-915f-3b5ee78ebbad: taxonomy_term
+    1e9dbb56-a0ad-44bf-9674-0124d12ce98a: taxonomy_term
 default:
   status:
     -

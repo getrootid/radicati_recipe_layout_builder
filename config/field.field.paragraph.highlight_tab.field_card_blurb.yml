@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.highlight_tab
   module:
     - text
+_core:
+  default_config_hash: 2qBEetN-7Uh5SiN0_XGOcG0jAtVZV1Fqow1xdNNOM8I
 id: paragraph.highlight_tab.field_card_blurb
 field_name: field_card_blurb
 entity_type: paragraph

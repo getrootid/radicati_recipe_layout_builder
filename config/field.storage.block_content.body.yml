@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - text
 _core:
-  default_config_hash: Upq3bEjJiSSWGF6mI2hTbob0wdpscDQ0yjUqqTbWKLY
+  default_config_hash: FkmI1yDQ3feBC-PC5VbQ2DM8BnTXipJ4JwAPWilX-Jw
 id: block_content.body
 field_name: body
 entity_type: block_content

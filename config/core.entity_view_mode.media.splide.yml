@@ -8,7 +8,7 @@ dependencies:
     module:
       - splide
 _core:
-  default_config_hash: txO_q_xyPhX00U-soGpC5XsZU6K2y3_5h6ORx6ru6ns
+  default_config_hash: _wbem70S6K27bAC9SpP0LBuZFPXLZu3YC-UVoCAiPxk
 id: media.splide
 label: 'Splide slider'
 description: null

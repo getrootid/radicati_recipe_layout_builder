@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: QmURB9rJRqLFNo7o3mm74vte4JG5wh4nlgLbQZHeFlA
+  default_config_hash: fXpE_AfjwTy9_bz3N6ygpu_KIGuZpUVpQhG2lPpWdlk
 id: highlight
 block_id: 'inline_block:highlight'
 category: components
 label: Highlight
 image_path: ''
 image_alt: ''
-weight: -5
+weight: -6

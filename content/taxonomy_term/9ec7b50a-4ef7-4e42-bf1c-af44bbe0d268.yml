@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9ec7b50a-4ef7-4e42-bf1c-af44bbe0d268
+  bundle: settings
+  default_langcode: en
+  depends:
+    ac291c4e-a725-4171-a856-5cfcb615b05c : taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Medium
+  weight:
+    -
+      value: 3
+  parent:
+    -
+      entity: ac291c4e-a725-4171-a856-5cfcb615b05c
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

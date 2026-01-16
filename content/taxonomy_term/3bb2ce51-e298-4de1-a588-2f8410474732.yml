@@ -5,7 +5,7 @@ _meta:
   bundle: settings
   default_langcode: en
   depends:
-    646cf295-d9f5-4a69-bf42-6f362249d7e5: taxonomy_term
+    a224d78c-789e-4434-b54f-c631edb63fa2: taxonomy_term
 default:
   status:
     -
@@ -18,7 +18,7 @@ default:
       value: 1
   parent:
     -
-      entity: 646cf295-d9f5-4a69-bf42-6f362249d7e5
+      entity: a224d78c-789e-4434-b54f-c631edb63fa2
   revision_translation_affected:
     -
       value: true

@@ -14,7 +14,7 @@ dependencies:
     - radicati_base
     - viewsreference
 _core:
-  default_config_hash: CWnAJpOEpigqoeCVemBD6-B1wcvjeMZG1GvqA7KypYI
+  default_config_hash: ljC76BjxJ7dzVxi-LlAg1h_M1i4rKXiZEjqUNL3KIjc
 id: block_content.listing_section.default
 targetEntityType: block_content
 bundle: listing_section
@@ -73,4 +73,5 @@ content:
     weight: 3
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

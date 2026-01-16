@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.buttons
     - field.storage.block_content.field_setting_alignment
 _core:
-  default_config_hash: En0s1-vdEOYEk5QSo-UqoSi9arWHMgaUUTuaPoVi0_o
+  default_config_hash: r0j3gSuFezI7eoJ0H1E8e8bUnkmn5BeqwwOlH4Vy-W4
 id: block_content.buttons.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

@@ -8,9 +8,10 @@ dependencies:
     - field.field.block_content.checkerboard_highlights.field_setting_style
   module:
     - entity_reference_revisions
+    - nomarkup
     - radicati_base
 _core:
-  default_config_hash: Y41I4LZM6DKtZ8vzT7ESf_jqPkitHGgFhfGe0iOegd4
+  default_config_hash: 1dfIvRna8uPUw4mTZwnPjkUky514Rh7RLIip1ZvJRkI
 id: block_content.checkerboard_highlights.default
 targetEntityType: block_content
 bundle: checkerboard_highlights
@@ -22,16 +23,21 @@ content:
     settings:
       view_mode: default
       link: ''
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
     weight: 0
     region: content
   field_setting_style:
     type: rad_tax_setting
-    label: above
+    label: hidden
     settings:
       use_data_attributes: false
     third_party_settings: {  }
     weight: 3
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

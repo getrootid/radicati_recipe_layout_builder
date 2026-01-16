@@ -9,8 +9,10 @@ dependencies:
     - field.field.block_content.accordion_section.field_component_title
   module:
     - entity_reference_revisions
-    - manage_display
     - nomarkup
+    - text_field_formatter
+_core:
+  default_config_hash: vfzTNid2dt-Tcjg4ASPkKfBkIdhUSvc_RKgpu-rqaxk
 id: block_content.accordion_section.default
 targetEntityType: block_content
 bundle: accordion_section
@@ -38,13 +40,21 @@ content:
     weight: 1
     region: content
   field_component_title:
-    type: title
+    type: text_field_formatter
     label: hidden
     settings:
-      link_to_entity: false
-      tag: h2
-    third_party_settings: {  }
+      wrap_tag: ''
+      wrap_class: ''
+      wrap_attributes: ''
+      override_link_label: ''
+      link_to_entity: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 0
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

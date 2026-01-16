@@ -9,6 +9,8 @@ dependencies:
     - field.field.block_content.accordion_section.field_component_title
   module:
     - inline_entity_form
+_core:
+  default_config_hash: jfUbzOBqGYclvfsu-EsQB-4IN5OCY4q3eJljT3kVFUw
 id: block_content.accordion_section.default
 targetEntityType: block_content
 bundle: accordion_section
@@ -55,5 +57,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

@@ -8,9 +8,10 @@ dependencies:
     - field.field.block_content.vertical_numbers_highlight.field_vertical_highlight__item
   module:
     - entity_reference_revisions
+    - nomarkup
     - radicati_base
 _core:
-  default_config_hash: lSYPHjtuf9cHoD6tOhJ6rNki2Z9q9-Hcofl46YNxxS8
+  default_config_hash: QJCHFUjd4bPeorWXVCtqHjpQPBX7-TF2VWsv0gkgl4c
 id: block_content.vertical_numbers_highlight.default
 targetEntityType: block_content
 bundle: vertical_numbers_highlight
@@ -18,9 +19,14 @@ mode: default
 content:
   field_setting_alignment:
     type: rad_tax_setting
-    label: above
-    settings: {  }
-    third_party_settings: {  }
+    label: hidden
+    settings:
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 3
     region: content
   field_vertical_highlight__item:
@@ -29,8 +35,13 @@ content:
     settings:
       view_mode: default
       link: ''
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
     weight: 4
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

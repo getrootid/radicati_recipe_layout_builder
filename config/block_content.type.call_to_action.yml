@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 8h1op0GKUtAPT_2gvEgko-69CxZvh5CCQ8AJ1hC2qXM
+  default_config_hash: 4DgxYTabDLNRz9xVxOnnjcIC3JQLEQEnRzdCrB46uvM
 id: call_to_action
 label: 'Call to Action'
 revision: 0

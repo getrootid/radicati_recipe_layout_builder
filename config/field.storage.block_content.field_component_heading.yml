@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - heading
 _core:
-  default_config_hash: rHfqieuvRV4TQ-0wd0N8WZqk0c-Lj50nzmQAlgI1vWQ
+  default_config_hash: KHVmTbMiBY_QO55O3W45K_cbPNMyUPSWcmi1dIe8HK4
 id: block_content.field_component_heading
 field_name: field_component_heading
 entity_type: block_content

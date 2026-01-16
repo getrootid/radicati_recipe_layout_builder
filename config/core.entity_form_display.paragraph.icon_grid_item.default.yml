@@ -12,6 +12,8 @@ dependencies:
     - link_attributes
     - media_library
     - text
+_core:
+  default_config_hash: zreCwF2t86Q_G8IpecqZSGzbBYdVqU_a8r97ujGpUuk
 id: paragraph.icon_grid_item.default
 targetEntityType: paragraph
 bundle: icon_grid_item

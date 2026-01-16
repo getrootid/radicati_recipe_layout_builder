@@ -2,6 +2,8 @@ uuid: c5612d12-d64f-41d9-9fc7-0d9e091c43d8
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: SSN95W0UyGVXLFEgiuTZWqVVZ657aYFhrJKyjmpp6QA
 id: icon_grid
 label: 'Icon Grid'
 revision: false

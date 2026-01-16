@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: l_opZPyK2_hHgute98aaw7utlHT25zszLB8TjP83stc
+  default_config_hash: vBzgPGcxooflu4FGSs2thiYT-fyQ80WrubZ1QzRD0M0
 id: card_carousel
 block_id: 'inline_block:card_carousel'
 category: components
 label: 'Card Carousel'
 image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/rectangle-vertical-history-duotone.svg
 image_alt: Carousel
-weight: -9
+weight: -10

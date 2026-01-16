@@ -7,6 +7,8 @@ dependencies:
     - field.field.block_content.basic_accordions.field_accordions_items
   module:
     - inline_entity_form
+_core:
+  default_config_hash: LRe4yVOqFHX5JRzZHbZ_Z0IvGEUiZHB3eb5OZlr1oRg
 id: block_content.basic_accordions.default
 targetEntityType: block_content
 bundle: basic_accordions
@@ -37,5 +39,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

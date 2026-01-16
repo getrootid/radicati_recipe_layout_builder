@@ -8,8 +8,9 @@ dependencies:
     - field.field.block_content.jump_menu.field_jump_menu_label
   module:
     - entity_reference_revisions
+    - nomarkup
 _core:
-  default_config_hash: evlRiH5KcSp2teBfeYseWXbAX_WPPyByC1AcpK_uvTw
+  default_config_hash: 9BSSGRueIqsJ7GZCo_K2UUrb6wwfjwSHv6rA4fgHIBg
 id: block_content.jump_menu.default
 targetEntityType: block_content
 bundle: jump_menu
@@ -21,7 +22,11 @@ content:
     settings:
       view_mode: default
       link: ''
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
     weight: 1
     region: content
   field_jump_menu_label:
@@ -29,8 +34,13 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 0
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

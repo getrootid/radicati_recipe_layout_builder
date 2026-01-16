@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_card_title
     - paragraphs.paragraphs_type.icon_grid_item
+_core:
+  default_config_hash: 9fn0HmZigVadY--VUmpy8jN-6tfWCvSr-r4KVMVKkMo
 id: paragraph.icon_grid_item.field_card_title
 field_name: field_card_title
 entity_type: paragraph

@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - entity_reference_display
 _core:
-  default_config_hash: S7_eHKSRUFzzhr39ih5wIkbCTWC2n42olhGDTlff75Y
+  default_config_hash: dyoU4ARhdHnjQuTZEoH9_Xm0GRaOv6NlcWeE5khnTEA
 id: block_content.field_setting_media_display_mode
 field_name: field_setting_media_display_mode
 entity_type: block_content

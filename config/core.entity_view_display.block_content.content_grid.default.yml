@@ -16,7 +16,7 @@ dependencies:
     - manage_display
     - radicati_base
 _core:
-  default_config_hash: Of7GBq3y6i2P2HiAL_6EtpdLE_xAmoPlgAY2uMzfkCU
+  default_config_hash: O1wlvtv9L-37jJ4aBM4CPYipZiSzKNCOL0tbQt4gSVs
 id: block_content.content_grid.default
 targetEntityType: block_content
 bundle: content_grid
@@ -79,4 +79,5 @@ content:
     region: content
 hidden:
   field_content_grid_display_mode: true
+  langcode: true
   search_api_excerpt: true

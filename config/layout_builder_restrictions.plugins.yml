@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: XRNjBgSgJXclmUenOVha2Z7DHF61QuMz3VvY-YNcxtQ
+  default_config_hash: O2PHYGCFSfg75pdIcbZ9Fs1ZitX36c0WUPgBtm0MgSU
 plugin_config:
   entity_view_mode_restriction:
     enabled: true

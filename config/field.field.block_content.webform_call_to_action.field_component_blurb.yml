@@ -9,7 +9,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: BaTpPbxBlrJODLNoeiCymNZVwiz1cpq3_uwHexBoTzc
+  default_config_hash: AqUHDRvOBBVIWKra0ukrvJcf9UPDu8hGVoWBjtEydMM
 id: block_content.webform_call_to_action.field_component_blurb
 field_name: field_component_blurb
 entity_type: block_content

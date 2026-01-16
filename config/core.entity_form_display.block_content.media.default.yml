@@ -9,7 +9,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: tVHqc0FTNqt9ujY0X7GsCjGu07_up8el-TbTayah6Fo
+  default_config_hash: 7M1cAGX5H8zZL1U0f-CsXbOKlsWf9IFXg-udMbIgrh8
 id: block_content.media.default
 targetEntityType: block_content
 bundle: media
@@ -46,5 +46,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: i517BFReNrgNOJsb32kEvP87e_VNmbc0d6RTpBCbz4Q
+  default_config_hash: Cbl0U8rTRVcWuAlFZXgWFjXeCybHkJkWPRTkXlSNEQ8
 id: heading
 block_id: 'inline_block:heading'
 category: page_content
 label: Heading
 image_path: ''
 image_alt: ''
-weight: -11
+weight: -9

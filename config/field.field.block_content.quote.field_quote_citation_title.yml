@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.quote
     - field.storage.block_content.field_quote_citation_title
 _core:
-  default_config_hash: 77Vo_Uhy6xbYH7neuJuUA7Qt25heEMiu6S062HaRtjI
+  default_config_hash: csbV7ha1s8pBccUUwoYP-DSi6fni1foNC0M1-pdyAYE
 id: block_content.quote.field_quote_citation_title
 field_name: field_quote_citation_title
 entity_type: block_content

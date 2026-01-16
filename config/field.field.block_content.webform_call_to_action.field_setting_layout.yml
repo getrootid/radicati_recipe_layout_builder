@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.webform_call_to_action
     - field.storage.block_content.field_setting_layout
 _core:
-  default_config_hash: fmofpzdZAW5OQ6H-zI4VGny47987ldyENGtTkU10zIM
+  default_config_hash: qZEZx7jQdv-bcy7wBDq9ZBfHJol7zCBy040tAimmFJ4
 id: block_content.webform_call_to_action.field_setting_layout
 field_name: field_setting_layout
 entity_type: block_content

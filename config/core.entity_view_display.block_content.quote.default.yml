@@ -6,14 +6,14 @@ dependencies:
     - block_content.type.quote
     - field.field.block_content.quote.field_quote_citation_name
     - field.field.block_content.quote.field_quote_citation_title
-    - field.field.block_content.quote.field_quote_media
     - field.field.block_content.quote.field_quote_quote
     - field.field.block_content.quote.field_setting_alignment
   module:
+    - nomarkup
     - radicati_base
     - text
 _core:
-  default_config_hash: SiFSAsEaQkqChMV3VbZaLyBxbvuSAf5PMGkythbSVGs
+  default_config_hash: Fc5QptKY57KMxkhwcV2AsEmtX1Rk0XBrOTcJQCvU-d8
 id: block_content.quote.default
 targetEntityType: block_content
 bundle: quote
@@ -24,7 +24,11 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 0
     region: content
   field_quote_citation_title:
@@ -32,32 +36,36 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 1
-    region: content
-  field_quote_media:
-    type: entity_reference_entity_view
-    label: hidden
-    settings:
-      view_mode: 1_1_half_width
-      link: false
-    third_party_settings: {  }
-    weight: 2
     region: content
   field_quote_quote:
     type: text_default
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 3
     region: content
   field_setting_alignment:
     type: rad_tax_setting
     label: hidden
     settings:
-      use_data_attributes: false
-    third_party_settings: {  }
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 4
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

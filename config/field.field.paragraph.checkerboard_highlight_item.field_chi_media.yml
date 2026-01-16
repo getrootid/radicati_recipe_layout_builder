@@ -8,7 +8,7 @@ dependencies:
     - media.type.remote_video
     - paragraphs.paragraphs_type.checkerboard_highlight_item
 _core:
-  default_config_hash: vrwRYi7k3MPRHwlmUa5MgB42hjOia66mM_1oGFm0J2A
+  default_config_hash: 0w_lXS5tmvE3nslcOorx13rOCNfPofTPdahAzSvodIA
 id: paragraph.checkerboard_highlight_item.field_chi_media
 field_name: field_chi_media
 entity_type: paragraph

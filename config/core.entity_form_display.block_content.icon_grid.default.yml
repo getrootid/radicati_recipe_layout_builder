@@ -9,9 +9,12 @@ dependencies:
     - field.field.block_content.icon_grid.field_component_title
     - field.field.block_content.icon_grid.field_icon_grid__items
     - field.field.block_content.icon_grid.field_setting_items_per_row
+    - field.field.block_content.icon_grid.field_setting_style
   module:
     - inline_entity_form
     - radicati_base
+_core:
+  default_config_hash: GlYXCBuKL2odZY0tenqn3n8b59G1yrPozR8RD3JxSBU
 id: block_content.icon_grid.default
 targetEntityType: block_content
 bundle: icon_grid
@@ -19,7 +22,7 @@ mode: default
 content:
   field_component_read_more:
     type: radicati_link_button_widget
-    weight: 5
+    weight: 7
     region: content
     settings:
       placeholder_url: ''
@@ -27,7 +30,7 @@ content:
     third_party_settings: {  }
   field_component_sub_title:
     type: string_textfield
-    weight: 2
+    weight: 5
     region: content
     settings:
       size: 60
@@ -43,7 +46,7 @@ content:
     third_party_settings: {  }
   field_icon_grid__items:
     type: inline_entity_form_complex
-    weight: 4
+    weight: 6
     region: content
     settings:
       form_mode: default
@@ -61,6 +64,12 @@ content:
     third_party_settings: {  }
   field_setting_items_per_row:
     type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
     weight: 3
     region: content
     settings: {  }
@@ -72,5 +81,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

@@ -2,7 +2,9 @@ uuid: ffd05f3b-d26c-4186-b403-aeb5372c345d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: UwZQlGlm8rWo9b_z0O02DM7U7dvKzcsDCQjfU3qS4QA
 id: media_carousel
 label: 'Media Carousel'
 revision: false
-description: null
+description: 'A carousel section that displays media items.'

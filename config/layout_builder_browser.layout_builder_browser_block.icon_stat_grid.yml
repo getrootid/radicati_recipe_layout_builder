@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 5Mk__gQcm5Uldep0L5c-mXVn4t54-K_yfpOOzsQnhUQ
+  default_config_hash: E_qQ9lCvOGY_FTnyT0955OTv0Oh5cw8UAICv2rHl8iQ
 id: icon_stat_grid
 block_id: 'inline_block:icon_stat_grid'
 category: components
 label: 'Icon Stat Grid'
 image_path: ''
 image_alt: ''
-weight: -2
+weight: -4

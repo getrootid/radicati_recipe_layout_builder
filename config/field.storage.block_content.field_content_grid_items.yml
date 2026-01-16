@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - node
 _core:
-  default_config_hash: lHD9obS4Llf-QsCQdAqrft9wntmAGvkPy8b64BooDy4
+  default_config_hash: EnBvTdnusHp_oF2Urof-5I6gEIp6PTNRwag3OB5qr1k
 id: block_content.field_content_grid_items
 field_name: field_content_grid_items
 entity_type: block_content

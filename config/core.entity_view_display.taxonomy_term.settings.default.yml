@@ -10,7 +10,7 @@ dependencies:
     - manage_display
     - text
 _core:
-  default_config_hash: 7d_6AXDtRWnALnWLl5DRQa25mnOXwg3jgZgAZIL3PsM
+  default_config_hash: g781S057UmwvtfYNKKkykTEzE0zJ1nFi8D8r6nB56y0
 id: taxonomy_term.settings.default
 targetEntityType: taxonomy_term
 bundle: settings
@@ -35,4 +35,5 @@ content:
 hidden:
   field_setting_class: true
   field_setting_icon: true
+  langcode: true
   search_api_excerpt: true

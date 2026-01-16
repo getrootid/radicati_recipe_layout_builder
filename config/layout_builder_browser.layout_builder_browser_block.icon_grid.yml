@@ -2,10 +2,12 @@ uuid: 2d7701bb-8db9-452f-86d7-614248245a9e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 9PDtmNRisTKhWFD5oHdQ-mmzaVPEDz9Kq39WwbypXyc
 id: icon_grid
 block_id: 'inline_block:icon_grid'
 category: components
 label: 'Icon Grid'
 image_path: ''
 image_alt: ''
-weight: -3
+weight: -5

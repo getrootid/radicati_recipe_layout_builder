@@ -6,11 +6,13 @@ dependencies:
     - block_content.type.heading
     - field.field.block_content.heading.field_component_heading
     - field.field.block_content.heading.field_setting_alignment
+    - field.field.block_content.heading.field_setting_size
   module:
     - heading
+    - nomarkup
     - radicati_base
 _core:
-  default_config_hash: hX_0b5Vp7lV_VL0AJwkbzzbGtEoPJCD_d_41_0c_vn0
+  default_config_hash: NyNQqFKkO4x-_zcfN_Q6qBzxadd_s3A0okcZXDuFyuE
 id: block_content.heading.default
 targetEntityType: block_content
 bundle: heading
@@ -20,16 +22,37 @@ content:
     type: heading
     label: hidden
     settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 0
     region: content
   field_setting_alignment:
     type: rad_tax_setting
-    label: above
+    label: hidden
     settings:
-      use_data_attributes: false
-    third_party_settings: {  }
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 3
     region: content
+  field_setting_size:
+    type: rad_tax_setting
+    label: hidden
+    settings:
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 4
+    region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

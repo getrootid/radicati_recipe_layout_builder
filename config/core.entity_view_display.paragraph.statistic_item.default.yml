@@ -8,9 +8,9 @@ dependencies:
     - field.field.paragraph.statistic_item.field_stat_value
     - paragraphs.paragraphs_type.statistic_item
   module:
-    - text_field_formatter
+    - nomarkup
 _core:
-  default_config_hash: WDe28W6K49JU-t6781tkFP-ckSgC_t9GHhzpt5Ddwa4
+  default_config_hash: jaC8ssWXjtMPHAzk56bpX8h0YiGbs71oiz7tIdKkOFQ
 id: paragraph.statistic_item.default
 targetEntityType: paragraph
 bundle: statistic_item
@@ -22,19 +22,23 @@ content:
     settings:
       view_mode: 1_1_half_width
       link: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: '1'
     weight: 0
     region: content
   field_stat_label:
-    type: text_field_formatter
+    type: string
     label: hidden
     settings:
-      wrap_tag: h3
-      wrap_class: ''
-      wrap_attributes: ''
-      override_link_label: ''
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 1
     region: content
   field_stat_value:
@@ -42,7 +46,11 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 2
     region: content
 hidden:

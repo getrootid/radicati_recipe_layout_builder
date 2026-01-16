@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: EpO5uTW4GCD59MnjC6pMRKIk1n_5VKJSCGgOwub7Ul0
+  default_config_hash: DeShIrwBL59qbSbWM4ZJ7l_sePH_pJ-sGe4yvxNvmuc
 id: accordions
 block_id: 'inline_block:accordion_section'
 category: components

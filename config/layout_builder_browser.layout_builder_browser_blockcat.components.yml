@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 6cy_jLJGIN2soXKddMJxiqpEYT4hobTkoqynbB4iKT0
+  default_config_hash: e4fbH7LAtay2xRBDZvDKpri7bdF-PIElJlrPuH5l8Z8
 id: components
-label: Components
+label: 'Page Sections'
 weight: -8
 opened: true
-image_path: null
-image_alt: null
+image_path: ''
+image_alt: ''

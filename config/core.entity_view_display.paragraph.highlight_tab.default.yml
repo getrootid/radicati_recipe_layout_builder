@@ -12,6 +12,8 @@ dependencies:
     - radicati_base
     - text
     - text_field_formatter
+_core:
+  default_config_hash: zAZZ8iUsyN81Zz_IEHbslOZNRu-wdIyQwjWxut-rZrQ
 id: paragraph.highlight_tab.default
 targetEntityType: paragraph
 bundle: highlight_tab

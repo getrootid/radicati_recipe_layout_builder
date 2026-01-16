@@ -9,11 +9,13 @@ dependencies:
     - field.field.block_content.icon_grid.field_component_title
     - field.field.block_content.icon_grid.field_icon_grid__items
     - field.field.block_content.icon_grid.field_setting_items_per_row
+    - field.field.block_content.icon_grid.field_setting_style
   module:
     - entity_reference_revisions
-    - manage_display
     - nomarkup
     - radicati_base
+_core:
+  default_config_hash: 7dunl7w8bZq_zsizf-LAvvAVwHRbhqoxIZWa6czIvBk
 id: block_content.icon_grid.default
 targetEntityType: block_content
 bundle: icon_grid
@@ -26,9 +28,13 @@ content:
       trim_length: '80'
       url_only: ''
       url_plain: ''
-      rel: ''
-      target: ''
-    third_party_settings: {  }
+      rel: 0
+      target: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 3
     region: content
   field_component_sub_title:
@@ -36,16 +42,23 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 1
     region: content
   field_component_title:
-    type: title
+    type: string
     label: hidden
     settings:
       link_to_entity: false
-      tag: h2
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 0
     region: content
   field_icon_grid__items:
@@ -62,10 +75,10 @@ content:
     weight: 2
     region: content
   field_setting_items_per_row:
-    type: entity_reference_label
+    type: rad_tax_setting
     label: hidden
     settings:
-      link: false
+      use_data_attributes: 0
     third_party_settings:
       nomarkup:
         enabled: true
@@ -73,5 +86,18 @@ content:
         referenced_entity: ''
     weight: 4
     region: content
+  field_setting_style:
+    type: rad_tax_setting
+    label: above
+    settings:
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 3
+    region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

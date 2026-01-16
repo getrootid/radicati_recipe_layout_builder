@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.listing_section
     - field.storage.block_content.field_setting_style
 _core:
-  default_config_hash: QWq9y5-b_cokT6po2_VxkNYuULgSAVrc3AsBBTDFRIw
+  default_config_hash: Vn7IXZTvArckbzQyi1MsxecXtWjAOLaz0GyQ1DJl-RA
 id: block_content.listing_section.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

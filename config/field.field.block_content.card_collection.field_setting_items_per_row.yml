@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.card_collection
     - field.storage.block_content.field_setting_items_per_row
 _core:
-  default_config_hash: ri4_ET85eEif_cdd74d3A_hn-ZHBqmxQJb7DADJCzCE
+  default_config_hash: r_N1CaBiPVTxr_S2l_eMezK4XelDMxidUBE0ukolqao
 id: block_content.card_collection.field_setting_items_per_row
 field_name: field_setting_items_per_row
 entity_type: block_content

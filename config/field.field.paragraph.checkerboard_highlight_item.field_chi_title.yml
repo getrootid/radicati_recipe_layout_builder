@@ -6,7 +6,7 @@ dependencies:
     - field.storage.paragraph.field_chi_title
     - paragraphs.paragraphs_type.checkerboard_highlight_item
 _core:
-  default_config_hash: aPa_kc_FZ4dh-i4onwQfWyOOeY04xjmAtTddCt9xUoA
+  default_config_hash: 9wjNn1bcQsSzlfOSeqSCa_SzvCdpTKzjHnNlHJlrUJk
 id: paragraph.checkerboard_highlight_item.field_chi_title
 field_name: field_chi_title
 entity_type: paragraph

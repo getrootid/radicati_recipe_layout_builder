@@ -5,7 +5,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: oA4kxdbgjG0yrJcFnJYuiSvtDHk4pgusUbAL2m12mlw
+  default_config_hash: RKq3yzRlV1wGJB42J4zfCEHumCZTbhxZKXO0sZwh7AI
 id: paragraph.field_media_item__caption
 field_name: field_media_item__caption
 entity_type: paragraph

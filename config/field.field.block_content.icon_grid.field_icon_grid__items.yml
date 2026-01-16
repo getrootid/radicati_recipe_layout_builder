@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.icon_grid_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: gu6MyEgt0-Cnfe-EMbnbQMXiI-M3Zeod_85WP8WDoTQ
 id: block_content.icon_grid.field_icon_grid__items
 field_name: field_icon_grid__items
 entity_type: block_content

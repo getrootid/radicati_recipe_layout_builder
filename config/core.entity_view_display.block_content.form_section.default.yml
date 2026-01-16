@@ -15,7 +15,7 @@ dependencies:
     - radicati_base
     - webform
 _core:
-  default_config_hash: x9VVaamPihcbhv8h1KSxt1QFKciNY4eWyEO44F_f6yc
+  default_config_hash: hi76YlaWYZ9E_fuU9w0wPd87HhlOqmwWhXyondhJBK8
 id: block_content.form_section.default
 targetEntityType: block_content
 bundle: form_section
@@ -76,4 +76,5 @@ content:
     weight: 3
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

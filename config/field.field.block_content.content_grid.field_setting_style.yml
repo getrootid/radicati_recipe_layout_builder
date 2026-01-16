@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.content_grid
     - field.storage.block_content.field_setting_style
 _core:
-  default_config_hash: SolTNXTHp0-CbD2JjvN55nyxLqP5vHXo0qtvazeGZ4g
+  default_config_hash: YSZWkz5IHKC6s1nLz-1hEW04NiYvvRPBM321wzUWTBM
 id: block_content.content_grid.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

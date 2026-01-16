@@ -6,6 +6,8 @@ dependencies:
     - block_content
     - entity_reference_revisions
     - paragraphs
+_core:
+  default_config_hash: 5S3RyzZZm3r6uOrZKEo8kz0pxf8gifRlbFubo8gRzk0
 id: block_content.field_media_carousel__items
 field_name: field_media_carousel__items
 entity_type: block_content

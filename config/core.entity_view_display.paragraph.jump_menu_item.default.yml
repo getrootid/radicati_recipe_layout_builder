@@ -6,8 +6,10 @@ dependencies:
     - field.field.paragraph.jump_menu_item.field_jmi_content_id
     - field.field.paragraph.jump_menu_item.field_jmi_label
     - paragraphs.paragraphs_type.jump_menu_item
+  module:
+    - nomarkup
 _core:
-  default_config_hash: J1l68WMKDYKr5IEsh95CutnhG2qnrWUMlXZN43rjXus
+  default_config_hash: r2eGQIAMIz4KJsiFl1oCShlTv8YbFI5Wa1_VBYP5Lio
 id: paragraph.jump_menu_item.default
 targetEntityType: paragraph
 bundle: jump_menu_item
@@ -18,7 +20,11 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 1
     region: content
   field_jmi_label:
@@ -26,7 +32,11 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 0
     region: content
 hidden:

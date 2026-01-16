@@ -39,7 +39,7 @@ third_party_settings:
         required_fields: true
         description: ''
 _core:
-  default_config_hash: 3I8SrsZrvkfRU2WrEBM0W71JGLM3yMC2KF1XoU9mLnY
+  default_config_hash: Hevk6_GwjSKrzilJJVXD-5A9Emi1OxJLDHqwGw6DPfQ
 id: block_content.card_collection.default
 targetEntityType: block_content
 bundle: card_collection
@@ -106,5 +106,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

@@ -5,7 +5,7 @@ _meta:
   bundle: settings
   default_langcode: en
   depends:
-    179e89fc-fa15-48e3-915f-3b5ee78ebbad: taxonomy_term
+    1e9dbb56-a0ad-44bf-9674-0124d12ce98a: taxonomy_term
 default:
   status:
     -

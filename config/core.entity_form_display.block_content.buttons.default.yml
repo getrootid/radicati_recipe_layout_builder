@@ -34,7 +34,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: TOgBV9a0ne6Gh47J8EW6ZwJHlPlNKFcDWIob0IGHWtU
+  default_config_hash: cnz7q95XbczdrF7o3FfLDPdGClu_KY-frV9YGkZLFZE
 id: block_content.buttons.default
 targetEntityType: block_content
 bundle: buttons
@@ -75,5 +75,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

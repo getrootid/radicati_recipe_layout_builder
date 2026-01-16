@@ -16,7 +16,7 @@ dependencies:
     - text
     - webform
 _core:
-  default_config_hash: pDUNk_QjlIKdXF-83NrgWY61sJgN6SPuJNnJF6voPXM
+  default_config_hash: yUZ_4977owuAjAj8A2-ri64z-3mJ-jUH4J8FjLrKbDA
 id: block_content.webform_call_to_action.default
 targetEntityType: block_content
 bundle: webform_call_to_action
@@ -87,4 +87,5 @@ content:
     weight: 3
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

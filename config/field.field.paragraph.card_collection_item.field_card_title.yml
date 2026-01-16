@@ -6,7 +6,7 @@ dependencies:
     - field.storage.paragraph.field_card_title
     - paragraphs.paragraphs_type.card_collection_item
 _core:
-  default_config_hash: TUhvXaGMTl3nMXccQnH6Q3DkxIEybN2xf8tNajzsW1U
+  default_config_hash: Z48CLPOFdJzYNB_NW4fwpmUS9ilpdyqxbTPq3vVQbwo
 id: paragraph.card_collection_item.field_card_title
 field_name: field_card_title
 entity_type: paragraph

@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_card_media
     - media.type.icon
     - paragraphs.paragraphs_type.icon_grid_item
+_core:
+  default_config_hash: mvm7dsBzsWuPhYoWt3BHdzHNC9deET8iOCTec3n0Ll8
 id: paragraph.icon_grid_item.field_card_media
 field_name: field_card_media
 entity_type: paragraph

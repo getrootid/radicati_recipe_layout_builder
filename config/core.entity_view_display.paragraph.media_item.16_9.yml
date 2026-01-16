@@ -16,7 +16,7 @@ third_party_settings:
     enabled: false
     allow_custom: false
 _core:
-  default_config_hash: 3CFZbH1r_jXHe5edZKRVi3gMCryMVPZlUCG4bp-mseU
+  default_config_hash: a6P6cAJY1WTHeWPt8fgtFUGj6UUUeYTWl1urDQqqNWU
 id: paragraph.media_item.16_9
 targetEntityType: paragraph
 bundle: media_item

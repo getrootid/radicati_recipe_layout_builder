@@ -12,10 +12,10 @@ dependencies:
     - field.field.block_content.icon_stat_grid.field_setting_style
   module:
     - entity_reference_revisions
-    - manage_display
+    - nomarkup
     - radicati_base
 _core:
-  default_config_hash: fVEcCJEyZQJ9ANCgBuutU1XWPzbStPnC792Rzknmue0
+  default_config_hash: kPC03dOfaDiJEAkizhPxHyneccBKZh2JMZ9ZNh64bDg
 id: block_content.icon_stat_grid.default
 targetEntityType: block_content
 bundle: icon_stat_grid
@@ -25,12 +25,16 @@ content:
     type: radicati_link_button_formatter
     label: hidden
     settings:
-      trim_length: 80
+      trim_length: '80'
       url_only: false
       url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
+      rel: 0
+      target: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 3
     region: content
   field_component_sub_title:
@@ -38,16 +42,23 @@ content:
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 1
     region: content
   field_component_title:
-    type: title
+    type: string
     label: hidden
     settings:
       link_to_entity: false
-      tag: h2
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 0
     region: content
   field_icon_stat_items:
@@ -56,25 +67,37 @@ content:
     settings:
       view_mode: default
       link: ''
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
     weight: 2
     region: content
   field_setting_items_per_row:
-    type: entity_reference_entity_view
-    label: above
+    type: rad_tax_setting
+    label: hidden
     settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 6
     region: content
   field_setting_style:
     type: rad_tax_setting
-    label: above
+    label: hidden
     settings:
-      use_data_attributes: false
-    third_party_settings: {  }
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 5
     region: content
 hidden:
+  langcode: true
   search_api_excerpt: true

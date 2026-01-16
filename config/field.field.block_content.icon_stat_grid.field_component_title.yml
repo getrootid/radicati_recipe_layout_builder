@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.icon_stat_grid
     - field.storage.block_content.field_component_title
 _core:
-  default_config_hash: R1APixeRzRb8O1DtQKOm6H_SBSOuDo4TedZFLqVxLOY
+  default_config_hash: iu6lUHSK5GDZWHuFnqG4tQSQ8O11ggzIHJlTDAahkto
 id: block_content.icon_stat_grid.field_component_title
 field_name: field_component_title
 entity_type: block_content

@@ -9,7 +9,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: s8v2l59Txoj_j93r2vVazF4Jz3oFExAxsxwPhGoTJ4g
+  default_config_hash: geXEZiteVYR9zUAPdMMPopT7p2GT0OMcYd5V20c1P_k
 id: block_content.highlight.field_component_blurb
 field_name: field_component_blurb
 entity_type: block_content
