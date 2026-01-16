@@ -1,0 +1,29 @@
+uuid: db0ec52a-2ab7-4bca-a9d8-56a7a0b31d1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonial
+    - field.storage.block_content.field_component_media
+    - media.type.image
+id: block_content.testimonial.field_component_media
+field_name: field_component_media
+entity_type: block_content
+bundle: testimonial
+label: 'Component Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

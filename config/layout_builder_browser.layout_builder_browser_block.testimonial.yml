@@ -1,0 +1,11 @@
+uuid: 2ca3278f-0115-4506-a2b9-98daf2e2bf98
+langcode: en
+status: true
+dependencies: {  }
+id: testimonial
+block_id: 'inline_block:testimonial'
+category: components
+label: Testimonial
+image_path: ''
+image_alt: ''
+weight: -1

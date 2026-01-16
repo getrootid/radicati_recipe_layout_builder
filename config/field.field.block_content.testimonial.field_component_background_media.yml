@@ -1,0 +1,29 @@
+uuid: 75500541-7253-4e07-bf81-21e03f23f8f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonial
+    - field.storage.block_content.field_component_background_media
+    - media.type.image
+id: block_content.testimonial.field_component_background_media
+field_name: field_component_background_media
+entity_type: block_content
+bundle: testimonial
+label: 'Background Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

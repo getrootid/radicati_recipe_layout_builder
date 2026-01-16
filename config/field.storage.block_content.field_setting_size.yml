@@ -1,0 +1,20 @@
+uuid: b3dfcff2-029f-4268-ba9b-3b29335ab92c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - taxonomy
+id: block_content.field_setting_size
+field_name: field_setting_size
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

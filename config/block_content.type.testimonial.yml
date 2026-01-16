@@ -1,0 +1,8 @@
+uuid: ff984cba-70ca-4a5f-ae7e-cd4b42bb362e
+langcode: en
+status: true
+dependencies: {  }
+id: testimonial
+label: Testimonial
+revision: false
+description: 'A page section that displays a testimonial.'

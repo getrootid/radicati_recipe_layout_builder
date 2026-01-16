@@ -1,0 +1,25 @@
+uuid: c90a31ba-0665-495a-a3cc-5994e0377304
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.heading
+    - field.storage.block_content.field_setting_size
+id: block_content.heading.field_setting_size
+field_name: field_setting_size
+entity_type: block_content
+bundle: heading
+label: Size
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: radicati_settings_views
+      display_name: entity_reference_10
+      arguments: {  }
+field_type: entity_reference
