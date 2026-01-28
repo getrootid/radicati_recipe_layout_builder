@@ -1,0 +1,21 @@
+uuid: 22d9e38c-fcf1-47eb-97eb-69b57b4e44fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.listing_grid
+    - field.storage.block_content.field_component_title
+_core:
+  default_config_hash: QyGCoaRo2XzzvWQglkg_yR80Z47MmG-saH0TI1I6W1Q
+id: block_content.listing_grid.field_component_title
+field_name: field_component_title
+entity_type: block_content
+bundle: listing_grid
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

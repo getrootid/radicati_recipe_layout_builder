@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.media_carousel
     - field.storage.block_content.field_setting_style
 _core:
-  default_config_hash: NKfafv0fZ_S5bger7x7ejaNs4Uck0rQn0Im8FTzXoZo
+  default_config_hash: fmriTbAp3_NL1F9N-wiSHzYO_uCgTx0M_4rZ08MrqTU
 id: block_content.media_carousel.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

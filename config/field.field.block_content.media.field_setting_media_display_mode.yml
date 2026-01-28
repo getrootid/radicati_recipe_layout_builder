@@ -8,7 +8,7 @@ dependencies:
   module:
     - entity_reference_display
 _core:
-  default_config_hash: _Yy2sKNaOR6WC59qlat_9xXl0NOXHoWxSQjjQu8zxmc
+  default_config_hash: rMZ7rdFmdu5B3PvhCd-0v_5Kenx9jyAJbfjEymhOW88
 id: block_content.media.field_setting_media_display_mode
 field_name: field_setting_media_display_mode
 entity_type: block_content

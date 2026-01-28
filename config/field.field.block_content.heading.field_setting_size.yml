@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.heading
     - field.storage.block_content.field_setting_size
 _core:
-  default_config_hash: BF1n0rPSNdBx7HyvDSHnl2buR9tJYn_W7FS4NB7_5vU
+  default_config_hash: 2pSNJ-OVOlOZNWAheDbm41eBEx-NyIW12CJUtIZ1QPU
 id: block_content.heading.field_setting_size
 field_name: field_setting_size
 entity_type: block_content

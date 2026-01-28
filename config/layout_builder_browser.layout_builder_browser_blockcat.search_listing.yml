@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: VW86UnfGIgwZmJKCrTF5egaFJPMMHKW0JDkfclwv7Xo
+  default_config_hash: b1ABFJuOX8D7yEqK4vkjIsywW6jDaZ6BhH6a2QSW2jI
 id: search_listing
 label: Search/Listing
 weight: -9

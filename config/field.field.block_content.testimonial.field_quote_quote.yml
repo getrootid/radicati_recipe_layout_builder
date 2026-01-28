@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: lVq4yJdmyw4Rr76ZcW4PmuH5fdhKtJfmHRGZnA0abqs
+  default_config_hash: yIFlfOD8cCaKHJWXPLjV48JedC-8vxzwRqFXYClK9QM
 id: block_content.testimonial.field_quote_quote
 field_name: field_quote_quote
 entity_type: block_content

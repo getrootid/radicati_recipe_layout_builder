@@ -1,0 +1,13 @@
+uuid: e50a39b1-3e54-4839-9a3c-c58cd260a5fb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: o3VnhXw9tP0qrtAN5IaQsMK9_8FFN_-I8sNCKDbifIQ
+id: listing_grid
+block_id: 'inline_block:listing_grid'
+category: search_listing
+label: 'Listing Grid'
+image_path: ''
+image_alt: ''
+weight: -13

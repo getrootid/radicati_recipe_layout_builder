@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: XeomlPxG3MVmiUf5XnFqXHhwjSlOP9T5EJnVKERuWEI
+  default_config_hash: b7Fhzc2dCDRnmGq4D9shQR_G-3oe6LLb1yx2JZgMQMk
 id: icon_grid_item
 label: 'Icon Grid Item'
 icon_uuid: null

@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.basic_hero
     - field.storage.block_content.field_setting_layout
 _core:
-  default_config_hash: RyERhVEZq5az97WCq36aZktffSz4SACQecMpONa2flI
+  default_config_hash: tOwv_TDkUI88xx5Y34F87gWwjq5Jk7U_o348s5_pHlM
 id: block_content.basic_hero.field_setting_layout
 field_name: field_setting_layout
 entity_type: block_content

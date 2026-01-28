@@ -5,7 +5,7 @@ dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: T0CnL8E8PLNOmnzwwLaKPpKh1-1r0c5qPQZK2_jhijg
+  default_config_hash: TjIYKCdFvlMaFGpPeOx9kc-mS0jcaStbwkq1S_jdDLs
 id: block_content.field_quote_citation_name
 field_name: field_quote_citation_name
 entity_type: block_content

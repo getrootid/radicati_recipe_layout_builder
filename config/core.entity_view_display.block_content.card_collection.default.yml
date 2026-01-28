@@ -15,7 +15,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: Gjs7vkFAXSd_q8M8zQMfwMevX-FW-BxxR8pqTSHZ0vE
+  default_config_hash: fSypRuL3WEZjeH5zf7ZPanR_5w8xm5wIJP-hI-Km4vc
 id: block_content.card_collection.default
 targetEntityType: block_content
 bundle: card_collection
@@ -29,8 +29,8 @@ content:
       link: ''
     third_party_settings:
       nomarkup:
-        enabled: false
-        separator: '|'
+        enabled: true
+        separator: ''
         referenced_entity: ''
     weight: 2
     region: content

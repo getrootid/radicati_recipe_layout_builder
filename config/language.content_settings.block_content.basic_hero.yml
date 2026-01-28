@@ -1,0 +1,11 @@
+uuid: a9330f75-eda8-410c-96be-bbab5cf7e0e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_hero
+id: block_content.basic_hero
+target_entity_type_id: block_content
+target_bundle: basic_hero
+default_langcode: site_default
+language_alterable: false

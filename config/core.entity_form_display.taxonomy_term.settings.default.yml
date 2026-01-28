@@ -10,7 +10,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: ARVD2JqLMWQkCIo9wCXdRrsa7Rs1-uleJfFqokOSyGA
+  default_config_hash: LFMTN1bc_Y454HBpldpi5-cy2R9tKoNl_679Jwalsxk
 id: taxonomy_term.settings.default
 targetEntityType: taxonomy_term
 bundle: settings

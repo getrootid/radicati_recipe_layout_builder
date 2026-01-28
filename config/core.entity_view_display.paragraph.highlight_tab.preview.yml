@@ -10,7 +10,7 @@ dependencies:
     - field.field.paragraph.highlight_tab.field_card_title
     - paragraphs.paragraphs_type.highlight_tab
 _core:
-  default_config_hash: IZI8rOdZygSBhxe9LHYvoYNQ_a_LKx5VsQIuIWF7MCw
+  default_config_hash: 059loWjiKq3yKeud85dv5-aimTr4z10175LUm2szKnI
 id: paragraph.highlight_tab.preview
 targetEntityType: paragraph
 bundle: highlight_tab
@@ -28,4 +28,5 @@ hidden:
   field_card_blurb: true
   field_card_link: true
   field_card_media: true
+  field_setting_style: true
   search_api_excerpt: true

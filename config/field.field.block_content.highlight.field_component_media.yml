@@ -8,7 +8,7 @@ dependencies:
     - media.type.image
     - media.type.remote_video
 _core:
-  default_config_hash: TQLDSIEWlFWaxyojDmNQa3DAwVomuyF6O3kZJInuL2Q
+  default_config_hash: p9jU_brBCVYm0kNqGQJYlVyk3OVgZ80E6LdvRyebzpo
 id: block_content.highlight.field_component_media
 field_name: field_component_media
 entity_type: block_content

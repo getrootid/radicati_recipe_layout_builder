@@ -14,7 +14,7 @@ dependencies:
     - text
     - text_field_formatter
 _core:
-  default_config_hash: KsqV0adgBvDl3Ay9-iceKXZH7JC7OyVsEuHDohERle0
+  default_config_hash: Uy3AV1QFf98tvGcv1bJW5mzzA1Xh-4_v5tG5guMGBbU
 id: paragraph.card_collection_item.default
 targetEntityType: paragraph
 bundle: card_collection_item

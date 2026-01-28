@@ -1,0 +1,107 @@
+uuid: 90246d55-3cf9-4744-995d-8b88a871ec02
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.listing_grid
+    - field.field.block_content.listing_grid.field_component_read_more
+    - field.field.block_content.listing_grid.field_component_sub_title
+    - field.field.block_content.listing_grid.field_component_title
+    - field.field.block_content.listing_grid.field_listing_section_view
+    - field.field.block_content.listing_grid.field_setting_items_per_row
+    - field.field.block_content.listing_grid.field_setting_style
+  module:
+    - nomarkup
+    - radicati_base
+    - viewsreference
+_core:
+  default_config_hash: gyOgJNEFzEPBCxfTyqwUZv7a0bz6OMc-Csfde6RELYQ
+id: block_content.listing_grid.default
+targetEntityType: block_content
+bundle: listing_grid
+mode: default
+content:
+  field_component_read_more:
+    type: radicati_link_button_formatter
+    label: hidden
+    settings:
+      trim_length: '80'
+      url_only: ''
+      url_plain: ''
+      rel: 0
+      target: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 5
+    region: content
+  field_component_sub_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 1
+    region: content
+  field_component_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 0
+    region: content
+  field_listing_section_view:
+    type: viewsreference_formatter
+    label: hidden
+    settings:
+      plugin_types:
+        embed: embed
+        default: '0'
+        page: '0'
+        entity_reference: '0'
+        feed: '0'
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 2
+    region: content
+  field_setting_items_per_row:
+    type: rad_tax_setting
+    label: hidden
+    settings:
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 5
+    region: content
+  field_setting_style:
+    type: rad_tax_setting
+    label: hidden
+    settings:
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 3
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

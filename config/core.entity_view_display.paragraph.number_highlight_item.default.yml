@@ -10,7 +10,7 @@ dependencies:
     - nomarkup
     - text
 _core:
-  default_config_hash: SLyem4PiopuQctHtrI2cCPygtEzR0h_0OKh0Yxsnxuo
+  default_config_hash: lQuplI2O1520UIGK9WG3QzKJ-fhy2wWQY_GXSRl-yKc
 id: paragraph.number_highlight_item.default
 targetEntityType: paragraph
 bundle: number_highlight_item

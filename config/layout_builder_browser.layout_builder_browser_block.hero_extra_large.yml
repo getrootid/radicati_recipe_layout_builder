@@ -1,0 +1,11 @@
+uuid: f042b7b1-8b33-4cce-af12-d34e7e4ffc67
+langcode: en
+status: true
+dependencies: {  }
+id: hero_extra_large
+block_id: 'inline_block:hero_extra_large'
+category: hero
+label: 'Hero: Extra Large'
+image_path: ''
+image_alt: ''
+weight: -100

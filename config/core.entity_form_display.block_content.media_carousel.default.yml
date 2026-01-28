@@ -13,7 +13,7 @@ dependencies:
     - inline_entity_form
     - radicati_base
 _core:
-  default_config_hash: dVARpcpiMdTZl5Y2lbc9H_3_ruu92mg8z05JQ7OyRoU
+  default_config_hash: b_E8fFijZK1iHAH1rc8B3A8uQV_7bFpV20y_VZYqjB8
 id: block_content.media_carousel.default
 targetEntityType: block_content
 bundle: media_carousel

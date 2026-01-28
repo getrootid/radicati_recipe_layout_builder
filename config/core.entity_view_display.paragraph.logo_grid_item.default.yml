@@ -10,7 +10,7 @@ dependencies:
     - link
     - nomarkup
 _core:
-  default_config_hash: 4eeWBEF-D1ztnkPi2e2r88ZBv5xtypkEg7JTF9jizAQ
+  default_config_hash: EEuk_-lHmM9LrKOlwFTG6-pO32NaYq2TGAMVX_6FPEA
 id: paragraph.logo_grid_item.default
 targetEntityType: paragraph
 bundle: logo_grid_item

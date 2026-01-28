@@ -1,0 +1,23 @@
+uuid: 50c4dd3c-6c9d-4cc6-a9c5-f136e5da6994
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_button
+    - paragraphs.paragraphs_type.hero_content_button
+  module:
+    - link
+id: paragraph.hero_content_button.field_card_button
+field_name: field_card_button
+entity_type: paragraph
+bundle: hero_content_button
+label: Button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

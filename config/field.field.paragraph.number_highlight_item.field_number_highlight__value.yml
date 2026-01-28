@@ -6,7 +6,7 @@ dependencies:
     - field.storage.paragraph.field_number_highlight__value
     - paragraphs.paragraphs_type.number_highlight_item
 _core:
-  default_config_hash: jABHyJUgUHw6L9G3DROwkIRPpEY60p9qZF194sU3o2I
+  default_config_hash: ZE5X5_JHCEa1zAEXGbSaXQBUNDwKunFT0L7JnTcLsdw
 id: paragraph.number_highlight_item.field_number_highlight__value
 field_name: field_number_highlight__value
 entity_type: paragraph

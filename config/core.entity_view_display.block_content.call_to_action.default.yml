@@ -17,7 +17,7 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: 8psBjsirJpUK5cpZFstK28ejwz7sILe2AFnI-usD04k
+  default_config_hash: JIaa8gDs3zOwtKAwxOsVZf3SpDobSzjHc7PnKs8RCkI
 id: block_content.call_to_action.default
 targetEntityType: block_content
 bundle: call_to_action
@@ -150,7 +150,7 @@ content:
     region: content
   field_setting_style:
     type: rad_tax_setting
-    label: above
+    label: hidden
     settings:
       use_data_attributes: false
     third_party_settings: {  }

@@ -1,0 +1,24 @@
+uuid: d2a03744-f344-49ff-ac9b-b587e89a4845
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_extra_large
+    - field.storage.block_content.field_component_blurb
+    - filter.format.basic_html
+  module:
+    - text
+id: block_content.hero_extra_large.field_component_blurb
+field_name: field_component_blurb
+entity_type: block_content
+bundle: hero_extra_large
+label: Blurb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

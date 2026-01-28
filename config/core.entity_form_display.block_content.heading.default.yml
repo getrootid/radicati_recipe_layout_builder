@@ -35,7 +35,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: sXne3XgRqwPLfiBqvoc1Yr5Sg4F27Pqx9ixvcdZLHsk
+  default_config_hash: QLhGrhmJxQ5IPOcgSrtDNKijhaY-16oy6VyNl-mnSN4
 id: block_content.heading.default
 targetEntityType: block_content
 bundle: heading

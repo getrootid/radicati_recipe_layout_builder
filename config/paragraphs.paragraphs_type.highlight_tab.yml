@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: HyL_PWEj6fkoKU_nYTgZJ7EhOW7P-R6r7KvL_IxmyaA
+  default_config_hash: V8CJEz2BvZz2Av-MyvVicRQ4RjEcwO43wRUnwFL8f8I
 id: highlight_tab
 label: 'Highlight Tab'
 icon_uuid: null

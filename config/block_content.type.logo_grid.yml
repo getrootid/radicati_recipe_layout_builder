@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: SSKLjt0t9mVHBSKWWQSNE31uaE_l3RHNcFdNQytcU4o
+  default_config_hash: rMx7uo6GVCMsIJ4i04a2mDQtXXlgldV3gAUfgg1M9A8
 id: logo_grid
 label: 'Logo Grid'
 revision: 0

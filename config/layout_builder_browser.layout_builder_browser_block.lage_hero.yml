@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: Q1JT4oWscR0ckwunoEDHqw6Vf3j_swsldrEj1p2jd3g
+  default_config_hash: TUBHB2Xqf1x4F2TfwMK9738JuO29XPIKiexVGy1yTLA
 id: lage_hero
 block_id: 'inline_block:large_hero'
 category: hero
-label: 'Lage Hero'
-weight: -3
-image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/address-card-duotone.svg
+label: 'Hero: Large'
+image_path: ''
 image_alt: 'Large Hero'
+weight: -3

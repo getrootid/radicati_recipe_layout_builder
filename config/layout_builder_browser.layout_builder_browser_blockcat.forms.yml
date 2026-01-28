@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: V_GlyJma4qaiqyRU9icabTyMxQdF5wdNiUxw5z2BM80
+  default_config_hash: pTdo9zlMUaWvzpygKhSjS_QSio7tPz0cny85KFNbX1k
 id: forms
 label: Forms
 weight: -6

@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.call_to_action
     - field.storage.block_content.field_cta_label
 _core:
-  default_config_hash: F18k8v3cyOwQK9N4uVxT1EZFecKqQLfdm5z8CG8QLZ4
+  default_config_hash: 7VUSdPe5RQx9CINCS0V5aZQqcmFcZJWzAcqDNhI2mBM
 id: block_content.call_to_action.field_cta_label
 field_name: field_cta_label
 entity_type: block_content

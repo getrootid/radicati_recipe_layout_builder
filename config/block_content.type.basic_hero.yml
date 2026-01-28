@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 4jTMJzhXhDFl2cASPGWiCUX1ol7mNLnO32kfXnh54jo
+  default_config_hash: _JAJHVGqG1pxIulfiV7VLXTjWLJ8Y4Bq4ALiBd87iFI
 id: basic_hero
-label: 'Basic Hero'
-revision: 0
+label: 'Hero: Basic'
+revision: false
 description: 'A simple hero section with a title and background image.'

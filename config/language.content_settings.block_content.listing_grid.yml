@@ -1,0 +1,13 @@
+uuid: fcf458e1-82b5-41a8-8d57-16cb7b4ea526
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.listing_grid
+_core:
+  default_config_hash: GVhJiuqg7Dyz32c5EsuCLg5if0KAf6Co2ZqUejX1f3k
+id: block_content.listing_grid
+target_entity_type_id: block_content
+target_bundle: listing_grid
+default_langcode: site_default
+language_alterable: false

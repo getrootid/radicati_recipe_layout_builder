@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.accordions
     - field.storage.block_content.field_component_title
 _core:
-  default_config_hash: M3A_ZqIrOE9JHURsIqjOCeDaCIjjx-pIXrjzRU0oWes
+  default_config_hash: 6PW_HYM_hpyo0pYJWPkVcH5fjZgsoI-rSDK9A3ksJ8c
 id: block_content.accordions.field_component_title
 field_name: field_component_title
 entity_type: block_content

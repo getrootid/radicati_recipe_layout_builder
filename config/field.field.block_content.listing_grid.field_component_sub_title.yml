@@ -1,0 +1,21 @@
+uuid: 68452311-2bcb-4a74-aed9-b219fef1ad08
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.listing_grid
+    - field.storage.block_content.field_component_sub_title
+_core:
+  default_config_hash: V7vh6lXNHprMcHj-yIXDNSxuQNA1A4hULFLtrzLTBt4
+id: block_content.listing_grid.field_component_sub_title
+field_name: field_component_sub_title
+entity_type: block_content
+bundle: listing_grid
+label: Sub-Title
+description: 'Displays under the title and adds additional information or context.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

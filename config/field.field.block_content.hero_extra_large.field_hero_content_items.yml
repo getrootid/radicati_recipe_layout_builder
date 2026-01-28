@@ -1,0 +1,84 @@
+uuid: f0ab622c-1a28-43c1-9ac2-82c3786efa16
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_extra_large
+    - field.storage.block_content.field_hero_content_items
+    - paragraphs.paragraphs_type.hero_content_button
+    - paragraphs.paragraphs_type.hero_content_update
+  module:
+    - entity_reference_revisions
+id: block_content.hero_extra_large.field_hero_content_items
+field_name: field_hero_content_items
+entity_type: block_content
+bundle: hero_extra_large
+label: 'Hero Content Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      hero_content_button: hero_content_button
+      hero_content_update: hero_content_update
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_item:
+        weight: 19
+        enabled: false
+      card_collection_item:
+        weight: 20
+        enabled: false
+      checkerboard_highlight_item:
+        weight: 21
+        enabled: false
+      hero_content_button:
+        weight: 22
+        enabled: true
+      hero_content_update:
+        weight: 23
+        enabled: true
+      highlight_tab:
+        weight: 24
+        enabled: false
+      icon_grid_item:
+        weight: 25
+        enabled: false
+      inline_content_accordions:
+        weight: 26
+        enabled: false
+      inline_content_call_to_action:
+        weight: 27
+        enabled: false
+      inline_content_formatted_text:
+        weight: 28
+        enabled: false
+      inline_content_heading:
+        weight: 29
+        enabled: false
+      inline_content_media_item:
+        weight: 30
+        enabled: false
+      inline_content_quote:
+        weight: 31
+        enabled: false
+      jump_menu_item:
+        weight: 32
+        enabled: false
+      logo_grid_item:
+        weight: 33
+        enabled: false
+      media_item:
+        weight: 34
+        enabled: false
+      number_highlight_item:
+        weight: 35
+        enabled: false
+      statistic_item:
+        weight: 36
+        enabled: false
+field_type: entity_reference_revisions

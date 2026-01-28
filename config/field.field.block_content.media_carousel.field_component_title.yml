@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.media_carousel
     - field.storage.block_content.field_component_title
 _core:
-  default_config_hash: azcnqHzFq7LNAJfQSdpGrQ6te7LTEXUoepo5ClkFjTU
+  default_config_hash: TMXY0cbgHtMkB8n31hXnGnMLHG5lSBPi9BptowueVeY
 id: block_content.media_carousel.field_component_title
 field_name: field_component_title
 entity_type: block_content

@@ -11,7 +11,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: iNs6hkYBD21hl8NyLTG_8vAUvVSFmUh69p_EEiQg_eE
+  default_config_hash: 3_RVka7ywtWtO5WiXgoxzLxm42Cx1Y7EpfIirXObYbA
 id: block_content.vertical_numbers_highlight.default
 targetEntityType: block_content
 bundle: vertical_numbers_highlight

@@ -16,7 +16,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: ib_iypHhQQMfw-eV8DTEAQiXPpqbZWj0rxKdSis5gHo
+  default_config_hash: HhInT7YdzicHzClr-ACpd4sj7sh8q7ABB2jS8GVC2QI
 id: block_content.content_grid.default
 targetEntityType: block_content
 bundle: content_grid

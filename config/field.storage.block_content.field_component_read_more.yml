@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - link
 _core:
-  default_config_hash: mdJSUlGlWvEuEFDDd86e4rjxw-RmPkWCa985_BWKV0w
+  default_config_hash: JOVX36G-lM1X0g3TofXP-ggY1eyOitqoT1nAEP01RTI
 id: block_content.field_component_read_more
 field_name: field_component_read_more
 entity_type: block_content

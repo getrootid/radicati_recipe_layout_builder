@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - taxonomy
 _core:
-  default_config_hash: 0lAgTCYNoCw3HFBpLpw5HNLMSxI8er8O3xm9R2HHuTk
+  default_config_hash: tpXmdRRBzz8P7xjZNSA0BP3M__YBMyoRrlf9suXsMgU
 id: block_content.field_setting_direction
 field_name: field_setting_direction
 entity_type: block_content

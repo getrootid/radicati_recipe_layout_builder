@@ -11,7 +11,7 @@ dependencies:
     - nomarkup
     - options
 _core:
-  default_config_hash: 8IIAv88Tan-rOapjHRngGpCqX7SXjtF0cr2ZYsUq5f4
+  default_config_hash: g4LFb-1Y7Q0nNtVXcnt-C-nwMvWaWFqNuaMyL65lSDY
 id: block_content.media.default
 targetEntityType: block_content
 bundle: media
@@ -26,7 +26,7 @@ content:
       display_field: ''
     third_party_settings:
       nomarkup:
-        enabled: false
+        enabled: true
         separator: '|'
         referenced_entity: ''
     weight: 2

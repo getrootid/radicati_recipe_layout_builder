@@ -1,0 +1,10 @@
+uuid: e6a626fb-37b6-4743-8aa1-be3f22bde2e8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1OjBrpvaUZvHvuyZIMwnDKMqq_B1Y-OYyQCZHddm3RE
+id: listing_grid
+label: 'Listing Grid'
+revision: false
+description: 'A grid version of the listing section.'

@@ -10,7 +10,7 @@ dependencies:
   module:
     - media_library
 _core:
-  default_config_hash: GPx_D8HrxHQMeQpe0VPsyMY1o3a3nmhphRLwDchf6Dk
+  default_config_hash: laYYNx8GVSL1EwtVmrMECM6_irtYAvsUahztMsFnznc
 id: paragraph.statistic_item.default
 targetEntityType: paragraph
 bundle: statistic_item

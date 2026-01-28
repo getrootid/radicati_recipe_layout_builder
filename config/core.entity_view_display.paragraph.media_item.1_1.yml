@@ -11,7 +11,7 @@ dependencies:
   module:
     - nomarkup
 _core:
-  default_config_hash: W6c0K_LEJ-EjmL4pKzm1QYZZ045yRsfL7OBO4RAaAbI
+  default_config_hash: 2DSIKrXlrAa54WrA3LwfwB0ettxPB31QwS3yRyiW8s0
 id: paragraph.media_item.1_1
 targetEntityType: paragraph
 bundle: media_item

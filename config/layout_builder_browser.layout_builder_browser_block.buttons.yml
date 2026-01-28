@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: b0Dfl5V9HkOfHLxu7UgqDOl6vs_ZjMQEjMoZUR4VB5A
+  default_config_hash: tNBGmAJt9pKZhLhxBg1-Y8dwPiQNY5npIBJBxKS-6m4
 id: buttons
 block_id: 'inline_block:buttons'
 category: page_content
 label: Buttons
-weight: -11
 image_path: ''
 image_alt: ''
+weight: -11

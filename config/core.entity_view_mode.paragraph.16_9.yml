@@ -5,7 +5,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: VwFBiQWbMOeDsFqZsNLiq_EDPNszT1Wde7w_bzHH2Qo
+  default_config_hash: znW7cCNJnnXHVmGRvLIeXupC7HEUnYzZrkNjyfxFihQ
 id: paragraph.16_9
 label: '16:9'
 description: null

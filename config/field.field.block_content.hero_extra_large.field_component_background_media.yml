@@ -1,0 +1,29 @@
+uuid: 9ef167fc-61c0-445c-8afd-cdda3acdc824
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_extra_large
+    - field.storage.block_content.field_component_background_media
+    - media.type.image
+id: block_content.hero_extra_large.field_component_background_media
+field_name: field_component_background_media
+entity_type: block_content
+bundle: hero_extra_large
+label: 'Background Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

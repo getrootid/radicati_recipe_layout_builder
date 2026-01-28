@@ -7,7 +7,7 @@ dependencies:
     - field.storage.block_content.field_component_media
     - media.type.image
 _core:
-  default_config_hash: oV0k7Rb4i9sH5tA-r3mg4XCFJThCURdh9t1uipWSzdc
+  default_config_hash: oxB8YTg1vAy6rotfvaGolNbXIKvFmtuEIBA_Qvei-mc
 id: block_content.testimonial.field_component_media
 field_name: field_component_media
 entity_type: block_content

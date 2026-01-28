@@ -1,0 +1,80 @@
+uuid: 86c4b035-48ae-4e30-8df9-9b7a4174a00f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.listing_grid
+    - field.field.block_content.listing_grid.field_component_read_more
+    - field.field.block_content.listing_grid.field_component_sub_title
+    - field.field.block_content.listing_grid.field_component_title
+    - field.field.block_content.listing_grid.field_listing_section_view
+    - field.field.block_content.listing_grid.field_setting_items_per_row
+    - field.field.block_content.listing_grid.field_setting_style
+  module:
+    - radicati_base
+    - viewsreference
+_core:
+  default_config_hash: yWg1hQf5JKHjjW1YsyrCUoAFS2ctRHQwghzLpAea8lE
+id: block_content.listing_grid.default
+targetEntityType: block_content
+bundle: listing_grid
+mode: default
+content:
+  field_component_read_more:
+    type: radicati_link_button_widget
+    weight: 7
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_component_sub_title:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_component_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_listing_section_view:
+    type: viewsreference_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_items_per_row:
+    type: taxonomy_icon_widget
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_setting_style:
+    type: taxonomy_icon_widget
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

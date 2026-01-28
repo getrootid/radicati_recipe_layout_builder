@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: VBcyu2ZBgXoMpeOsp_KumDaEdORICnILRL9QKKvsCbU
+  default_config_hash: JjJT8-gStBNnREae1SKtE4xY9bimodhXLsXkBPccE28
 id: testimonial
 label: Testimonial
 revision: false

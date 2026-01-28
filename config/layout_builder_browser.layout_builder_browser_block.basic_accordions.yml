@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: LRtKfh1pOYng_iwAWbqFio3Pu0Zsbm73ZFE1K6Gl_Kg
+  default_config_hash: 803GhCbdHL_WMhPMBkoJSJCGT8jgeQg6Z6XBUBuikfc
 id: basic_accordions
 block_id: 'inline_block:basic_accordions'
 category: page_content
 label: 'Basic Accordions'
-weight: -12
 image_path: ''
 image_alt: ''
+weight: -12

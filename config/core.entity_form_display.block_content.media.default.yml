@@ -9,7 +9,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: cdP_nEukOpEdMajN-jpXvwXD8AgKQ5c3BdQy0KSzQMI
+  default_config_hash: NccvCG2piwjilWePV0UW4FtITZYxuf3Nf5S54H4W8zM
 id: block_content.media.default
 targetEntityType: block_content
 bundle: media

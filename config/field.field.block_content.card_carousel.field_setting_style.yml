@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.card_carousel
     - field.storage.block_content.field_setting_style
 _core:
-  default_config_hash: 6J-NzyQZ6VSZm0ld4wPy1UZDQfIxyWV8xIH-E7FwpFE
+  default_config_hash: RXF6WuhVaBj0CDCrud_WCP6yQcN9lNm40i9Sh2c8N5U
 id: block_content.card_carousel.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

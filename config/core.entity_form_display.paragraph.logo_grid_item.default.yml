@@ -10,7 +10,7 @@ dependencies:
     - link
     - media_library
 _core:
-  default_config_hash: ko1zr7t5E-yp5KnY4XtEG2caNoap4VNsDNjTbc_dXro
+  default_config_hash: O2JbYxGixpAM1PYP9q1iafMOkD54gIniBJg6MGYbw-A
 id: paragraph.logo_grid_item.default
 targetEntityType: paragraph
 bundle: logo_grid_item

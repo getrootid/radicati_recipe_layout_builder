@@ -9,7 +9,7 @@ dependencies:
     - nomarkup
     - text
 _core:
-  default_config_hash: 6Luz9jH9TJqF3eLY97RFI22x0rcAQ01FYmx1F2xyY4w
+  default_config_hash: i3JVCYplWQljGyIGQhx0T62zQUjtK7ENwrAbbE8Yv4Q
 id: block_content.formatted_content.default
 targetEntityType: block_content
 bundle: formatted_content

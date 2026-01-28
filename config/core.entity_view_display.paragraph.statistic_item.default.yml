@@ -10,7 +10,7 @@ dependencies:
   module:
     - nomarkup
 _core:
-  default_config_hash: 6FbwIeMNyWgNovU8McUEdCGZUSxo-87XB4dtBo5bYPg
+  default_config_hash: z4C_G34pKnD-jW9s7gLMkTdRkHO_YPCI_wyK3t0HRXI
 id: paragraph.statistic_item.default
 targetEntityType: paragraph
 bundle: statistic_item

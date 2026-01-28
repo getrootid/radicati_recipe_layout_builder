@@ -38,7 +38,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: dyU-XvYgj78M5EahHO6hkIME7DeqiQZ011DOvHInyKA
+  default_config_hash: 5f2dbaxiY5jBqIR1Fl9BbokFMn8cXx43zASmDAbfKQs
 id: block_content.large_hero.default
 targetEntityType: block_content
 bundle: large_hero

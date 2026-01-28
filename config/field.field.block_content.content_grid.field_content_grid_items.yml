@@ -5,14 +5,8 @@ dependencies:
   config:
     - block_content.type.content_grid
     - field.storage.block_content.field_content_grid_items
-    - node.type.event
-    - node.type.landing_page
-    - node.type.news_item
-    - node.type.page
-    - node.type.person
-    - node.type.post
 _core:
-  default_config_hash: EEfs99yNIUl9GzR0pYhcw3vIfNeoDs2LYFsA6qrpE6A
+  default_config_hash: GzNkPIDzwy24Qw7Y_RvHontX1VlBf_2ruZMhAcTrO3Q
 id: block_content.content_grid.field_content_grid_items
 field_name: field_content_grid_items
 entity_type: block_content

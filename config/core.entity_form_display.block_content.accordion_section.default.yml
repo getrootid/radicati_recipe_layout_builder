@@ -10,7 +10,7 @@ dependencies:
   module:
     - inline_entity_form
 _core:
-  default_config_hash: w4NC_R_15xwYr-yf1v4DdBmW72BY5e3o5gcrmybOgTU
+  default_config_hash: sy4CYi5Jg_nSRo96eBARXhXAFrSeNIlf52hvq_yrXFE
 id: block_content.accordion_section.default
 targetEntityType: block_content
 bundle: accordion_section

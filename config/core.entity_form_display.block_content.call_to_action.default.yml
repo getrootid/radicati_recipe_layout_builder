@@ -41,7 +41,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: cjr11ychkgcZkwyMwlvJ4ioCif9rkFSkfkQZi06j6Yo
+  default_config_hash: RWIZXudFRJj9QrPFaqeDPHUyyUmy4oJRjAkyTibLWWU
 id: block_content.call_to_action.default
 targetEntityType: block_content
 bundle: call_to_action

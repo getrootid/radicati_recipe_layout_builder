@@ -13,7 +13,7 @@ dependencies:
     - media_library
     - text
 _core:
-  default_config_hash: lmhYxDGHIS3Si3VcOLKagP6SFVjb1zPi5moceQr2JvA
+  default_config_hash: Ka-oWFY86c2Rd_IdcaMb01SjmHpKfmS6-bzDXM_qXus
 id: paragraph.icon_grid_item.default
 targetEntityType: paragraph
 bundle: icon_grid_item

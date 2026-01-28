@@ -34,7 +34,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: iC1CI85fF1UpAwRhjMeySb30q2PVSvHwVQOrOg1dOeY
+  default_config_hash: 68Sq0JfxE9NTOLlZGam65n75c4PfhXpLQiRbUoYYpWI
 id: block_content.buttons.default
 targetEntityType: block_content
 bundle: buttons

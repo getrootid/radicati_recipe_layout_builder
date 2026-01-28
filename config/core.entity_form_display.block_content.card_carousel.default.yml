@@ -36,7 +36,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: IVHKSF8wKRyCb2YTOOqbSjK2iRuR9JKlzyYGAZnEFJk
+  default_config_hash: S7N6hlinu3oTEB71DoGhAg1oSDrbi48RYsfaEgDbyUw
 id: block_content.card_carousel.default
 targetEntityType: block_content
 bundle: card_carousel

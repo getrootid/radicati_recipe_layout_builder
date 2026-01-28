@@ -5,7 +5,7 @@ dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: ktxCRmZcstb3XD3tQcReFHWW5yoxy4kDpCivvBTk9zU
+  default_config_hash: G4tRuqu7vQsluumNR8zfN6FnBwyXra6XWfB31bQsGwQ
 id: block_content.field_cta_label
 field_name: field_cta_label
 entity_type: block_content

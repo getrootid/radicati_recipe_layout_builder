@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: x4BTwxvjL43z2n7ZNHL_L8A9dAn6er3kJTIukK9rEMM
+  default_config_hash: ykcaF8nRdD50o7ZqLBopr6AgPtoiyEM1Yvw-7Fjp2zw
 id: basic
 label: 'Basic block'
 revision: 0

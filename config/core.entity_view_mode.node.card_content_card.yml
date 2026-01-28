@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: JYrIgma3_VEauHB4lMH87A8lhqnSDAPTzKWR_ZDkNNI
 id: node.card_content_card
 label: 'Card: Content Card'
 description: 'The default card that should be used in a Content Grid component.'

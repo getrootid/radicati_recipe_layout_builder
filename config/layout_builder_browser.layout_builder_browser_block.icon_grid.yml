@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 8z0mqsx-deXe2iVommadeZGV3CwZOgJOfsbLMyE23Ho
+  default_config_hash: 7vfrn_hySpZLrm7fbGHti7U8VQV8dDPIBAxQaYKe4ro
 id: icon_grid
 block_id: 'inline_block:icon_grid'
 category: components
 label: 'Icon Grid'
-weight: -5
 image_path: ''
 image_alt: ''
+weight: -5

@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: 8oP2UrK9vooFSfa82QnYEUr2G3k1LWQckEKXqD2Xgoo
+  default_config_hash: p4rWGjsTs4NYn-3tk6gSgCYPtRrTzcpdETWPgPNwpGI
 id: block_content.icon_grid.field_icon_grid__items
 field_name: field_icon_grid__items
 entity_type: block_content

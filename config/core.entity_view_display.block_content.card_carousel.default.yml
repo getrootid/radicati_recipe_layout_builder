@@ -14,7 +14,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: R39Az-X4lGlR177RAx8W7eI1d-EEyaKYdKwCVlrxso8
+  default_config_hash: nHvVUQOUfbz_lv0OvyNqpGAP_GgzGYejzUsQlYyw59w
 id: block_content.card_carousel.default
 targetEntityType: block_content
 bundle: card_carousel

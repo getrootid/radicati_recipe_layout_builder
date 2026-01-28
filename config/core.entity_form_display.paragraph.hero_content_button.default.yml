@@ -1,0 +1,25 @@
+uuid: c86057ab-c9aa-45c4-93bd-c2a896554e1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_content_button.field_card_button
+    - paragraphs.paragraphs_type.hero_content_button
+  module:
+    - radicati_base
+id: paragraph.hero_content_button.default
+targetEntityType: paragraph
+bundle: hero_content_button
+mode: default
+content:
+  field_card_button:
+    type: radicati_link_button_widget
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

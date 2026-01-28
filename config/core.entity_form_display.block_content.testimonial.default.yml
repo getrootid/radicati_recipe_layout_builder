@@ -16,7 +16,7 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: Yio73eRT_0qdHYOtKUOF1ZdUVaoJon9J1ay6FhbnDdA
+  default_config_hash: ECWWM_SDdspmpPvL6iKUJOnsyjWYPzqrhuf4eBrTwbg
 id: block_content.testimonial.default
 targetEntityType: block_content
 bundle: testimonial

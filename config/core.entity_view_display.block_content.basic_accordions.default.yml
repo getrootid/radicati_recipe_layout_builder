@@ -9,7 +9,7 @@ dependencies:
     - entity_reference_revisions
     - nomarkup
 _core:
-  default_config_hash: nWHtE3AWS4jL9oAFN3-uYmlQ_txwsr0tECMXZ6gUUzA
+  default_config_hash: cbiTngFsJgHtV-aaN5jwllZaow8pmOivXePCCnO2r2g
 id: block_content.basic_accordions.default
 targetEntityType: block_content
 bundle: basic_accordions

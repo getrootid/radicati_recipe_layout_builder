@@ -40,7 +40,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: bR2nRqRLlvm-oGeMU8te9aGXEVOB4NecwaZVJ0i7j10
+  default_config_hash: A11iKSjaliJ7g4w5xRz72P01Y015sB9IdayUmNJ7Eos
 id: block_content.webform_call_to_action.default
 targetEntityType: block_content
 bundle: webform_call_to_action

@@ -1,0 +1,19 @@
+uuid: 48beea20-0992-4fc9-bf0e-429f7e3a38e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_title
+    - paragraphs.paragraphs_type.hero_content_update
+id: paragraph.hero_content_update.field_card_title
+field_name: field_card_title
+entity_type: paragraph
+bundle: hero_content_update
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

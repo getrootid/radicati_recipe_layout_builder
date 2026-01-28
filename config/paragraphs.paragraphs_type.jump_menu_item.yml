@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 47FqkMkPt-wfR3FWWxd24mxuH5hYc8ktaAnb_7HW-50
+  default_config_hash: x5GmNuz9aOn9MCQCX22kdfGAosg-5IcFU2Fg3doYvXo
 id: jump_menu_item
 label: 'Jump Menu Item'
 icon_uuid: null

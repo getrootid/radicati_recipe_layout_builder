@@ -13,7 +13,7 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: UnKTh6nXkQ0D_yWDuOG9CSas0UzI_y3vIBlEMkvLgEI
+  default_config_hash: 1ylKpGWUk33qnYdpTsI7U6lTGo4TjsoReNnlw2P_-DE
 id: paragraph.checkerboard_highlight_item.default
 targetEntityType: paragraph
 bundle: checkerboard_highlight_item

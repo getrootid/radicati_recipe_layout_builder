@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: NqLHPAv2SBIGB6VwqpWx1vR7Hgf9-6i96McFClYKdrY
+  default_config_hash: 6bdrNSs0OB-95ikh058CpAfJxp-pyy9zQnXcwy9HW6E
 id: components
 label: 'Page Sections'
 weight: -8

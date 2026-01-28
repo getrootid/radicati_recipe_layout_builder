@@ -7,7 +7,7 @@ dependencies:
     - entity_reference_revisions
     - paragraphs
 _core:
-  default_config_hash: KkeLDR2VeRQz_TF3Og5xiHlYh8wT3K-X2K8HzuJ_IjI
+  default_config_hash: gRFVjQsiSg0GgL7bSsNnLtNgJbX4ziK7yBTseGF4t18
 id: block_content.field_logo_grid_items
 field_name: field_logo_grid_items
 entity_type: block_content

@@ -1,0 +1,35 @@
+uuid: 497ef772-86a2-4203-a35a-bac085fbeec5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.listing_grid
+    - field.storage.block_content.field_listing_section_view
+  module:
+    - viewsreference
+_core:
+  default_config_hash: XHASetd5xM7JpqCsqkvMH-tnTea-lQPQn2GwZgdVtng
+id: block_content.listing_grid.field_listing_section_view
+field_name: field_listing_section_view
+entity_type: block_content
+bundle: listing_grid
+label: 'Listing View'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  plugin_types:
+    embed: embed
+  preselect_views:
+    radicati_default_listing_views: radicati_default_listing_views
+  enabled_settings:
+    limit: limit
+    argument: argument
+    pager: pager
+field_type: viewsreference

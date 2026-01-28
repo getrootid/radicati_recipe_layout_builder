@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - link
 _core:
-  default_config_hash: mB9u34OtvP_b-5y4ERi7Yv2GJYLx-TtraXqN_Mr-Y1Y
+  default_config_hash: PvCvDQUhp797n-tbcOl46K6tgyEsq4AggVJOmAyovWY
 id: block_content.field_buttons_buttons
 field_name: field_buttons_buttons
 entity_type: block_content

@@ -8,7 +8,7 @@ dependencies:
   module:
     - entity_reference_display
 _core:
-  default_config_hash: AkMY8T-AtD9cC1deKz4WvvIG1PguXccqryrmcr7kkF4
+  default_config_hash: JejjXO_uJXYt1ByTu8g81vcFmHonP-jGrZooG4RuSYI
 id: block_content.content_grid.field_content_grid_display_mode
 field_name: field_content_grid_display_mode
 entity_type: block_content

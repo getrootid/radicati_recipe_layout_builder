@@ -1,0 +1,10 @@
+uuid: 0bb848e4-6663-4970-9476-2ea454baf38a
+langcode: en
+status: true
+dependencies: {  }
+id: hero_content_update
+label: 'Hero Content: Update'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

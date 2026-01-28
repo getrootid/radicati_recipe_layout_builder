@@ -9,7 +9,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: ue_bT5iXgh85jgDPff7RZvX8cF8uLH1ozmpE7L0gRtk
+  default_config_hash: Kx-U5aGxJhe9yPFkD2a5gpMvojy19L6u5CKFETcy-t0
 id: block_content.large_hero.field_component_blurb
 field_name: field_component_blurb
 entity_type: block_content

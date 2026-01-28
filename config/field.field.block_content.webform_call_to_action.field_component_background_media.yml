@@ -7,7 +7,7 @@ dependencies:
     - field.storage.block_content.field_component_background_media
     - media.type.image
 _core:
-  default_config_hash: RuQE9Z0gpoSBIYbpjyEimCfwsLllAelJ2NSa7rL5rl4
+  default_config_hash: lu-mT4jJDs6fQaH4KOK3VxHGQzx4i65TaGxmR6vy7ZM
 id: block_content.webform_call_to_action.field_component_background_media
 field_name: field_component_background_media
 entity_type: block_content

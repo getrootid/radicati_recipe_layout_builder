@@ -1,0 +1,8 @@
+uuid: f3f37d86-f3d9-42ce-a2f5-724d90a3067a
+langcode: en
+status: true
+dependencies: {  }
+id: hero_extra_large
+label: 'Hero: Extra Large'
+revision: false
+description: null

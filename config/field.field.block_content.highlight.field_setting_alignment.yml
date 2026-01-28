@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.highlight
     - field.storage.block_content.field_setting_alignment
 _core:
-  default_config_hash: GnuxOP_Xbu9cM6-wGvPYgKsEcgj2Xg4rhrWYVvhS2mA
+  default_config_hash: CsCOf_oRJgMs1cB9CevIH-iJPu7k9GPzhB3DWqeDJpA
 id: block_content.highlight.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

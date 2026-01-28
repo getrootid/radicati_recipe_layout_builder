@@ -13,7 +13,7 @@ dependencies:
     - radicati_base
     - text
 _core:
-  default_config_hash: Vmziw4VqNjnDqs4-XN5kHfNTzsJYBnAnmKNTVi8jI5s
+  default_config_hash: ocFt5KC3sNZWnCGmVzzkjmouB6nSXfwYeayCjFWBGsg
 id: paragraph.highlight_tab.default
 targetEntityType: paragraph
 bundle: highlight_tab
@@ -52,4 +52,5 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_setting_style: true
   status: true

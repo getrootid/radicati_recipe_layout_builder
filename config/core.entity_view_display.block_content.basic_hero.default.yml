@@ -12,7 +12,7 @@ dependencies:
     - nomarkup
     - radicati_base
 _core:
-  default_config_hash: iPooK_asjHAhEQ9d1hoGRWo7nM_7nAQMKiv9ZLNGLXE
+  default_config_hash: Ldzmot1JzxO9EHy7fVl47Sxiu1FQbxkKPvcrphZOn0k
 id: block_content.basic_hero.default
 targetEntityType: block_content
 bundle: basic_hero
@@ -24,7 +24,11 @@ content:
     settings:
       view_mode: 16_9_full_width
       link: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: '1'
     weight: 0
     region: content
   field_component_title:
@@ -43,16 +47,24 @@ content:
     type: rad_tax_setting
     label: hidden
     settings:
-      use_data_attributes: false
-    third_party_settings: {  }
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 3
     region: content
   field_setting_style:
     type: rad_tax_setting
-    label: above
+    label: hidden
     settings:
-      use_data_attributes: false
-    third_party_settings: {  }
+      use_data_attributes: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 4
     region: content
 hidden:

@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - webform
 _core:
-  default_config_hash: fGhHnjbyhXVh3PEA05aaDBn6CgZvEJx7O0TXmkQ3JwU
+  default_config_hash: _xUesai5tkiW6sXUMUZZRRTyHO_c9ndVVOelmESDt-w
 id: block_content.field_form_section_form
 field_name: field_form_section_form
 entity_type: block_content

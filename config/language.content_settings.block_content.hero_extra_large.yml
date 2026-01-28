@@ -1,0 +1,11 @@
+uuid: 77f47e46-6aa0-4396-9538-798a2605b199
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_extra_large
+id: block_content.hero_extra_large
+target_entity_type_id: block_content
+target_bundle: hero_extra_large
+default_langcode: site_default
+language_alterable: false

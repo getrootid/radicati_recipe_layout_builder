@@ -13,7 +13,7 @@ dependencies:
     - text
     - text_field_formatter
 _core:
-  default_config_hash: vrhRvmFZh54SHaf3TvCtvWrSr_cD-V-hB22oLAQHmWg
+  default_config_hash: oLpUoiLRE7vKAeXxLM9V3nyujNOw2ZFALw3ixhqrKpI
 id: paragraph.highlight_tab.default
 targetEntityType: paragraph
 bundle: highlight_tab
@@ -60,4 +60,5 @@ content:
     weight: 1
     region: content
 hidden:
+  field_setting_style: true
   search_api_excerpt: true

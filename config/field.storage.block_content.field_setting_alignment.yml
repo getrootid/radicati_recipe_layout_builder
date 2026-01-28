@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - taxonomy
 _core:
-  default_config_hash: spkqw6f2Mt7Cq-z2kZ0egBro9wJghxPYEwGFWjyfDGU
+  default_config_hash: iykMKJ9fohNVt6Td0bn5TI_C21iv6LDjoDQIap7vS0Y
 id: block_content.field_setting_alignment
 field_name: field_setting_alignment
 entity_type: block_content

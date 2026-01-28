@@ -6,24 +6,24 @@ dependencies:
     - block_content.type.search_listing
     - field.field.block_content.search_listing.field_component_title
   module:
-    - text_field_formatter
+    - nomarkup
 _core:
-  default_config_hash: W1RpyEPJxzyg9urbvRN639B0StjkN3G3064fbTHdL24
+  default_config_hash: yk3tjhkqGUjAg54_07zLOqrzvg33DoekAx7siySALQg
 id: block_content.search_listing.default
 targetEntityType: block_content
 bundle: search_listing
 mode: default
 content:
   field_component_title:
-    type: text_field_formatter
+    type: string
     label: hidden
     settings:
-      wrap_tag: h2
-      wrap_class: ''
-      wrap_attributes: ''
-      override_link_label: ''
-      link_to_entity: 0
-    third_party_settings: {  }
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 0
     region: content
 hidden:

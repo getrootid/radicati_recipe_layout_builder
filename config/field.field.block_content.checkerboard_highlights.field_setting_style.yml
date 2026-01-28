@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.checkerboard_highlights
     - field.storage.block_content.field_setting_style
 _core:
-  default_config_hash: I_XEfNl3ML3n6f-mqfuJM2mbtu3X0rAaOKfVolLg1zw
+  default_config_hash: Bpj7V_SlGLnv3Z2O-ZZB_SRFSlus5qeY4DdZUO358qY
 id: block_content.checkerboard_highlights.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

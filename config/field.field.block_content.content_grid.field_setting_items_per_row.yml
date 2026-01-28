@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.content_grid
     - field.storage.block_content.field_setting_items_per_row
 _core:
-  default_config_hash: fQf9--CcJYTzVRqr4oWM6g2HbS_RFgKkHd_8v1URO7Q
+  default_config_hash: z-ql31l1b8l_4lFcI-iK0Ow9fEX6hhmhzTZoy9hms1k
 id: block_content.content_grid.field_setting_items_per_row
 field_name: field_setting_items_per_row
 entity_type: block_content

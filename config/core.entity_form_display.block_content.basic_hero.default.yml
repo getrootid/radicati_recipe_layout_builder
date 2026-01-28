@@ -36,7 +36,7 @@ third_party_settings:
         speed: fast
         required_fields: true
 _core:
-  default_config_hash: JG-g4x0n2VSl9jpV73NBwXPstIUT24V6s8Xz0cGPhbw
+  default_config_hash: H8gH16fqFcnkcbZW1Rpogs6ItKp565f173uZiB62Ifw
 id: block_content.basic_hero.default
 targetEntityType: block_content
 bundle: basic_hero
@@ -64,7 +64,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_setting_style:
-    type: options_buttons
+    type: taxonomy_icon_widget
     weight: 26
     region: content
     settings: {  }

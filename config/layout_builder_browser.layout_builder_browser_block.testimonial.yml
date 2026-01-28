@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: hvJtLseXeN2Jl3c1TNq7Mq0hbbQ_zF5D46mGBqHOl8c
+  default_config_hash: 1wQvXfzkOAZNms_l92gL8Jurf9gk6oEwwu6C16561NM
 id: testimonial
 block_id: 'inline_block:testimonial'
 category: components
 label: Testimonial
-weight: -1
 image_path: ''
 image_alt: ''
+weight: -1

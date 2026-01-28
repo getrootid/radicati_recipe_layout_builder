@@ -7,7 +7,7 @@ dependencies:
     - field.storage.block_content.field_quote_media
     - media.type.image
 _core:
-  default_config_hash: MJln9RXUuR-o4Ou8yygz8B8ekbX8j6g7XOq7KBfUsOU
+  default_config_hash: vhMhkFXi1ilBawkZDc-WkWxlp1lhql0qV4XP60nLi0U
 id: block_content.quote.field_quote_media
 field_name: field_quote_media
 entity_type: block_content

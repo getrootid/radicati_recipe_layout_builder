@@ -6,14 +6,14 @@ dependencies:
     - block_content.type.basic_hero
     - field.storage.block_content.field_setting_style
 _core:
-  default_config_hash: qdRXG40QVvjsyQvcoJ47UzMIzohwQxejM-45p9qSMlU
+  default_config_hash: ib7zn9AZaCt_9zh-axf_yPhi75Tss_WP1fH5KZ8jTj8
 id: block_content.basic_hero.field_setting_style
 field_name: field_setting_style
 entity_type: block_content
 bundle: basic_hero
 label: Style
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

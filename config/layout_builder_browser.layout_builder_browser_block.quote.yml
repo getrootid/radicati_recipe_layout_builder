@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: OCch9Y2bQKn8rJN-AyidNCi3t7TmyJVQeYk23f7UADs
+  default_config_hash: T8tdahYnDabPjNpD9BH2YKoJJipT3yrgPZRIq8FKdxw
 id: quote
 block_id: 'inline_block:quote'
 category: page_content
 label: Quote
-weight: -6
 image_path: /themes/contrib/radicati_drupal_theme/dist/theme-icons/comment-quote-duotone.svg
 image_alt: Quote
+weight: -8

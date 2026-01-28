@@ -1,0 +1,71 @@
+uuid: 34cf31cf-cfc1-4e3a-9d8a-ff185963cff8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_extra_large
+    - field.field.block_content.hero_extra_large.field_component_background_media
+    - field.field.block_content.hero_extra_large.field_component_blurb
+    - field.field.block_content.hero_extra_large.field_component_title
+    - field.field.block_content.hero_extra_large.field_hero_content_items
+  module:
+    - entity_reference_revisions
+    - nomarkup
+    - text
+id: block_content.hero_extra_large.default
+targetEntityType: block_content
+bundle: hero_extra_large
+mode: default
+content:
+  field_component_background_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: 16_9_full_width
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: '1'
+    weight: 0
+    region: content
+  field_component_blurb:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 4
+    region: content
+  field_component_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 0
+    region: content
+  field_hero_content_items:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+        referenced_entity: ''
+    weight: 5
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

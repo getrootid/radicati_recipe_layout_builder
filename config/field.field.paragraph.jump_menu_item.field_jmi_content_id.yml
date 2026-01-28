@@ -6,7 +6,7 @@ dependencies:
     - field.storage.paragraph.field_jmi_content_id
     - paragraphs.paragraphs_type.jump_menu_item
 _core:
-  default_config_hash: XwIz16pNVcX8iD-HADSxB47pmWaEDzsT1j995Iv-jXE
+  default_config_hash: 7abMls4ozcr1gxmWcZpYSUkB78ljtrVL5-tJHQMIsKQ
 id: paragraph.jump_menu_item.field_jmi_content_id
 field_name: field_jmi_content_id
 entity_type: paragraph

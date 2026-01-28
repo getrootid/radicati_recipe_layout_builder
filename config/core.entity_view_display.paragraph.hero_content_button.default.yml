@@ -1,0 +1,33 @@
+uuid: 5c0cd637-1180-4dd7-a309-2a97ae24b746
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_content_button.field_card_button
+    - paragraphs.paragraphs_type.hero_content_button
+  module:
+    - nomarkup
+    - radicati_base
+id: paragraph.hero_content_button.default
+targetEntityType: paragraph
+bundle: hero_content_button
+mode: default
+content:
+  field_card_button:
+    type: radicati_link_button_formatter
+    label: hidden
+    settings:
+      trim_length: '80'
+      url_only: false
+      url_plain: false
+      rel: 0
+      target: 0
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

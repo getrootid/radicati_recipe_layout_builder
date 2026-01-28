@@ -7,7 +7,7 @@ dependencies:
     - entity_reference_revisions
     - paragraphs
 _core:
-  default_config_hash: fkUFNtg1BitWqkm2BsenQRI7vFbtH_9DyL8nHmK2APg
+  default_config_hash: H6SnVkBEA-Eknr8iCM7qX4d0WhdB9zhVxGn6OKYMxWY
 id: block_content.field_cards_cards
 field_name: field_cards_cards
 entity_type: block_content

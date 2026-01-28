@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.large_hero
     - field.storage.block_content.field_component_title
 _core:
-  default_config_hash: 1qet0FMD_4K13ebt0embQfeRBvl0o_lVg8rQQShOrGA
+  default_config_hash: _AKUhQzbOXjVb1EEI4TPlvj3ztncsH_op3CLNH_wDiA
 id: block_content.large_hero.field_component_title
 field_name: field_component_title
 entity_type: block_content

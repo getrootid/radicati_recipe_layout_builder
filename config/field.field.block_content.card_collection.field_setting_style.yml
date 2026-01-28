@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.card_collection
     - field.storage.block_content.field_setting_style
 _core:
-  default_config_hash: vRBVh8SZYOPt3TK0pkkS33sZ0LqHCE3Un-gctMZ_M9I
+  default_config_hash: 5IaErzBpIEcSKR4F9mPMMpUMyX7kRzRQC-A5vuDSIJM
 id: block_content.card_collection.field_setting_style
 field_name: field_setting_style
 entity_type: block_content

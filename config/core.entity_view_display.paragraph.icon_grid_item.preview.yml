@@ -10,7 +10,7 @@ dependencies:
     - field.field.paragraph.icon_grid_item.field_card_title
     - paragraphs.paragraphs_type.icon_grid_item
 _core:
-  default_config_hash: mXKp5QES6nliAFK4qhl9A9052rdLntu2HvzBLsOEAUs
+  default_config_hash: 4RJDfbrPG4_NSUDu6kAtdfirKwrhWMKvAKItTtk-TnE
 id: paragraph.icon_grid_item.preview
 targetEntityType: paragraph
 bundle: icon_grid_item
