@@ -1,0 +1,11 @@
+uuid: ef22e01d-52d1-4227-b647-b6923d23f19f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.1_1_small
+label: '1:1 Small'
+description: null
+targetEntityType: paragraph
+cache: true
